@@ -78,6 +78,8 @@ def fetch_bls(end):
             if d["period"].startswith("M") and d["period"] != "M13" and d["value"] not in ("-", ""):
                 old.loc[f"{d['year']}-{d['period'][1:]}", col] = float(d["value"])   # also takes revisions
     old.sort_index().to_csv(path)
+    # BLS terms of use: the brief must state the retrieval date, so record the real download day (not the edition date)
+    json.dump({"bls_retrieved": date.today().isoformat()}, open(os.path.join(PUB, "bls_status.json"), "w"))
     log(f"BLS ok: PPI to {old.dropna(subset=['ppi_avionica_navegacao_PCU334511']).index.max()}")
 
 

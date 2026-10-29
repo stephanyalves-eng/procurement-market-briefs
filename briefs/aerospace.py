@@ -30,10 +30,11 @@ def data(edition):
         ev["pre_vs_ref"] = (pre.usd_brl_ptax_venda.mean() / u_ref - 1) * 100
         ev["vs_before"] = (u / ev["before"] - 1) * 100
     st = json.load(open(os.path.join(PUB, "comex_status.json"))) if os.path.exists(os.path.join(PUB, "comex_status.json")) else {}
+    bls = json.load(open(os.path.join(PUB, "bls_status.json"))) if os.path.exists(os.path.join(PUB, "bls_status.json")) else {}
     return dict(Y=Y, L=L, ytd=ytd, g=(ytd[Y] / ytd[Y - 1] - 1) * 100, t411=(t411[Y] / t411[Y - 1] - 1) * 100, sh=sh,
                 pm=pm, av=yoy["ppi_avionica_navegacao_PCU334511"], pa=yoy["ppi_pecas_aeronauticas_PCU336413"], en=yoy["ppi_motores_aeronauticos_PCU336412"],
                 dd=dd, last=last.date(), u=u, e=e, ref_m=ref_m, u_ref=u_ref, vs=(u / u_ref - 1) * 100, e_vs=(e / e_ref - 1) * 100, ev=ev,
-                comex_updated=st.get("comex_updated"))
+                comex_updated=st.get("comex_updated"), bls_retrieved=bls.get("bls_retrieved"))
 
 
 def charts(k, lang):
@@ -183,6 +184,10 @@ def build(edition, lang, outdir, png=True):
     ctx = context(edition, lang, "footer")
     src = T(lang, f"Sources: MDIC Comex Stat, imports NCM 8807 and 8411, FOB USD, {per}{f' (published {upd.day} {MON_EN[upd.month-1]} {upd.year})' if upd else ''}. U.S. Bureau of Labor Statistics PPI PCU334511, PCU336413, PCU336412 (latest release: {ppi_lab}). Banco Central do Brasil SGS series 1 and 21619, PTAX selling rate, to {day_month(last, 'en')} {last.year}. {ctx + ' ' if ctx else ''}Public data only; prepared for portfolio purposes, not investment advice.",
               f"Fontes: MDIC Comex Stat, importações NCM 8807 e 8411, FOB em US$, {per}{f' (publicado em {upd:%d/%m/%Y})' if upd else ''}. U.S. Bureau of Labor Statistics, PPI PCU334511, PCU336413 e PCU336412 (última divulgação: {ppi_lab}). Banco Central do Brasil, SGS séries 1 e 21619, PTAX de venda, até {last:%d/%m/%Y}. {ctx + ' ' if ctx else ''}Somente dados públicos; material de portfólio, não é recomendação de investimento.")
+    # Required by the BLS API terms of use; kept in English, word for word, in both languages
+    ret = pd.Timestamp(k["bls_retrieved"]).date() if k["bls_retrieved"] else None
+    src += (f" Data source: U.S. Bureau of Labor Statistics (BLS).{f' Data retrieved on {MONTHS['en'][ret.month-1]} {ret.day}, {ret.year}.' if ret else ''}"
+            " BLS.gov cannot vouch for the data or analyses derived from these data after the data have been retrieved from BLS.gov.")
 
     body = f"""
 <div class="hdr"><div class="grid"></div><div class="in"><div>
