@@ -1,0 +1,201 @@
+id_fornecedor,fornecedor,pais,moeda,categoria,segmentacao,certificacao_as9100,lead_time_contratual_dias,prazo_pagamento_dias,otd_base,ppm_base
+F1000,Strato Precision Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,30,90,0.88894882822171,1161.7455136806648
+F1001,Sky Machining Inc,Estados Unidos,USD,Aviônica,Em desenvolvimento,Vencida,90,60,0.9127256539576432,706.7250471230354
+F1002,Aero Aerospace Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,60,90,0.8691829362551838,1055.3384548789966
+F1003,Aurora Avionics Inc,Estados Unidos,USD,Aviônica,Preferencial,Vencida,90,60,0.8515509488530769,980.0750984443711
+F1004,Nova Dynamics Inc,Estados Unidos,USD,Aviônica,Preferencial,Vencida,45,60,0.932027791984241,2223.730564609254
+F1005,Atlas Components Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Preferencial,Sim,90,30,0.9275239494150327,1579.8978311592123
+F1006,Prime Controls SA,Alemanha,EUR,Estruturas e usinados,Aprovado,Sim,60,30,0.9846458917864077,702.1349835132074
+F1007,Jet Industries Ltda,Brasil,BRL,Aviônica,Aprovado,Sim,60,60,0.9355343064639948,1130.2058594302075
+F1008,Aurora Machining Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,30,45,0.8899698015249395,2453.802468039633
+F1009,Sky Aerospace Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,120,30,0.8545862307404449,1098.7414774584927
+F1010,Titan Precision Inc,Estados Unidos,USD,Aviônica,Aprovado,Não,90,45,0.8731060160843404,1059.9678778456314
+F1011,Zenith Avionics Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,180,90,0.8166164661247958,1102.120556988202
+F1012,Sky Components SA,Alemanha,EUR,Estruturas e usinados,Aprovado,Vencida,30,90,0.9388215696220177,255.05794748718682
+F1013,Helix Systems Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,90,60,0.8962873347948292,1525.5334230107642
+F1014,Delta Machining Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Vencida,60,45,0.9049809741404656,3923.4825148902096
+F1015,Aero Machining Inc,Reino Unido,USD,Propulsão,Aprovado,Sim,60,60,0.8644444112030859,357.9063566627544
+F1016,Aero Controls Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Vencida,180,60,0.7307567603488083,1833.0488378592263
+F1017,Sky Precision Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,120,90,0.8688955614072918,589.7714346019584
+F1018,Prime Industries Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Vencida,90,30,0.8450493081022593,501.488926784446
+F1019,Prime Avionics Inc,Estados Unidos,USD,Aviônica,Aprovado,Vencida,120,45,0.9452101109011971,1993.201669154799
+F1020,Falcon Avionics Inc,México,USD,Propulsão,Preferencial,Sim,60,90,0.8920811542405483,4184.463075226143
+F1021,Helix Technologies SA,França,EUR,Trem de pouso e hidráulica,Preferencial,Sim,90,60,0.9574402097041922,2055.354691498537
+F1022,Cirrus Controls Inc,México,USD,Propulsão,Preferencial,Sim,120,30,0.8531768875204808,3919.3843608177513
+F1023,Polar Precision Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,180,60,0.8685589971032841,1927.4064156502475
+F1024,Prime Dynamics Inc,Canadá,USD,Propulsão,Preferencial,Sim,90,60,0.8185293343149874,1144.3120771871354
+F1025,Strato Aerospace Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Sim,180,45,0.8570628833946627,2992.7903830411456
+F1026,Cirrus Systems Inc,Estados Unidos,USD,Elétrica e chicotes,Em desenvolvimento,Sim,60,60,0.8040928349436643,1607.615277022566
+F1027,Delta Controls SA,França,EUR,Matéria-prima metálica,Em desenvolvimento,Sim,120,45,0.838650509022556,1897.3935145305236
+F1028,Prime Aerospace Ltda,Brasil,BRL,Trem de pouso e hidráulica,Preferencial,Sim,90,90,0.995,965.1070033385521
+F1029,Apex Technologies Inc,Canadá,USD,Aviônica,Aprovado,Sim,60,30,0.7898804193108179,552.4660213686687
+F1030,Helix Dynamics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,120,45,0.8628305507840524,2596.588595211274
+F1031,Nova Systems Inc,Estados Unidos,USD,Propulsão,Estratégico,Sim,30,30,0.896251892273838,942.8627529756512
+F1032,Aero Systems Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Não,120,90,0.9021545983171315,1389.778817418498
+F1033,Turbo Dynamics Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,60,60,0.8021311969611608,3353.26561647492
+F1034,Aurora Industries Inc,Estados Unidos,USD,Elétrica e chicotes,Aprovado,Vencida,180,60,0.8984602043049563,1561.7904694923045
+F1035,Vector Controls SA,França,EUR,Propulsão,Aprovado,Não,120,45,0.8634204814843222,1714.5778883151227
+F1036,Strato Machining SA,França,EUR,Propulsão,Aprovado,Sim,60,45,0.8570032343813975,1429.8697969762065
+F1037,Jet Avionics Inc,México,USD,Propulsão,Em desenvolvimento,Sim,60,45,0.9107360675250703,4575.605698143471
+F1038,Aurora Systems SA,França,EUR,Trem de pouso e hidráulica,Aprovado,Sim,90,30,0.9347645239692363,1289.2089111099494
+F1039,Vector Aerospace SA,Alemanha,EUR,Propulsão,Estratégico,Sim,180,30,0.7979594965183628,974.8028659154576
+F1040,Cirrus Dynamics Ltda,Brasil,BRL,Trem de pouso e hidráulica,Em desenvolvimento,Sim,60,30,0.9018406630085871,3282.5905611510575
+F1041,Aurora Components SA,França,EUR,Aviônica,Aprovado,Sim,90,45,0.735573320623668,912.6881901936844
+F1042,Orbit Controls Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,90,60,0.9547930089192327,1787.1755515803638
+F1043,Sky Technologies Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,45,30,0.9499876972837207,575.6171394051271
+F1044,Orbit Systems SA,França,EUR,Estruturas e usinados,Em desenvolvimento,Sim,60,45,0.9730272413305893,2731.973335334797
+F1045,Vector Machining SA,Portugal,EUR,Propulsão,Aprovado,Vencida,45,60,0.8479610398330222,1628.8696241043253
+F1046,Atlas Controls Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,60,90,0.8993391925529988,1564.0435990727842
+F1047,Avio Systems Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Em desenvolvimento,Sim,90,60,0.9332093159763097,1782.391836790103
+F1048,Apex Controls Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,120,60,0.8613912845659235,1367.5312603458258
+F1049,Zenith Controls Ltda,Brasil,BRL,Estruturas e usinados,Preferencial,Sim,120,30,0.9324603729809419,1192.7453272547677
+F1050,Jet Systems Ltda,Brasil,BRL,Estruturas e usinados,Estratégico,Sim,45,60,0.9747510122698578,1609.6078893070928
+F1051,Orbit Aerospace SA,Alemanha,EUR,Propulsão,Preferencial,Sim,45,60,0.995,398.9990845777657
+F1052,Sky Dynamics Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,45,30,0.8426269833138512,568.7625621128218
+F1053,Polar Systems Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Vencida,45,90,0.8560049694394934,355.20827079319673
+F1054,Nova Industries Inc,México,USD,Estruturas e usinados,Preferencial,Sim,60,45,0.995,1582.066340247592
+F1055,Orbit Components Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,45,0.8216641835835417,307.40392338907867
+F1056,Turbo Avionics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,45,60,0.904339591671567,1074.989879316812
+F1057,Avio Controls Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,60,45,0.8804437343653588,6995.190119329449
+F1058,Helix Components SA,Portugal,EUR,Estruturas e usinados,Em desenvolvimento,Não,60,60,0.9101210951270288,712.1950464710665
+F1059,Prime Machining Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,30,45,0.9117775905516088,1169.1786705742693
+F1060,Nova Technologies Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Vencida,60,30,0.8296363836700646,343.92456491653974
+F1061,Polar Controls SA,Itália,EUR,Elétrica e chicotes,Aprovado,Não,60,60,0.770732915290389,1180.3831817884047
+F1062,Aurora Dynamics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,45,60,0.9940255863336794,631.5691327901703
+F1063,Sky Industries Inc,Estados Unidos,USD,Matéria-prima metálica,Aprovado,Sim,60,30,0.8892040071763817,1820.484016268933
+F1064,Helix Controls Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Não,45,45,0.842286007766758,3267.925144754701
+F1065,Cirrus Avionics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,60,0.862263570173639,1322.5416901235237
+F1066,Apex Aerospace SA,França,EUR,Aviônica,Preferencial,Não,60,60,0.995,1401.0642784320748
+F1067,Orbit Precision SA,Portugal,EUR,Aviônica,Preferencial,Não,60,60,0.8177841880738357,1419.3664156119805
+F1068,Turbo Systems Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Sim,30,90,0.918389954458086,1729.1772854289052
+F1069,Orbit Technologies Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,90,0.973533027000852,3467.382364812098
+F1070,Orbit Dynamics SA,Alemanha,EUR,Elétrica e chicotes,Em desenvolvimento,Sim,120,30,0.995,506.1650640095474
+F1071,Prime Precision Inc,México,USD,Estruturas e usinados,Em desenvolvimento,Vencida,45,60,0.7643768596274513,449.58954464781925
+F1072,Atlas Machining SA,Itália,EUR,Aviônica,Aprovado,Sim,60,60,0.9692113051858867,882.5867104233226
+F1073,Vector Avionics Ltda,Brasil,BRL,Elétrica e chicotes,Estratégico,Não,60,30,0.807598436382792,1790.3088629930203
+F1074,Apex Avionics SA,Portugal,EUR,Estruturas e usinados,Aprovado,Sim,30,30,0.9815825194314745,1044.051280153263
+F1075,Strato Technologies Inc,Canadá,USD,Aviônica,Estratégico,Vencida,60,90,0.9753849847862339,586.7010733372898
+F1076,Vector Components SA,Portugal,EUR,Aviônica,Preferencial,Vencida,60,45,0.8667053311284421,542.6134596312431
+F1077,Aero Avionics SA,Alemanha,EUR,Aviônica,Aprovado,Sim,180,45,0.8563872386552046,1340.9827137191965
+F1078,Nova Controls SA,Alemanha,EUR,Matéria-prima metálica,Aprovado,Sim,120,45,0.867807908633653,4392.26442830706
+F1079,Vector Systems Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,45,0.857334580699938,267.8759542445959
+F1080,Sky Systems Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,60,90,0.8434096912681224,1839.2423551563795
+F1081,Falcon Controls Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,120,45,0.9094132019107456,1997.0691688832615
+F1082,Zenith Components SA,França,EUR,Aviônica,Em desenvolvimento,Sim,120,90,0.8495214768939227,1009.3548762950445
+F1083,Polar Avionics Inc,Canadá,USD,Propulsão,Em desenvolvimento,Vencida,60,45,0.9466437557197923,110.01933669546567
+F1084,Zenith Machining Inc,Estados Unidos,USD,Propulsão,Estratégico,Não,60,45,0.8628457544166508,592.7947545539372
+F1085,Strato Avionics SA,Alemanha,EUR,Propulsão,Preferencial,Sim,60,45,0.9253239283496633,1484.199665650701
+F1086,Turbo Machining Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,60,45,0.8554333332447416,598.150290911111
+F1087,Jet Technologies Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,30,0.8997810888043508,2579.839644490031
+F1088,Falcon Dynamics SA,Alemanha,EUR,Aviônica,Preferencial,Sim,45,90,0.8910683359433577,2597.308642774639
+F1089,Titan Machining Inc,Canadá,USD,Propulsão,Preferencial,Sim,60,60,0.749811521541806,1618.0355119254755
+F1090,Zenith Technologies Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Não,45,90,0.8089452465989828,3245.0081861446292
+F1091,Cirrus Machining Ltda,Brasil,BRL,Propulsão,Aprovado,Não,45,45,0.9318009965413034,2368.383959576711
+F1092,Falcon Technologies Inc,Estados Unidos,USD,Aviônica,Preferencial,Sim,90,60,0.9751454420206929,1816.500565509059
+F1093,Zenith Systems Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,45,60,0.7888143518215875,1441.2972099452227
+F1094,Orbit Machining SA,França,EUR,Matéria-prima metálica,Preferencial,Sim,120,60,0.8042300961828199,1331.2495907349833
+F1095,Orbit Avionics Inc,Estados Unidos,USD,Aviônica,Aprovado,Não,120,30,0.9496990970129946,3097.9776383978187
+F1096,Aurora Precision Inc,Canadá,USD,Propulsão,Aprovado,Sim,90,60,0.9569985755239458,1351.5498158301875
+F1097,Sky Avionics SA,França,EUR,Aviônica,Estratégico,Sim,90,60,0.8447229581012573,882.1963446008826
+F1098,Aero Technologies SA,Alemanha,EUR,Aviônica,Preferencial,Sim,45,30,0.7986544341085999,139.88524610127723
+F1099,Titan Technologies Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Não,90,60,0.9077153712101577,4143.948422018553
+F1100,Prime Systems SA,Portugal,EUR,Elétrica e chicotes,Aprovado,Sim,45,60,0.8564842542471897,4980.773645462107
+F1101,Apex Components SA,Portugal,EUR,Estruturas e usinados,Preferencial,Sim,60,60,0.9395899902391353,819.1649906004311
+F1102,Aurora Technologies SA,França,EUR,Elétrica e chicotes,Preferencial,Sim,60,30,0.9035608188623805,2049.926160056695
+F1103,Sky Controls Inc,Estados Unidos,USD,Elétrica e chicotes,Estratégico,Sim,90,90,0.8314545684799404,2687.574555303464
+F1104,Nova Components SA,França,EUR,Aviônica,Preferencial,Sim,60,90,0.884410165783429,200.73920159061953
+F1105,Helix Industries Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,120,90,0.946335472689381,543.9613619363482
+F1106,Delta Dynamics Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,30,60,0.8216874294042792,940.8166050275867
+F1107,Polar Machining Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,60,60,0.9135212876964324,329.7013733350216
+F1108,Vector Precision Ltda,Brasil,BRL,Estruturas e usinados,Preferencial,Sim,45,90,0.790608848852084,1582.7146619057223
+F1109,Atlas Precision Inc,Estados Unidos,USD,Propulsão,Aprovado,Não,45,60,0.9610255430614794,3864.225942163201
+F1110,Titan Industries Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,120,60,0.8683689510635187,4921.825080451692
+F1111,Falcon Precision Inc,Estados Unidos,USD,Aviônica,Preferencial,Não,45,90,0.9615715274883024,4343.708422430902
+F1112,Polar Dynamics Inc,Estados Unidos,USD,Aviônica,Preferencial,Não,45,90,0.9420475771697567,2145.526941784635
+F1113,Avio Machining SA,França,EUR,Aviônica,Preferencial,Sim,180,60,0.6246111022349652,256.43588804508005
+F1114,Jet Precision Inc,Estados Unidos,USD,Elétrica e chicotes,Estratégico,Não,90,60,0.8798656102776558,2025.7973357768217
+F1115,Polar Components Inc,Estados Unidos,USD,Elétrica e chicotes,Aprovado,Sim,30,90,0.8620917550061423,792.3493491332858
+F1116,Zenith Precision Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,180,45,0.807088865716511,3184.4228174466934
+F1117,Delta Avionics SA,França,EUR,Aviônica,Em desenvolvimento,Sim,60,30,0.9314908164699862,1978.402235716115
+F1118,Apex Machining Inc,Reino Unido,USD,Aviônica,Aprovado,Sim,60,60,0.9409388926593809,3958.8172644484935
+F1119,Vector Industries Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Não,90,60,0.8891534931538081,2675.118049304536
+F1120,Cirrus Aerospace Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,30,60,0.8537610975971673,2561.4216275805884
+F1121,Prime Technologies Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,120,30,0.8085268387525175,1561.440201742857
+F1122,Nova Avionics Inc,Estados Unidos,USD,Propulsão,Aprovado,Não,45,60,0.732443266075579,1115.155828497638
+F1123,Delta Technologies Inc,Canadá,USD,Propulsão,Preferencial,Não,180,45,0.844974724582217,2137.269240232771
+F1124,Turbo Aerospace Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,120,45,0.9481725889752181,2466.8611468060512
+F1125,Strato Industries Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Não,180,60,0.9106258574033909,470.3592899048581
+F1126,Vector Technologies SA,França,EUR,Estruturas e usinados,Aprovado,Vencida,90,45,0.8882843539371743,2078.331540904714
+F1127,Atlas Industries Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,45,30,0.8049626213396847,2093.2362834799756
+F1128,Titan Avionics Ltda,Brasil,BRL,Propulsão,Estratégico,Sim,180,30,0.8958750232276395,3613.745422694236
+F1129,Polar Aerospace SA,Itália,EUR,Elétrica e chicotes,Estratégico,Sim,45,60,0.8843341538575972,1631.9591454133185
+F1130,Titan Controls Ltda,Brasil,BRL,Propulsão,Preferencial,Sim,60,60,0.9356452577040939,1719.4748066883378
+F1131,Avio Technologies SA,França,EUR,Matéria-prima metálica,Estratégico,Sim,90,90,0.9669371997769668,3233.4593534968867
+F1132,Avio Avionics Inc,Canadá,USD,Propulsão,Preferencial,Sim,120,60,0.9712495547465662,2703.3541734582136
+F1133,Apex Industries SA,França,EUR,Trem de pouso e hidráulica,Aprovado,Vencida,45,90,0.9593576335129691,1118.1791428324088
+F1134,Nova Machining Inc,Estados Unidos,USD,Propulsão,Estratégico,Sim,90,30,0.8610891409464033,4642.910509403185
+F1135,Zenith Industries SA,Portugal,EUR,Propulsão,Aprovado,Sim,60,60,0.9767195315364458,1316.4051087482371
+F1136,Titan Aerospace Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,60,45,0.7398917978892925,953.2651459780949
+F1137,Helix Aerospace Inc,Estados Unidos,USD,Propulsão,Preferencial,Vencida,45,60,0.8928840481890096,2919.5539311025964
+F1138,Jet Machining Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Sim,180,90,0.7807621080888301,500.29959956849643
+F1139,Delta Components SA,Alemanha,EUR,Propulsão,Aprovado,Não,60,60,0.995,1070.6492746210683
+F1140,Vector Dynamics SA,França,EUR,Estruturas e usinados,Preferencial,Sim,90,60,0.8266617879182819,1679.4008547103524
+F1141,Avio Aerospace Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,90,30,0.8792552926367265,401.7899798457258
+F1142,Cirrus Components Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,60,90,0.9325085268495861,5055.449500709237
+F1143,Strato Systems Inc,Canadá,USD,Propulsão,Preferencial,Sim,30,30,0.8459664108510667,2043.1525037737476
+F1144,Aero Dynamics Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Preferencial,Sim,60,45,0.9420731338083317,1000.481805146268
+F1145,Turbo Precision Inc,Estados Unidos,USD,Elétrica e chicotes,Estratégico,Sim,45,60,0.7963248717991328,3626.167929365275
+F1146,Polar Industries SA,França,EUR,Trem de pouso e hidráulica,Em desenvolvimento,Sim,60,45,0.8396346895436415,2248.5760187475325
+F1147,Delta Precision SA,Itália,EUR,Propulsão,Aprovado,Sim,60,90,0.8860553879345023,1912.9346634231401
+F1148,Orbit Industries Inc,Estados Unidos,USD,Propulsão,Preferencial,Não,120,60,0.995,963.7765927267932
+F1149,Delta Industries Inc,Reino Unido,USD,Estruturas e usinados,Em desenvolvimento,Sim,60,45,0.9477109465089941,4042.653507537397
+F1150,Apex Precision SA,França,EUR,Estruturas e usinados,Preferencial,Não,60,30,0.8462437264907955,2986.494339120336
+F1151,Nova Precision SA,França,EUR,Propulsão,Aprovado,Sim,45,60,0.9263457074207226,2389.4671408896434
+F1152,Delta Aerospace Inc,México,USD,Propulsão,Preferencial,Sim,60,30,0.8380175385616795,4279.528214410446
+F1153,Falcon Industries SA,Alemanha,EUR,Propulsão,Aprovado,Não,60,45,0.8842327913682158,1810.2149100696
+F1154,Prime Components Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,45,60,0.7309561477559987,1819.706260566066
+F1155,Strato Dynamics SA,Portugal,EUR,Matéria-prima metálica,Preferencial,Sim,60,90,0.7340918491508068,2332.9007784412424
+F1156,Polar Technologies SA,Itália,EUR,Aviônica,Aprovado,Não,60,45,0.7973999455072919,2642.4738736903146
+F1157,Avio Dynamics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,30,60,0.7760461164610795,3351.816905294995
+F1158,Atlas Dynamics Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,60,60,0.7687771705074893,1360.6962198604817
+F1159,Titan Systems Inc,Estados Unidos,USD,Aviônica,Em desenvolvimento,Sim,60,60,0.995,2112.927655595246
+F1160,Titan Components Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,30,60,0.8077322086311607,6102.6128160025655
+F1161,Jet Components Inc,Estados Unidos,USD,Estruturas e usinados,Em desenvolvimento,Sim,30,90,0.7895682412237817,1948.151714309443
+F1162,Cirrus Industries SA,França,EUR,Propulsão,Em desenvolvimento,Não,60,45,0.9441418008752197,252.96371869226834
+F1163,Atlas Systems Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Sim,30,90,0.9471713368025052,2021.2847741600374
+F1164,Atlas Avionics Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,120,90,0.9658223736937476,1316.7105301800239
+F1165,Helix Precision Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,90,45,0.8329661583424226,3954.6451392188574
+F1166,Jet Aerospace Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Vencida,60,90,0.7813126399736533,3336.186689701496
+F1167,Avio Components Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,60,90,0.9256223698982128,1489.8046806314435
+F1168,Falcon Components Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,60,30,0.995,2979.4275979444365
+F1169,Jet Controls Ltda,Brasil,BRL,Aviônica,Aprovado,Não,45,45,0.8926919952502994,670.6671846207164
+F1170,Cirrus Technologies SA,Alemanha,EUR,Propulsão,Preferencial,Vencida,45,30,0.76551757260795,1792.4962934778257
+F1171,Aero Industries SA,Itália,EUR,Aviônica,Aprovado,Não,60,45,0.9052414174359789,394.92632018188635
+F1172,Apex Dynamics Inc,Estados Unidos,USD,Estruturas e usinados,Em desenvolvimento,Sim,120,45,0.8572118491936328,2173.8700790098455
+F1173,Turbo Controls Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,120,60,0.995,1954.6487458914648
+F1174,Strato Components Inc,Estados Unidos,USD,Matéria-prima metálica,Aprovado,Sim,60,60,0.7847819143597471,377.7828159016304
+F1175,Aurora Aerospace Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,90,90,0.8686040702357175,1090.3227350451748
+F1176,Falcon Aerospace SA,França,EUR,Propulsão,Aprovado,Vencida,90,30,0.941464100523574,403.4262422787717
+F1177,Turbo Components Inc,Estados Unidos,USD,Propulsão,Preferencial,Vencida,60,60,0.8552469680870449,548.1769233071323
+F1178,Avio Industries Ltda,Brasil,BRL,Estruturas e usinados,Aprovado,Sim,45,45,0.9031202961931615,1267.191823972424
+F1179,Helix Avionics Ltda,Brasil,BRL,Propulsão,Preferencial,Vencida,45,30,0.9183689865749537,2799.780189233699
+F1180,Aero Precision Ltda,Brasil,BRL,Propulsão,Em desenvolvimento,Sim,90,90,0.7912390258209202,1291.5913790641484
+F1181,Jet Dynamics Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,60,45,0.9188752159956003,1888.9621428283551
+F1182,Zenith Dynamics Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Preferencial,Sim,120,90,0.9861458052707736,1216.8238760259949
+F1183,Turbo Industries Inc,Estados Unidos,USD,Aviônica,Aprovado,Vencida,180,45,0.8237731935633806,2235.8943809123166
+F1184,Strato Controls Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Vencida,120,60,0.8289972660318331,2586.8778990261776
+F1185,Helix Machining Inc,Reino Unido,USD,Propulsão,Preferencial,Sim,90,60,0.8141845153751999,876.7047884951273
+F1186,Nova Aerospace Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,90,60,0.8790942862327489,365.65272879637746
+F1187,Falcon Machining SA,França,EUR,Propulsão,Em desenvolvimento,Sim,30,30,0.8692881886655651,2234.394897806677
+F1188,Titan Dynamics SA,Alemanha,EUR,Aviônica,Preferencial,Sim,45,45,0.7829490422710865,385.7934260335003
+F1189,Zenith Aerospace SA,Itália,EUR,Estruturas e usinados,Aprovado,Sim,60,90,0.990443774345232,570.0775096900451
+F1190,Turbo Technologies SA,França,EUR,Propulsão,Preferencial,Sim,60,45,0.8936684122035841,1261.0228889941225
+F1191,Atlas Technologies Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,45,90,0.9172490561717007,1908.8420614853876
+F1192,Aero Components Inc,Canadá,USD,Propulsão,Aprovado,Sim,120,90,0.7158991474347925,4210.67639469954
+F1193,Avio Precision Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,90,30,0.8998148011606992,3145.879959291133
+F1194,Falcon Systems SA,Portugal,EUR,Aviônica,Aprovado,Não,120,60,0.8477397077564562,2386.528558370534
+F1195,Apex Systems SA,França,EUR,Aviônica,Aprovado,Vencida,60,60,0.8445378112820158,3518.275290033714
+F1196,Cirrus Precision SA,França,EUR,Estruturas e usinados,Preferencial,Sim,180,60,0.8890035114743886,6333.7930919756345
+F1197,Delta Systems SA,França,EUR,Estruturas e usinados,Em desenvolvimento,Vencida,30,45,0.8801399549490561,1852.031606012232
+F1198,Aurora Controls SA,Itália,EUR,Aviônica,Aprovado,Vencida,90,45,0.9491972303996024,1964.6540233666485
+F1199,Atlas Aerospace Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,60,45,0.8352347626378767,2373.598421166479

@@ -1,0 +1,427 @@
+nota,tipo_nota,data_abertura,data_encerramento,status,pedido,id_fornecedor,part_number,motivo,qtd_rejeitada,qtd_recebida,disposicao,causa_raiz,fech_real
+QN300000,Q2,2026-02-05,2026-03-23,Encerrada,4500006827,F1196,PN-57O1014,Dano no transporte,2,11,Devolução ao fornecedor,Documentação,2026-03-23
+QN300001,Q2,2024-05-19,2024-06-15,Encerrada,4500000343,F1119,PN-33F1499,Certificação do fabricante ausente,1,9,Sucata,Processo do fornecedor,2024-06-15
+QN300002,Q2,2024-11-26,2024-12-01,Encerrada,4500003006,F1167,PN-14E1316,Dano no transporte,2,5,Devolução ao fornecedor,Embalagem,2024-12-01
+QN300003,Q2,2025-02-17,2025-03-09,Encerrada,4500003432,F1099,PN-83F1395,Reprovação na inspeção de recebimento,1,2,Sucata,Processo do fornecedor,2025-03-09
+QN300004,Q2,2026-09-23,2026-10-14,Encerrada,4500010248,F1029,PN-31E1420,Dano no transporte,1,1,Devolução ao fornecedor,Processo do fornecedor,2026-10-14
+QN300005,Q2,2025-09-04,2025-09-19,Encerrada,4500006386,F1167,PN-14E1316,Revisão de peça superada,1,6,Sucata,Documentação,2025-09-19
+QN300006,Q2,2026-08-20,2026-08-25,Encerrada,4500009710,F1005,PN-89S1096,Certificação do fabricante ausente,2,5,Devolução ao fornecedor,Processo do fornecedor,2026-08-25
+QN300007,Q3,2025-08-23,2025-09-09,Encerrada,4500006030,F1054,PN-43Z1649,Divergência de documentação (CoC/FAI),1,3,Uso como está (concessão),Documentação,2025-09-09
+QN300008,Q2,2024-12-30,2025-01-08,Encerrada,4500003093,F1005,PN-89S1096,Certificação do fabricante ausente,1,6,Sucata,Processo do fornecedor,2025-01-08
+QN300009,Q2,2026-05-05,2026-05-24,Encerrada,4500008262,F1164,PN-27H1579,Reprovação na inspeção de recebimento,1,1,Devolução ao fornecedor,Processo do fornecedor,2026-05-24
+QN300010,Q2,2026-04-07,2026-04-12,Encerrada,4500008684,F1101,PN-46S1018,Revisão de peça superada,3,10,Devolução ao fornecedor,Subfornecedor,2026-04-12
+QN300011,Q2,2024-03-26,2024-04-16,Encerrada,4500000045,F1044,PN-51Q1328,Reprovação na inspeção de recebimento,1,8,Retrabalho pelo fornecedor,Controle de revisão,2024-04-16
+QN300012,Q2,2025-09-09,2025-09-15,Encerrada,4500006700,F1000,PN-45Z1311,Revisão de peça superada,1,4,Devolução ao fornecedor,Controle de revisão,2025-09-15
+QN300013,Q2,2024-06-01,2024-06-25,Encerrada,4500001006,F1150,PN-39P1301,Dano no transporte,2,6,Retrabalho pelo fornecedor,Documentação,2024-06-25
+QN300014,Q2,2024-03-07,2024-03-23,Encerrada,4500000279,F1102,PN-30R1225,Revisão de peça superada,1,5,Devolução ao fornecedor,Processo do fornecedor,2024-03-23
+QN300015,Q2,2026-07-24,2026-08-07,Encerrada,4500009075,F1173,PN-83F1395,Certificação do fabricante ausente,1,2,Devolução ao fornecedor,Embalagem,2026-08-07
+QN300016,Q2,2025-09-05,2025-09-15,Encerrada,4500006310,F1044,PN-46H1007,Reprovação na inspeção de recebimento,1,2,Sucata,Documentação,2025-09-15
+QN300017,Q2,2026-06-17,2026-07-07,Encerrada,4500008837,F1134,PN-75M1038,Reprovação na inspeção de recebimento,1,5,Devolução ao fornecedor,Embalagem,2026-07-07
+QN300018,Q3,2025-04-28,2025-05-29,Encerrada,4500004909,F1063,PN-58F1109,Divergência de documentação (CoC/FAI),1,7,Devolução ao fornecedor,Processo do fornecedor,2025-05-29
+QN300019,Q2,2025-09-19,2025-10-08,Encerrada,4500006406,F1144,PN-52N1039,Reprovação na inspeção de recebimento,1,8,Retrabalho pelo fornecedor,Documentação,2025-10-08
+QN300020,Q2,2025-11-16,2025-11-20,Encerrada,4500007151,F1080,PN-34H1475,Certificação do fabricante ausente,1,7,Devolução ao fornecedor,Documentação,2025-11-20
+QN300021,Q2,2025-11-05,2025-11-19,Encerrada,4500006094,F1078,PN-97M1220,Reprovação na inspeção de recebimento,4,10,Devolução ao fornecedor,Controle de revisão,2025-11-19
+QN300022,Q2,2026-08-03,2026-08-20,Encerrada,4500010049,F1112,PN-91U1462,Reprovação na inspeção de recebimento,1,1,Devolução ao fornecedor,Embalagem,2026-08-20
+QN300023,Q2,2024-09-13,2024-09-23,Encerrada,4500001937,F1165,PN-61O1144,Certificação do fabricante ausente,1,3,Sucata,Documentação,2024-09-23
+QN300024,Q2,2025-08-11,2025-09-08,Encerrada,4500005756,F1044,PN-46H1007,Reprovação na inspeção de recebimento,2,7,Devolução ao fornecedor,Embalagem,2025-09-08
+QN300025,Q2,2024-03-05,2024-03-28,Encerrada,4500000044,F1046,PN-64K1504,Certificação do fabricante ausente,3,7,Devolução ao fornecedor,Processo do fornecedor,2024-03-28
+QN300026,Q3,2025-08-21,2025-08-30,Encerrada,4500005676,F1102,PN-30R1225,Divergência de documentação (CoC/FAI),1,9,Retrabalho pelo fornecedor,Documentação,2025-08-30
+QN300027,Q2,2025-10-14,2025-10-24,Encerrada,4500006957,F1112,PN-91U1462,Reprovação na inspeção de recebimento,1,2,Sucata,Documentação,2025-10-24
+QN300028,Q2,2025-02-02,2025-02-18,Encerrada,4500003900,F1102,PN-30R1225,Certificação do fabricante ausente,3,8,Devolução ao fornecedor,Controle de revisão,2025-02-18
+QN300029,Q2,2024-07-23,2024-08-07,Encerrada,4500001957,F1100,PN-77I1034,Certificação do fabricante ausente,1,7,Devolução ao fornecedor,Controle de revisão,2024-08-07
+QN300030,Q2,2025-12-20,2025-12-28,Encerrada,4500006910,F1126,PN-19U1254,Revisão de peça superada,2,6,Devolução ao fornecedor,Documentação,2025-12-28
+QN300031,Q2,2024-09-18,2024-10-07,Encerrada,4500002029,F1102,PN-30R1225,Dano no transporte,1,7,Uso como está (concessão),Subfornecedor,2024-10-07
+QN300032,Q2,2026-09-21,2026-10-10,Encerrada,4500010340,F1150,PN-39P1301,Certificação do fabricante ausente,1,5,Devolução ao fornecedor,Controle de revisão,2026-10-10
+QN300033,Q2,2024-03-06,2024-03-22,Encerrada,4500000037,F1152,PN-97E1472,Reprovação na inspeção de recebimento,1,6,Sucata,Controle de revisão,2024-03-22
+QN300034,Q2,2026-04-07,2026-04-25,Encerrada,4500008331,F1193,PN-89S1096,Reprovação na inspeção de recebimento,1,4,Retrabalho pelo fornecedor,Subfornecedor,2026-04-25
+QN300035,Q2,2024-06-16,2024-07-08,Encerrada,4500000955,F1144,PN-79R1069,Revisão de peça superada,1,6,Sucata,Subfornecedor,2024-07-08
+QN300036,Q2,2025-03-07,2025-04-03,Encerrada,4500003721,F1100,PN-77I1034,Certificação do fabricante ausente,1,3,Uso como está (concessão),Subfornecedor,2025-04-03
+QN300037,Q2,2025-10-14,2025-10-23,Encerrada,4500006434,F1193,PN-89S1096,Revisão de peça superada,1,4,Sucata,Embalagem,2025-10-23
+QN300038,Q2,2024-11-03,2024-11-10,Encerrada,4500002055,F1194,PN-41E1030,Reprovação na inspeção de recebimento,1,6,Devolução ao fornecedor,Controle de revisão,2024-11-10
+QN300039,Q2,2025-12-18,2025-12-21,Encerrada,4500005835,F1196,PN-39Q1380,Dano no transporte,1,4,Devolução ao fornecedor,Embalagem,2025-12-21
+QN300040,Q2,2026-04-28,2026-06-17,Encerrada,4500008562,F1142,PN-46R1381,Reprovação na inspeção de recebimento,3,9,Devolução ao fornecedor,Processo do fornecedor,2026-06-17
+QN300041,Q2,2025-11-24,2025-12-30,Encerrada,4500005811,F1123,PN-40R1615,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Documentação,2025-12-30
+QN300042,Q2,2026-07-20,2026-08-01,Encerrada,4500010245,F1100,PN-77I1034,Certificação do fabricante ausente,1,3,Retrabalho pelo fornecedor,Documentação,2026-08-01
+QN300043,Q2,2025-11-24,2025-12-24,Encerrada,4500006907,F1066,PN-12S1044,Certificação do fabricante ausente,1,8,Devolução ao fornecedor,Processo do fornecedor,2025-12-24
+QN300044,Q2,2025-10-27,2025-11-11,Encerrada,4500006711,F1054,PN-43Z1649,Certificação do fabricante ausente,1,7,Devolução ao fornecedor,Embalagem,2025-11-11
+QN300045,Q2,2025-06-07,2025-06-24,Encerrada,4500004488,F1110,PN-32Y1206,Certificação do fabricante ausente,3,10,Devolução ao fornecedor,Processo do fornecedor,2025-06-24
+QN300046,Q2,2024-08-04,2024-08-28,Encerrada,4500002373,F1120,PN-67Y1518,Certificação do fabricante ausente,1,4,Uso como está (concessão),Embalagem,2024-08-28
+QN300047,Q2,2024-05-19,2024-06-26,Encerrada,4500000729,F1152,PN-97E1472,Reprovação na inspeção de recebimento,2,6,Devolução ao fornecedor,Subfornecedor,2024-06-26
+QN300048,Q2,2025-04-19,2025-04-30,Encerrada,4500004564,F1191,PN-40W1516,Certificação do fabricante ausente,1,2,Retrabalho pelo fornecedor,Embalagem,2025-04-30
+QN300049,Q2,2024-09-05,2024-09-07,Encerrada,4500002042,F1090,PN-64W1568,Revisão de peça superada,4,10,Retrabalho pelo fornecedor,Documentação,2024-09-07
+QN300050,Q2,2024-10-07,2024-10-26,Encerrada,4500002158,F1193,PN-89S1096,Reprovação na inspeção de recebimento,1,6,Retrabalho pelo fornecedor,Processo do fornecedor,2024-10-26
+QN300051,Q2,2025-11-18,2025-12-24,Encerrada,4500006618,F1119,PN-33F1499,Certificação do fabricante ausente,2,5,Devolução ao fornecedor,Subfornecedor,2025-12-24
+QN300052,Q2,2024-08-23,2024-10-25,Encerrada,4500002286,F1112,PN-91U1462,Revisão de peça superada,1,1,Retrabalho pelo fornecedor,Processo do fornecedor,2024-10-25
+QN300053,Q2,2025-12-16,2025-12-18,Encerrada,4500006931,F1126,PN-19U1254,Reprovação na inspeção de recebimento,2,4,Devolução ao fornecedor,Documentação,2025-12-18
+QN300054,Q2,2024-10-12,2024-11-04,Encerrada,4500002677,F1020,PN-73F1551,Reprovação na inspeção de recebimento,1,8,Devolução ao fornecedor,Subfornecedor,2024-11-04
+QN300055,Q2,2025-01-03,2025-02-17,Encerrada,4500003348,F1193,PN-89S1096,Revisão de peça superada,1,5,Sucata,Embalagem,2025-02-17
+QN300056,Q2,2026-03-07,2026-03-16,Encerrada,4500007144,F1123,PN-40R1615,Certificação do fabricante ausente,1,3,Sucata,Documentação,2026-03-16
+QN300057,Q3,2024-10-17,2024-11-16,Encerrada,4500002773,F1187,PN-40W1438,Divergência de documentação (CoC/FAI),3,8,Sucata,Controle de revisão,2024-11-16
+QN300058,Q2,2024-06-11,2024-06-23,Encerrada,4500000715,F1193,PN-89S1096,Revisão de peça superada,2,7,Retrabalho pelo fornecedor,Subfornecedor,2024-06-23
+QN300059,Q2,2024-12-17,2024-12-29,Encerrada,4500003225,F1063,PN-58F1109,Revisão de peça superada,2,7,Devolução ao fornecedor,Subfornecedor,2024-12-29
+QN300060,Q2,2024-06-18,2024-06-27,Encerrada,4500001389,F1100,PN-77I1034,Dano no transporte,1,3,Retrabalho pelo fornecedor,Embalagem,2024-06-27
+QN300061,Q2,2025-04-24,2025-05-01,Encerrada,4500004611,F1142,PN-62R1589,Certificação do fabricante ausente,1,5,Devolução ao fornecedor,Documentação,2025-05-01
+QN300062,Q2,2024-06-11,2024-07-03,Encerrada,4500001433,F1187,PN-40W1438,Certificação do fabricante ausente,2,5,Devolução ao fornecedor,Documentação,2024-07-03
+QN300063,Q2,2025-08-28,2025-09-16,Encerrada,4500006201,F1155,PN-87W1178,Reprovação na inspeção de recebimento,1,3,Sucata,Subfornecedor,2025-09-16
+QN300064,Q2,2024-11-29,2024-12-16,Encerrada,4500003096,F1100,PN-27Q1172,Revisão de peça superada,1,4,Devolução ao fornecedor,Processo do fornecedor,2024-12-16
+QN300065,Q2,2024-08-21,2024-08-21,Encerrada,4500000090,F1196,PN-57O1014,Reprovação na inspeção de recebimento,6,15,Devolução ao fornecedor,Controle de revisão,2024-08-21
+QN300066,Q2,2024-09-22,2024-09-29,Encerrada,4500002599,F1191,PN-25X1647,Reprovação na inspeção de recebimento,1,3,Devolução ao fornecedor,Subfornecedor,2024-09-29
+QN300067,Q2,2025-05-14,2025-06-30,Encerrada,4500004652,F1144,PN-52N1039,Reprovação na inspeção de recebimento,1,7,Retrabalho pelo fornecedor,Subfornecedor,2025-06-30
+QN300068,Q2,2025-03-31,2025-04-08,Encerrada,4500003744,F1172,PN-89B1287,Certificação do fabricante ausente,1,4,Uso como está (concessão),Embalagem,2025-04-08
+QN300069,Q2,2026-08-21,2026-08-30,Encerrada,4500010647,F1129,PN-37C1496,Revisão de peça superada,1,9,Retrabalho pelo fornecedor,Controle de revisão,2026-08-30
+QN300070,Q2,2025-07-17,2025-08-20,Encerrada,4500004293,F1196,PN-15L1219,Certificação do fabricante ausente,4,11,Devolução ao fornecedor,Processo do fornecedor,2025-08-20
+QN300071,Q2,2024-08-10,2024-09-22,Encerrada,4500001912,F1056,PN-80H1423,Certificação do fabricante ausente,1,4,Uso como está (concessão),Documentação,2024-09-22
+QN300072,Q2,2026-04-28,2026-05-20,Encerrada,4500008051,F1192,PN-97E1472,Certificação do fabricante ausente,1,6,Devolução ao fornecedor,Embalagem,2026-05-20
+QN300073,Q2,2025-03-18,2025-03-20,Encerrada,4500004371,F1111,PN-92K1296,Revisão de peça superada,1,3,Devolução ao fornecedor,Documentação,2025-03-20
+QN300074,Q2,2025-03-25,2025-04-11,Encerrada,4500004220,F1149,PN-53Y1596,Certificação do fabricante ausente,1,5,Devolução ao fornecedor,Processo do fornecedor,2025-04-11
+QN300075,Q2,2026-05-22,2026-06-03,Encerrada,4500008600,F1013,PN-18X1335,Certificação do fabricante ausente,1,1,Devolução ao fornecedor,Controle de revisão,2026-06-03
+QN300076,Q2,2025-01-11,2025-01-18,Encerrada,4500002585,F1110,PN-80Y1310,Dano no transporte,2,4,Uso como está (concessão),Processo do fornecedor,2025-01-18
+QN300077,Q2,2025-11-12,2025-12-04,Encerrada,4500007468,F1160,PN-90N1455,Certificação do fabricante ausente,3,10,Sucata,Controle de revisão,2025-12-04
+QN300078,Q2,2025-07-21,2025-07-22,Encerrada,4500004739,F1022,PN-55D1575,Reprovação na inspeção de recebimento,1,5,Uso como está (concessão),Subfornecedor,2025-07-22
+QN300079,Q3,2026-03-22,2026-04-18,Encerrada,4500007156,F1196,PN-45Z1311,Divergência de documentação (CoC/FAI),1,4,Devolução ao fornecedor,Documentação,2026-04-18
+QN300080,Q2,2026-03-05,2026-03-23,Encerrada,4500007747,F1022,PN-70A1104,Reprovação na inspeção de recebimento,1,5,Uso como está (concessão),Processo do fornecedor,2026-03-23
+QN300081,Q2,2025-05-21,2025-06-02,Encerrada,4500005023,F1109,PN-63V1593,Dano no transporte,1,4,Uso como está (concessão),Subfornecedor,2025-06-02
+QN300082,Q2,2025-08-08,2025-08-19,Encerrada,4500004695,F1022,PN-55D1575,Dano no transporte,1,4,Devolução ao fornecedor,Processo do fornecedor,2025-08-19
+QN300083,Q2,2025-05-05,2025-06-03,Encerrada,4500004773,F1152,PN-97E1472,Reprovação na inspeção de recebimento,3,8,Devolução ao fornecedor,Documentação,2025-06-03
+QN300084,Q2,2024-09-27,2024-10-23,Encerrada,4500002248,F1165,PN-61O1144,Certificação do fabricante ausente,1,4,Uso como está (concessão),Controle de revisão,2024-10-23
+QN300085,Q2,2024-12-09,2025-01-31,Encerrada,4500001769,F1125,PN-79R1563,Revisão de peça superada,2,6,Retrabalho pelo fornecedor,Documentação,2025-01-31
+QN300086,Q2,2025-02-20,2025-03-11,Encerrada,4500003863,F1144,PN-79R1069,Reprovação na inspeção de recebimento,1,7,Devolução ao fornecedor,Embalagem,2025-03-11
+QN300087,Q2,2024-11-05,2024-11-23,Encerrada,4500002886,F1054,PN-43Z1649,Certificação do fabricante ausente,1,7,Devolução ao fornecedor,Embalagem,2024-11-23
+QN300088,Q2,2025-10-29,2025-11-01,Encerrada,4500006942,F1142,PN-79U1592,Dano no transporte,1,7,Uso como está (concessão),Subfornecedor,2025-11-01
+QN300089,Q2,2026-08-26,2026-09-02,Encerrada,4500009943,F1069,PN-34X1465,Revisão de peça superada,1,4,Retrabalho pelo fornecedor,Controle de revisão,2026-09-02
+QN300090,Q2,2026-05-01,2026-05-24,Encerrada,4500009315,F1000,PN-88V1359,Certificação do fabricante ausente,1,3,Devolução ao fornecedor,Embalagem,2026-05-24
+QN300091,Q2,2026-03-19,2026-04-02,Encerrada,4500006944,F1123,PN-40R1615,Reprovação na inspeção de recebimento,1,2,Devolução ao fornecedor,Controle de revisão,2026-04-02
+QN300092,Q2,2026-03-27,2026-05-22,Encerrada,4500008831,F1120,PN-42O1170,Revisão de peça superada,1,5,Retrabalho pelo fornecedor,Subfornecedor,2026-05-22
+QN300093,Q2,2025-10-15,2025-11-03,Encerrada,4500006250,F1005,PN-89S1096,Dano no transporte,1,2,Sucata,Controle de revisão,2025-11-03
+QN300094,Q2,2025-12-26,2026-01-26,Encerrada,4500006989,F1193,PN-89S1096,Reprovação na inspeção de recebimento,4,12,Sucata,Subfornecedor,2026-01-26
+QN300095,Q3,2026-09-10,2026-09-29,Encerrada,4500010527,F1067,PN-60G1630,Divergência de documentação (CoC/FAI),2,6,Devolução ao fornecedor,Documentação,2026-09-29
+QN300096,Q2,2025-07-08,2025-07-20,Encerrada,4500004733,F1082,PN-86K1452,Certificação do fabricante ausente,1,10,Uso como está (concessão),Documentação,2025-07-20
+QN300097,Q2,2026-07-27,2026-08-24,Encerrada,4500010600,F1115,PN-87Y1180,Reprovação na inspeção de recebimento,1,7,Sucata,Processo do fornecedor,2026-08-24
+QN300098,Q2,2026-07-02,2026-08-15,Encerrada,4500009726,F1144,PN-79R1069,Reprovação na inspeção de recebimento,1,7,Devolução ao fornecedor,Processo do fornecedor,2026-08-15
+QN300099,Q2,2024-08-23,2024-09-14,Encerrada,4500001945,F1147,PN-96G1526,Certificação do fabricante ausente,3,7,Uso como está (concessão),Documentação,2024-09-14
+QN300100,Q2,2025-08-07,2025-08-19,Encerrada,4500004429,F1196,PN-39Q1380,Reprovação na inspeção de recebimento,1,9,Devolução ao fornecedor,Controle de revisão,2025-08-19
+QN300101,Q2,2025-08-04,2025-08-11,Encerrada,4500005869,F1111,PN-92K1296,Reprovação na inspeção de recebimento,1,5,Devolução ao fornecedor,Documentação,2025-08-11
+QN300102,Q2,2025-11-22,2025-11-24,Encerrada,4500005313,F1196,PN-39Q1380,Revisão de peça superada,2,7,Retrabalho pelo fornecedor,Documentação,2025-11-24
+QN300103,Q2,2026-08-08,2026-09-02,Encerrada,4500009678,F1165,PN-84S1616,Revisão de peça superada,1,6,Retrabalho pelo fornecedor,Subfornecedor,2026-09-02
+QN300104,Q2,2025-01-16,2025-01-23,Encerrada,4500002301,F1123,PN-40R1615,Revisão de peça superada,1,6,Sucata,Processo do fornecedor,2025-01-23
+QN300105,Q2,2024-09-10,2024-09-28,Encerrada,4500001750,F1175,PN-61A1026,Certificação do fabricante ausente,2,11,Sucata,Embalagem,2024-09-28
+QN300106,Q2,2025-07-22,2025-07-22,Encerrada,4500005788,F1145,PN-43X1179,Reprovação na inspeção de recebimento,2,8,Devolução ao fornecedor,Controle de revisão,2025-07-22
+QN300107,Q2,2024-09-10,2024-10-19,Encerrada,4500002254,F1075,PN-36M1532,Reprovação na inspeção de recebimento,3,9,Retrabalho pelo fornecedor,Embalagem,2024-10-19
+QN300108,Q2,2025-12-17,2026-02-02,Encerrada,4500006631,F1032,PN-45Z1311,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Subfornecedor,2026-02-02
+QN300109,Q2,2025-08-31,2025-09-08,Encerrada,4500005436,F1078,PN-86Y1492,Reprovação na inspeção de recebimento,3,7,Devolução ao fornecedor,Documentação,2025-09-08
+QN300110,Q2,2024-08-27,2024-10-02,Encerrada,4500002352,F1191,PN-40W1516,Revisão de peça superada,1,5,Uso como está (concessão),Subfornecedor,2024-10-02
+QN300111,Q2,2025-06-07,2025-06-29,Encerrada,4500004704,F1193,PN-89S1096,Reprovação na inspeção de recebimento,1,8,Retrabalho pelo fornecedor,Documentação,2025-06-29
+QN300112,Q3,2024-07-02,2024-07-09,Encerrada,4500001448,F1044,PN-51Q1328,Divergência de documentação (CoC/FAI),1,10,Retrabalho pelo fornecedor,Embalagem,2024-07-09
+QN300113,Q2,2025-07-19,2025-08-17,Encerrada,4500005242,F1119,PN-35W1646,Dano no transporte,1,4,Devolução ao fornecedor,Processo do fornecedor,2025-08-17
+QN300114,Q2,2024-09-13,2024-10-04,Encerrada,4500000593,F1196,PN-57O1014,Revisão de peça superada,2,7,Sucata,Embalagem,2024-10-04
+QN300115,Q2,2026-01-22,2026-02-25,Encerrada,4500007530,F1135,PN-29I1294,Certificação do fabricante ausente,1,7,Uso como está (concessão),Controle de revisão,2026-02-25
+QN300116,Q2,2024-05-04,2024-05-21,Encerrada,4500000441,F1165,PN-50D1055,Reprovação na inspeção de recebimento,2,6,Devolução ao fornecedor,Embalagem,2024-05-21
+QN300117,Q2,2024-09-18,2024-09-26,Encerrada,4500001930,F1033,PN-43O1274,Certificação do fabricante ausente,2,6,Devolução ao fornecedor,Subfornecedor,2024-09-26
+QN300118,Q2,2024-08-10,2024-08-28,Encerrada,4500001856,F1152,PN-97E1472,Revisão de peça superada,1,3,Devolução ao fornecedor,Processo do fornecedor,2024-08-28
+QN300119,Q2,2026-08-09,2026-08-20,Encerrada,4500008734,F1196,PN-39Q1380,Reprovação na inspeção de recebimento,1,4,Retrabalho pelo fornecedor,Subfornecedor,2026-08-20
+QN300120,Q2,2025-05-03,2025-05-28,Encerrada,4500004290,F1182,PN-93Y1570,Reprovação na inspeção de recebimento,1,2,Retrabalho pelo fornecedor,Controle de revisão,2025-05-28
+QN300121,Q2,2025-11-08,2025-11-26,Encerrada,4500006764,F1193,PN-89S1096,Certificação do fabricante ausente,2,5,Uso como está (concessão),Documentação,2025-11-26
+QN300122,Q2,2025-10-03,2025-10-15,Encerrada,4500005274,F1116,PN-28J1165,Certificação do fabricante ausente,1,5,Retrabalho pelo fornecedor,Embalagem,2025-10-15
+QN300123,Q2,2024-04-04,2024-04-07,Encerrada,4500000018,F1005,PN-89S1096,Certificação do fabricante ausente,1,8,Devolução ao fornecedor,Subfornecedor,2024-04-07
+QN300124,Q2,2024-12-02,2024-12-28,Encerrada,4500001994,F1196,PN-45Z1311,Dano no transporte,1,3,Devolução ao fornecedor,Embalagem,2024-12-28
+QN300125,Q2,2024-05-30,2024-06-17,Encerrada,4500001029,F1177,PN-29P1223,Certificação do fabricante ausente,1,10,Devolução ao fornecedor,Embalagem,2024-06-17
+QN300126,Q2,2025-03-20,2025-04-26,Encerrada,4500004338,F1187,PN-40W1438,Reprovação na inspeção de recebimento,1,5,Uso como está (concessão),Processo do fornecedor,2025-04-26
+QN300127,Q2,2025-12-05,2025-12-30,Encerrada,4500007463,F1156,PN-96E1004,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Controle de revisão,2025-12-30
+QN300128,Q2,2025-06-10,2025-06-19,Encerrada,4500003819,F1123,PN-40R1615,Revisão de peça superada,2,8,Devolução ao fornecedor,Processo do fornecedor,2025-06-19
+QN300129,Q2,2026-09-09,2026-09-17,Encerrada,4500009977,F1193,PN-89S1096,Dano no transporte,1,4,Retrabalho pelo fornecedor,Embalagem,2026-09-17
+QN300130,Q3,2025-10-30,2025-11-07,Encerrada,4500006662,F1140,PN-96Z1025,Divergência de documentação (CoC/FAI),1,10,Devolução ao fornecedor,Controle de revisão,2025-11-07
+QN300131,Q2,2025-01-07,2025-01-14,Encerrada,4500003555,F1117,PN-77J1321,Certificação do fabricante ausente,1,2,Retrabalho pelo fornecedor,Documentação,2025-01-14
+QN300132,Q2,2026-03-08,2026-03-24,Encerrada,4500008738,F1120,PN-46N1429,Dano no transporte,3,9,Devolução ao fornecedor,Controle de revisão,2026-03-24
+QN300133,Q2,2025-01-30,2025-02-19,Encerrada,4500004121,F1120,PN-67Y1518,Dano no transporte,1,9,Uso como está (concessão),Controle de revisão,2025-02-19
+QN300134,Q2,2024-11-09,2025-01-01,Encerrada,4500002696,F1118,PN-51G1344,Revisão de peça superada,1,5,Retrabalho pelo fornecedor,Processo do fornecedor,2025-01-01
+QN300135,Q2,2024-08-14,2024-09-02,Encerrada,4500001257,F1173,PN-79R1069,Revisão de peça superada,1,7,Devolução ao fornecedor,Processo do fornecedor,2024-09-02
+QN300136,Q3,2025-08-27,2025-10-08,Encerrada,4500005769,F1102,PN-30R1225,Divergência de documentação (CoC/FAI),1,3,Retrabalho pelo fornecedor,Documentação,2025-10-08
+QN300137,Q2,2026-01-07,2026-02-04,Encerrada,4500007830,F1189,PN-53Y1596,Certificação do fabricante ausente,1,7,Uso como está (concessão),Documentação,2026-02-04
+QN300138,Q2,2024-07-09,2024-08-12,Encerrada,4500000966,F1193,PN-89S1096,Dano no transporte,1,6,Devolução ao fornecedor,Controle de revisão,2024-08-12
+QN300139,Q2,2024-07-15,2024-07-20,Encerrada,4500001512,F1155,PN-70O1040,Revisão de peça superada,1,9,Devolução ao fornecedor,Documentação,2024-07-20
+QN300140,Q2,2025-10-21,2025-11-14,Encerrada,4500006125,F1193,PN-89S1096,Dano no transporte,3,8,Devolução ao fornecedor,Documentação,2025-11-14
+QN300141,Q2,2024-09-21,2024-09-30,Encerrada,4500001818,F1145,PN-43X1179,Revisão de peça superada,3,8,Sucata,Subfornecedor,2024-09-30
+QN300142,Q2,2024-11-07,2024-11-29,Encerrada,4500002997,F1112,PN-91U1462,Revisão de peça superada,1,4,Devolução ao fornecedor,Embalagem,2024-11-29
+QN300143,Q2,2025-04-14,2025-04-26,Encerrada,4500004521,F1054,PN-43Z1649,Revisão de peça superada,1,6,Retrabalho pelo fornecedor,Documentação,2025-04-26
+QN300144,Q2,2025-04-11,2025-04-28,Encerrada,4500004201,F1152,PN-97E1472,Reprovação na inspeção de recebimento,1,5,Uso como está (concessão),Embalagem,2025-04-28
+QN300145,Q3,2024-12-03,2024-12-14,Encerrada,4500002890,F1097,PN-17H1267,Divergência de documentação (CoC/FAI),1,6,Devolução ao fornecedor,Controle de revisão,2024-12-14
+QN300146,Q2,2026-07-19,2026-08-19,Encerrada,4500009548,F1152,PN-97E1472,Dano no transporte,1,7,Devolução ao fornecedor,Subfornecedor,2026-08-19
+QN300147,Q2,2024-10-05,2024-11-23,Encerrada,4500002132,F1165,PN-84S1616,Certificação do fabricante ausente,2,5,Devolução ao fornecedor,Controle de revisão,2024-11-23
+QN300148,Q2,2026-03-17,2026-03-29,Encerrada,4500008482,F1152,PN-97E1472,Revisão de peça superada,1,6,Uso como está (concessão),Processo do fornecedor,2026-03-29
+QN300149,Q2,2025-05-25,2025-06-07,Encerrada,4500004771,F1040,PN-88D1289,Revisão de peça superada,1,2,Uso como está (concessão),Subfornecedor,2025-06-07
+QN300150,Q2,2024-12-16,2024-12-21,Encerrada,4500002837,F1193,PN-89S1096,Revisão de peça superada,2,6,Devolução ao fornecedor,Documentação,2024-12-21
+QN300151,Q2,2024-08-19,2024-10-02,Encerrada,4500001317,F1028,PN-46I1580,Certificação do fabricante ausente,1,3,Devolução ao fornecedor,Subfornecedor,2024-10-02
+QN300152,Q2,2026-06-02,2026-06-16,Encerrada,4500008992,F1005,PN-89S1096,Reprovação na inspeção de recebimento,2,8,Retrabalho pelo fornecedor,Embalagem,2026-06-16
+QN300153,Q2,2025-09-07,2025-09-22,Encerrada,4500004643,F1025,PN-56F1031,Dano no transporte,3,8,Retrabalho pelo fornecedor,Embalagem,2025-09-22
+QN300154,Q2,2024-10-23,2024-11-25,Encerrada,4500001249,F1023,PN-23P1431,Revisão de peça superada,1,10,Devolução ao fornecedor,Embalagem,2024-11-25
+QN300155,Q2,2024-08-11,2024-09-29,Encerrada,4500001639,F1193,PN-89S1096,Certificação do fabricante ausente,2,4,Devolução ao fornecedor,Embalagem,2024-09-29
+QN300156,Q2,2026-04-10,2026-04-14,Encerrada,4500008536,F1122,PN-71F1447,Reprovação na inspeção de recebimento,2,6,Devolução ao fornecedor,Controle de revisão,2026-04-14
+QN300157,Q2,2026-02-10,2026-02-20,Encerrada,4500008071,F1029,PN-31E1420,Reprovação na inspeção de recebimento,1,3,Devolução ao fornecedor,Embalagem,2026-02-20
+QN300158,Q2,2026-07-02,2026-08-16,Encerrada,4500008895,F1095,PN-28N1351,Reprovação na inspeção de recebimento,1,3,Uso como está (concessão),Controle de revisão,2026-08-16
+QN300159,Q2,2025-08-31,2025-09-23,Encerrada,4500005948,F1005,PN-89S1096,Reprovação na inspeção de recebimento,1,2,Retrabalho pelo fornecedor,Documentação,2025-09-23
+QN300160,Q2,2025-01-22,2025-02-19,Encerrada,4500002743,F1019,PN-39X1543,Reprovação na inspeção de recebimento,1,7,Retrabalho pelo fornecedor,Embalagem,2025-02-19
+QN300161,Q2,2024-07-19,2024-08-10,Encerrada,4500001233,F1069,PN-89I1398,Reprovação na inspeção de recebimento,1,3,Devolução ao fornecedor,Controle de revisão,2024-08-10
+QN300162,Q2,2026-06-11,2026-06-21,Encerrada,4500009407,F1167,PN-14E1316,Certificação do fabricante ausente,1,7,Retrabalho pelo fornecedor,Documentação,2026-06-21
+QN300163,Q2,2025-08-04,2025-09-01,Encerrada,4500006025,F1071,PN-46S1018,Revisão de peça superada,1,8,Devolução ao fornecedor,Subfornecedor,2025-09-01
+QN300164,Q2,2026-01-26,2026-02-07,Encerrada,4500007492,F1119,PN-35W1646,Certificação do fabricante ausente,1,9,Uso como está (concessão),Processo do fornecedor,2026-02-07
+QN300165,Q2,2024-03-11,2024-03-27,Encerrada,4500000167,F1066,PN-12S1044,Dano no transporte,1,4,Devolução ao fornecedor,Subfornecedor,2024-03-27
+QN300166,Q2,2024-12-15,2025-01-20,Encerrada,4500003466,F1090,PN-27I1476,Reprovação na inspeção de recebimento,1,4,Sucata,Documentação,2025-01-20
+QN300167,Q2,2025-08-07,2025-08-22,Encerrada,4500005447,F1021,PN-52N1039,Reprovação na inspeção de recebimento,2,6,Devolução ao fornecedor,Documentação,2025-08-22
+QN300168,Q3,2025-04-08,2025-04-25,Encerrada,4500004436,F1033,PN-90W1022,Divergência de documentação (CoC/FAI),1,2,Devolução ao fornecedor,Processo do fornecedor,2025-04-25
+QN300169,Q2,2024-11-08,2024-11-16,Encerrada,4500003040,F1152,PN-97E1472,Revisão de peça superada,2,6,Devolução ao fornecedor,Subfornecedor,2024-11-16
+QN300170,Q2,2025-10-11,2025-10-14,Encerrada,4500005059,F1183,PN-80J1347,Reprovação na inspeção de recebimento,2,8,Retrabalho pelo fornecedor,Controle de revisão,2025-10-14
+QN300171,Q2,2024-09-23,2024-10-02,Encerrada,4500001950,F1021,PN-52N1039,Dano no transporte,2,12,Retrabalho pelo fornecedor,Subfornecedor,2024-10-02
+QN300172,Q2,2024-06-08,2024-07-01,Encerrada,4500001345,F1163,PN-13Z1233,Revisão de peça superada,2,6,Devolução ao fornecedor,Processo do fornecedor,2024-07-01
+QN300173,Q3,2025-03-20,2025-03-23,Encerrada,4500003722,F1193,PN-89S1096,Divergência de documentação (CoC/FAI),1,2,Retrabalho pelo fornecedor,Embalagem,2025-03-23
+QN300174,Q3,2025-12-05,2026-01-09,Encerrada,4500007252,F1111,PN-92K1296,Divergência de documentação (CoC/FAI),1,2,Retrabalho pelo fornecedor,Controle de revisão,2026-01-09
+QN300175,Q2,2024-08-21,2024-09-29,Encerrada,4500002035,F1191,PN-25X1647,Revisão de peça superada,2,6,Devolução ao fornecedor,Controle de revisão,2024-09-29
+QN300176,Q2,2024-05-08,2024-05-30,Encerrada,4500000673,F1144,PN-47B1365,Certificação do fabricante ausente,1,2,Retrabalho pelo fornecedor,Subfornecedor,2024-05-30
+QN300177,Q2,2025-10-06,2025-10-22,Encerrada,4500006734,F1052,PN-18M1428,Dano no transporte,2,6,Retrabalho pelo fornecedor,Subfornecedor,2025-10-22
+QN300178,Q2,2025-09-15,2025-09-17,Encerrada,4500004369,F1016,PN-88D1289,Reprovação na inspeção de recebimento,3,10,Devolução ao fornecedor,Documentação,2025-09-17
+QN300179,Q2,2026-03-16,2026-04-11,Encerrada,4500007816,F1124,PN-45Y1258,Certificação do fabricante ausente,1,7,Devolução ao fornecedor,Subfornecedor,2026-04-11
+QN300180,Q2,2024-09-13,2024-09-23,Encerrada,4500002588,F1112,PN-91U1462,Reprovação na inspeção de recebimento,1,2,Uso como está (concessão),Documentação,2024-09-23
+QN300181,Q2,2025-09-14,2025-09-26,Encerrada,4500005996,F1119,PN-13B1547,Reprovação na inspeção de recebimento,1,2,Devolução ao fornecedor,Documentação,2025-09-26
+QN300182,Q2,2025-11-23,2025-12-13,Encerrada,4500007037,F1150,PN-66R1433,Reprovação na inspeção de recebimento,3,8,Devolução ao fornecedor,Subfornecedor,2025-12-13
+QN300183,Q2,2025-05-29,2025-06-09,Encerrada,4500004896,F1165,PN-50D1055,Dano no transporte,1,3,Devolução ao fornecedor,Embalagem,2025-06-09
+QN300184,Q2,2025-01-07,2025-02-15,Encerrada,4500003471,F1112,PN-34H1475,Dano no transporte,1,2,Uso como está (concessão),Embalagem,2025-02-15
+QN300185,Q2,2024-12-09,2024-12-28,Encerrada,4500002737,F1069,PN-43A1546,Certificação do fabricante ausente,1,3,Devolução ao fornecedor,Controle de revisão,2024-12-28
+QN300186,Q3,2024-11-14,2024-11-20,Encerrada,4500003294,F1115,PN-14Z1051,Divergência de documentação (CoC/FAI),2,7,Uso como está (concessão),Subfornecedor,2024-11-20
+QN300187,Q2,2026-04-08,2026-04-30,Encerrada,4500008769,F1054,PN-43Z1649,Reprovação na inspeção de recebimento,1,6,Devolução ao fornecedor,Embalagem,2026-04-30
+QN300188,Q2,2024-03-05,2024-04-01,Encerrada,4500000350,F1008,PN-66D1237,Certificação do fabricante ausente,1,6,Devolução ao fornecedor,Processo do fornecedor,2024-04-01
+QN300189,Q2,2024-08-25,2024-09-25,Encerrada,4500001667,F1083,PN-79S1512,Reprovação na inspeção de recebimento,1,3,Uso como está (concessão),Subfornecedor,2024-09-25
+QN300190,Q2,2026-09-23,2026-10-08,Encerrada,4500010879,F1043,PN-28J1165,Certificação do fabricante ausente,1,6,Devolução ao fornecedor,Subfornecedor,2026-10-08
+QN300191,Q2,2025-11-29,2025-12-03,Encerrada,4500006437,F1030,PN-21F1213,Certificação do fabricante ausente,1,7,Devolução ao fornecedor,Documentação,2025-12-03
+QN300192,Q2,2024-05-02,2024-05-29,Encerrada,4500000305,F1193,PN-89S1096,Certificação do fabricante ausente,1,4,Retrabalho pelo fornecedor,Controle de revisão,2024-05-29
+QN300193,Q2,2026-05-19,2026-06-12,Encerrada,4500008953,F1054,PN-43Z1649,Dano no transporte,1,4,Devolução ao fornecedor,Subfornecedor,2026-06-12
+QN300194,Q2,2026-06-12,2026-07-03,Encerrada,4500009291,F1061,PN-68P1353,Dano no transporte,3,8,Devolução ao fornecedor,Processo do fornecedor,2026-07-03
+QN300195,Q3,2024-11-04,2024-11-20,Encerrada,4500003054,F1054,PN-43Z1649,Divergência de documentação (CoC/FAI),1,7,Devolução ao fornecedor,Subfornecedor,2024-11-20
+QN300196,Q2,2025-09-02,2025-09-12,Encerrada,4500006308,F1102,PN-71B1313,Reprovação na inspeção de recebimento,1,5,Uso como está (concessão),Controle de revisão,2025-09-12
+QN300197,Q2,2024-03-09,2024-03-15,Encerrada,4500000071,F1091,PN-40W1516,Reprovação na inspeção de recebimento,1,10,Uso como está (concessão),Processo do fornecedor,2024-03-15
+QN300198,Q2,2024-12-16,2025-01-02,Encerrada,4500002991,F1165,PN-61O1144,Certificação do fabricante ausente,1,7,Sucata,Controle de revisão,2025-01-02
+QN300199,Q2,2025-05-04,2025-06-07,Encerrada,4500004318,F1126,PN-19U1254,Reprovação na inspeção de recebimento,1,8,Retrabalho pelo fornecedor,Embalagem,2025-06-07
+QN300200,Q2,2026-03-24,2026-04-28,Encerrada,4500008523,F1100,PN-77I1034,Reprovação na inspeção de recebimento,2,6,Devolução ao fornecedor,Processo do fornecedor,2026-04-28
+QN300201,Q2,2025-09-09,2025-09-18,Encerrada,4500005516,F1019,PN-17D1367,Reprovação na inspeção de recebimento,2,6,Uso como está (concessão),Processo do fornecedor,2025-09-18
+QN300202,Q2,2026-07-15,2026-09-13,Encerrada,4500009394,F1165,PN-61O1144,Revisão de peça superada,2,7,Devolução ao fornecedor,Controle de revisão,2026-09-13
+QN300203,Q2,2024-11-23,2025-01-11,Encerrada,4500003240,F1112,PN-50T1513,Certificação do fabricante ausente,1,2,Sucata,Documentação,2025-01-11
+QN300204,Q2,2024-11-16,2024-11-24,Encerrada,4500003309,F1145,PN-43X1179,Reprovação na inspeção de recebimento,3,7,Devolução ao fornecedor,Subfornecedor,2024-11-24
+QN300205,Q3,2024-05-29,2024-06-28,Encerrada,4500001021,F1191,PN-40W1516,Divergência de documentação (CoC/FAI),2,10,Retrabalho pelo fornecedor,Processo do fornecedor,2024-06-28
+QN300206,Q2,2024-08-23,2024-08-31,Encerrada,4500002188,F1151,PN-25X1595,Revisão de peça superada,2,6,Devolução ao fornecedor,Embalagem,2024-08-31
+QN300207,Q2,2026-03-02,2026-03-15,Encerrada,4500007600,F1110,PN-32Y1206,Revisão de peça superada,2,6,Devolução ao fornecedor,Documentação,2026-03-15
+QN300208,Q2,2025-01-03,2025-01-14,Encerrada,4500003481,F1178,PN-62R1589,Dano no transporte,2,5,Retrabalho pelo fornecedor,Controle de revisão,2025-01-14
+QN300209,Q2,2024-12-19,2025-01-12,Encerrada,4500003452,F1100,PN-77I1034,Certificação do fabricante ausente,1,3,Sucata,Controle de revisão,2025-01-12
+QN300210,Q2,2026-08-26,2026-09-16,Encerrada,4500009931,F1054,PN-43Z1649,Certificação do fabricante ausente,2,8,Devolução ao fornecedor,Processo do fornecedor,2026-09-16
+QN300211,Q2,2026-02-10,2026-02-20,Encerrada,4500007756,F1134,PN-75M1038,Reprovação na inspeção de recebimento,1,7,Retrabalho pelo fornecedor,Processo do fornecedor,2026-02-20
+QN300212,Q2,2024-11-20,2024-11-26,Encerrada,4500002430,F1193,PN-89S1096,Reprovação na inspeção de recebimento,1,8,Devolução ao fornecedor,Embalagem,2024-11-26
+QN300213,Q2,2025-06-10,2025-06-19,Encerrada,4500004901,F1119,PN-33F1499,Certificação do fabricante ausente,1,6,Sucata,Subfornecedor,2025-06-19
+QN300214,Q2,2025-12-13,2026-01-05,Encerrada,4500006875,F1065,PN-13Q1250,Dano no transporte,2,7,Uso como está (concessão),Subfornecedor,2026-01-05
+QN300215,Q2,2026-07-12,2026-08-24,Encerrada,4500009639,F1179,PN-81N1533,Reprovação na inspeção de recebimento,2,5,Devolução ao fornecedor,Subfornecedor,2026-08-24
+QN300216,Q2,2025-03-30,2025-04-30,Encerrada,4500004159,F1014,PN-27I1476,Certificação do fabricante ausente,1,3,Devolução ao fornecedor,Controle de revisão,2025-04-30
+QN300217,Q2,2024-11-15,2024-12-04,Encerrada,4500002697,F1119,PN-33F1499,Revisão de peça superada,1,3,Devolução ao fornecedor,Controle de revisão,2024-12-04
+QN300218,Q2,2025-09-02,2025-09-10,Encerrada,4500006455,F1111,PN-56R1251,Certificação do fabricante ausente,1,4,Retrabalho pelo fornecedor,Subfornecedor,2025-09-10
+QN300219,Q2,2025-11-13,2025-12-28,Encerrada,4500007360,F1161,PN-18T1565,Dano no transporte,1,8,Uso como está (concessão),Subfornecedor,2025-12-28
+QN300220,Q2,2025-05-19,2025-05-31,Encerrada,4500005233,F1109,PN-63V1593,Revisão de peça superada,1,4,Devolução ao fornecedor,Embalagem,2025-05-31
+QN300221,Q3,2025-02-25,2025-03-17,Encerrada,4500003342,F1022,PN-61G1006,Divergência de documentação (CoC/FAI),2,7,Uso como está (concessão),Embalagem,2025-03-17
+QN300222,Q2,2024-10-21,2024-11-15,Encerrada,4500001020,F1196,PN-39Q1380,Certificação do fabricante ausente,2,7,Retrabalho pelo fornecedor,Processo do fornecedor,2024-11-15
+QN300223,Q2,2024-06-23,2024-07-13,Encerrada,4500000961,F1086,PN-92E1186,Revisão de peça superada,1,1,Devolução ao fornecedor,Documentação,2024-07-13
+QN300224,Q2,2025-04-20,2025-04-26,Encerrada,4500004503,F1101,PN-46S1018,Certificação do fabricante ausente,1,6,Devolução ao fornecedor,Documentação,2025-04-26
+QN300225,Q2,2026-01-19,2026-02-07,Encerrada,4500007410,F1021,PN-69E1446,Certificação do fabricante ausente,1,3,Retrabalho pelo fornecedor,Processo do fornecedor,2026-02-07
+QN300226,Q2,2025-06-23,2025-07-04,Encerrada,4500005056,F1142,PN-52G1552,Reprovação na inspeção de recebimento,1,6,Retrabalho pelo fornecedor,Controle de revisão,2025-07-04
+QN300227,Q3,2024-08-10,2024-09-14,Encerrada,4500001866,F1044,PN-28I1268,Divergência de documentação (CoC/FAI),1,4,Devolução ao fornecedor,Subfornecedor,2024-09-14
+QN300228,Q2,2026-04-07,2026-04-19,Encerrada,4500008272,F1165,PN-84S1616,Reprovação na inspeção de recebimento,1,5,Retrabalho pelo fornecedor,Controle de revisão,2026-04-19
+QN300229,Q2,2025-12-02,2025-12-06,Encerrada,4500007842,F1161,PN-18T1565,Reprovação na inspeção de recebimento,1,9,Retrabalho pelo fornecedor,Documentação,2025-12-06
+QN300230,Q2,2025-08-04,2025-09-26,Encerrada,4500005710,F1111,PN-40E1056,Revisão de peça superada,1,3,Devolução ao fornecedor,Controle de revisão,2025-09-26
+QN300231,Q2,2024-11-20,2024-12-08,Encerrada,4500001468,F1025,PN-56F1031,Dano no transporte,2,4,Uso como está (concessão),Embalagem,2024-12-08
+QN300232,Q2,2025-11-14,2025-12-10,Encerrada,4500006517,F1097,PN-18Q1016,Revisão de peça superada,1,5,Retrabalho pelo fornecedor,Processo do fornecedor,2025-12-10
+QN300233,Q2,2025-09-10,2025-10-01,Encerrada,4500006369,F1054,PN-43Z1649,Certificação do fabricante ausente,1,3,Devolução ao fornecedor,Documentação,2025-10-01
+QN300234,Q2,2025-03-24,2025-03-30,Encerrada,4500003989,F1040,PN-88D1289,Certificação do fabricante ausente,1,5,Uso como está (concessão),Subfornecedor,2025-03-30
+QN300235,Q2,2025-10-18,2025-10-28,Encerrada,4500006752,F1152,PN-97E1472,Reprovação na inspeção de recebimento,2,7,Devolução ao fornecedor,Embalagem,2025-10-28
+QN300236,Q2,2026-08-10,2026-08-23,Encerrada,4500010217,F1102,PN-43X1179,Reprovação na inspeção de recebimento,1,6,Uso como está (concessão),Processo do fornecedor,2026-08-23
+QN300237,Q2,2026-08-15,2026-09-09,Encerrada,4500009495,F1099,PN-83F1395,Reprovação na inspeção de recebimento,1,3,Devolução ao fornecedor,Controle de revisão,2026-09-09
+QN300238,Q2,2025-01-01,2025-01-24,Encerrada,4500003503,F1111,PN-11U1046,Revisão de peça superada,1,6,Devolução ao fornecedor,Controle de revisão,2025-01-24
+QN300239,Q2,2025-07-25,2025-08-08,Encerrada,4500005535,F1187,PN-40W1438,Certificação do fabricante ausente,1,8,Devolução ao fornecedor,Documentação,2025-08-08
+QN300240,Q2,2025-05-31,2025-06-09,Encerrada,4500005268,F1100,PN-77I1034,Reprovação na inspeção de recebimento,1,9,Devolução ao fornecedor,Subfornecedor,2025-06-09
+QN300241,Q2,2026-08-12,2026-08-19,Encerrada,4500010193,F1171,PN-25O1508,Reprovação na inspeção de recebimento,1,1,Devolução ao fornecedor,Embalagem,2026-08-19
+QN300242,Q3,2025-07-04,2025-07-18,Encerrada,4500005042,F1112,PN-91U1462,Divergência de documentação (CoC/FAI),1,2,Devolução ao fornecedor,Subfornecedor,2025-07-18
+QN300243,Q2,2025-09-08,2025-10-11,Encerrada,4500006017,F1099,PN-83F1395,Certificação do fabricante ausente,1,2,Devolução ao fornecedor,Embalagem,2025-10-11
+QN300244,Q2,2026-07-14,2026-08-15,Encerrada,4500008890,F1173,PN-79R1069,Reprovação na inspeção de recebimento,2,6,Devolução ao fornecedor,Processo do fornecedor,2026-08-15
+QN300245,Q2,2024-11-17,2024-12-08,Encerrada,4500002085,F1110,PN-40D1393,Reprovação na inspeção de recebimento,1,3,Sucata,Subfornecedor,2024-12-08
+QN300246,Q3,2026-08-11,2026-08-30,Encerrada,4500008356,F1016,PN-88D1289,Divergência de documentação (CoC/FAI),1,9,Devolução ao fornecedor,Controle de revisão,2026-08-30
+QN300247,Q3,2025-07-16,2025-08-13,Encerrada,4500004999,F1193,PN-89S1096,Divergência de documentação (CoC/FAI),1,8,Devolução ao fornecedor,Embalagem,2025-08-13
+QN300248,Q2,2024-10-13,2024-10-30,Encerrada,4500002148,F1193,PN-89S1096,Revisão de peça superada,1,3,Devolução ao fornecedor,Controle de revisão,2024-10-30
+QN300249,Q2,2024-07-16,2024-07-19,Encerrada,4500001250,F1193,PN-89S1096,Reprovação na inspeção de recebimento,1,3,Uso como está (concessão),Documentação,2024-07-19
+QN300250,Q2,2026-08-22,2026-09-05,Encerrada,4500009917,F1020,PN-13T1617,Dano no transporte,1,9,Uso como está (concessão),Documentação,2026-09-05
+QN300251,Q2,2025-09-19,2025-10-03,Encerrada,4500006621,F1120,PN-67Y1518,Dano no transporte,1,5,Devolução ao fornecedor,Controle de revisão,2025-10-03
+QN300252,Q2,2025-01-04,2025-03-05,Encerrada,4500003146,F1134,PN-75M1038,Revisão de peça superada,1,7,Devolução ao fornecedor,Embalagem,2025-03-05
+QN300253,Q2,2026-07-22,2026-08-09,Encerrada,4500009540,F1029,PN-31E1420,Reprovação na inspeção de recebimento,1,2,Devolução ao fornecedor,Controle de revisão,2026-08-09
+QN300254,Q2,2025-10-17,2025-11-12,Encerrada,4500006996,F1112,PN-91U1462,Reprovação na inspeção de recebimento,1,4,Sucata,Subfornecedor,2025-11-12
+QN300255,Q3,2024-08-28,2024-09-02,Encerrada,4500001853,F1150,PN-39P1301,Divergência de documentação (CoC/FAI),1,3,Retrabalho pelo fornecedor,Documentação,2024-09-02
+QN300256,Q2,2025-06-30,2025-07-12,Encerrada,4500005642,F1152,PN-97E1472,Dano no transporte,1,8,Devolução ao fornecedor,Embalagem,2025-07-12
+QN300257,Q2,2024-09-10,2024-09-16,Encerrada,4500002184,F1033,PN-36L1245,Reprovação na inspeção de recebimento,1,6,Retrabalho pelo fornecedor,Subfornecedor,2024-09-16
+QN300258,Q2,2024-04-05,2024-04-24,Encerrada,4500000354,F1179,PN-81N1533,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Embalagem,2024-04-24
+QN300259,Q2,2025-02-17,2025-04-02,Encerrada,4500004217,F1191,PN-40W1516,Certificação do fabricante ausente,1,6,Retrabalho pelo fornecedor,Controle de revisão,2025-04-02
+QN300260,Q3,2025-02-07,2025-02-14,Encerrada,4500003643,F1193,PN-89S1096,Divergência de documentação (CoC/FAI),1,3,Devolução ao fornecedor,Processo do fornecedor,2025-02-14
+QN300261,Q2,2026-07-05,2026-07-12,Encerrada,4500009113,F1193,PN-89S1096,Dano no transporte,1,6,Devolução ao fornecedor,Controle de revisão,2026-07-12
+QN300262,Q3,2025-09-16,2025-09-22,Encerrada,4500006597,F1111,PN-40E1056,Divergência de documentação (CoC/FAI),1,4,Devolução ao fornecedor,Embalagem,2025-09-22
+QN300263,Q2,2024-08-04,2024-08-12,Encerrada,4500000476,F1196,PN-39Q1380,Dano no transporte,2,5,Sucata,Subfornecedor,2024-08-12
+QN300264,Q2,2025-08-12,2025-08-24,Encerrada,4500005569,F1092,PN-74V1541,Revisão de peça superada,1,1,Devolução ao fornecedor,Processo do fornecedor,2025-08-24
+QN300265,Q2,2025-01-20,2025-02-02,Encerrada,4500002970,F1022,PN-55D1575,Reprovação na inspeção de recebimento,3,11,Retrabalho pelo fornecedor,Documentação,2025-02-02
+QN300266,Q2,2024-03-25,2024-05-04,Encerrada,4500000123,F1149,PN-80F1265,Revisão de peça superada,2,7,Retrabalho pelo fornecedor,Processo do fornecedor,2024-05-04
+QN300267,Q2,2024-04-29,2024-05-20,Encerrada,4500000469,F1193,PN-47B1365,Dano no transporte,1,2,Retrabalho pelo fornecedor,Documentação,2024-05-20
+QN300268,Q2,2026-04-13,2026-04-23,Encerrada,4500007930,F1081,PN-51U1618,Reprovação na inspeção de recebimento,1,4,Devolução ao fornecedor,Processo do fornecedor,2026-04-23
+QN300269,Q2,2025-08-14,2025-08-17,Encerrada,4500004313,F1123,PN-40R1615,Certificação do fabricante ausente,2,5,Retrabalho pelo fornecedor,Processo do fornecedor,2025-08-17
+QN300270,Q2,2025-01-18,2025-02-10,Encerrada,4500003268,F1099,PN-83F1395,Reprovação na inspeção de recebimento,1,1,Sucata,Subfornecedor,2025-02-10
+QN300271,Q2,2024-05-30,2024-08-01,Encerrada,4500000991,F1100,PN-94Y1466,Revisão de peça superada,1,8,Retrabalho pelo fornecedor,Embalagem,2024-08-01
+QN300272,Q3,2026-06-03,2026-07-03,Encerrada,4500008075,F1196,PN-39Q1380,Divergência de documentação (CoC/FAI),2,5,Retrabalho pelo fornecedor,Embalagem,2026-07-03
+QN300273,Q2,2025-05-06,2025-06-08,Encerrada,4500004392,F1092,PN-74V1541,Certificação do fabricante ausente,1,1,Retrabalho pelo fornecedor,Subfornecedor,2025-06-08
+QN300274,Q2,2026-06-24,2026-07-08,Encerrada,4500008524,F1078,PN-86Y1492,Reprovação na inspeção de recebimento,1,4,Devolução ao fornecedor,Controle de revisão,2026-07-08
+QN300275,Q2,2025-10-23,2025-11-13,Encerrada,4500007058,F1178,PN-92M1116,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Processo do fornecedor,2025-11-13
+QN300276,Q2,2025-10-03,2025-10-22,Encerrada,4500006468,F1120,PN-67Y1518,Reprovação na inspeção de recebimento,2,6,Uso como está (concessão),Controle de revisão,2025-10-22
+QN300277,Q2,2026-06-18,2026-07-09,Encerrada,4500008041,F1123,PN-40R1615,Dano no transporte,1,5,Uso como está (concessão),Controle de revisão,2026-07-09
+QN300278,Q2,2026-05-29,2026-05-31,Encerrada,4500009172,F1040,PN-22B1573,Certificação do fabricante ausente,1,3,Sucata,Embalagem,2026-05-31
+QN300279,Q2,2025-06-13,2025-06-21,Encerrada,4500004887,F1097,PN-23U1358,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Subfornecedor,2025-06-21
+QN300280,Q2,2025-05-15,2025-06-08,Encerrada,4500004816,F1044,PN-13B1547,Certificação do fabricante ausente,1,3,Devolução ao fornecedor,Controle de revisão,2025-06-08
+QN300281,Q2,2025-02-11,2025-03-02,Encerrada,4500003893,F1112,PN-50T1513,Certificação do fabricante ausente,1,2,Devolução ao fornecedor,Embalagem,2025-03-02
+QN300282,Q2,2025-07-27,2025-08-03,Encerrada,4500005797,F1115,PN-39X1075,Certificação do fabricante ausente,2,8,Devolução ao fornecedor,Subfornecedor,2025-08-03
+QN300283,Q2,2024-06-16,2024-06-28,Encerrada,4500001284,F1091,PN-18I1242,Revisão de peça superada,1,3,Sucata,Subfornecedor,2024-06-28
+QN300284,Q3,2025-09-19,2025-09-29,Encerrada,4500006730,F1100,PN-77I1034,Divergência de documentação (CoC/FAI),1,4,Devolução ao fornecedor,Embalagem,2025-09-29
+QN300285,Q2,2025-01-16,2025-02-07,Encerrada,4500003114,F1005,PN-89S1096,Revisão de peça superada,1,4,Uso como está (concessão),Embalagem,2025-02-07
+QN300286,Q2,2024-10-21,2024-11-19,Encerrada,4500002536,F1020,PN-19Y1414,Reprovação na inspeção de recebimento,1,1,Retrabalho pelo fornecedor,Embalagem,2024-11-19
+QN300287,Q2,2024-07-14,2024-07-24,Encerrada,4500001131,F1013,PN-18X1335,Certificação do fabricante ausente,1,1,Devolução ao fornecedor,Subfornecedor,2024-07-24
+QN300288,Q2,2024-06-09,2024-06-18,Encerrada,4500001159,F1129,PN-89S1174,Reprovação na inspeção de recebimento,2,7,Retrabalho pelo fornecedor,Controle de revisão,2024-06-18
+QN300289,Q2,2024-04-04,2024-04-10,Encerrada,4500000333,F1122,PN-78Q1068,Revisão de peça superada,1,7,Devolução ao fornecedor,Embalagem,2024-04-10
+QN300290,Q2,2025-04-20,2025-04-29,Encerrada,4500004235,F1165,PN-61O1144,Certificação do fabricante ausente,1,5,Devolução ao fornecedor,Documentação,2025-04-29
+QN300291,Q2,2025-12-18,2025-12-23,Encerrada,4500007442,F1080,PN-13G1370,Dano no transporte,1,6,Devolução ao fornecedor,Controle de revisão,2025-12-23
+QN300292,Q2,2025-06-24,2025-07-07,Encerrada,4500003780,F1039,PN-61G1006,Reprovação na inspeção de recebimento,1,4,Sucata,Controle de revisão,2025-07-07
+QN300293,Q2,2025-02-15,2025-03-07,Encerrada,4500002537,F1196,PN-15L1219,Reprovação na inspeção de recebimento,1,5,Uso como está (concessão),Processo do fornecedor,2025-03-07
+QN300294,Q2,2024-11-10,2024-12-01,Encerrada,4500001540,F1123,PN-40R1615,Revisão de peça superada,1,7,Uso como está (concessão),Embalagem,2024-12-01
+QN300295,Q2,2026-07-23,2026-08-31,Encerrada,4500009509,F1072,PN-74V1541,Reprovação na inspeção de recebimento,1,3,Devolução ao fornecedor,Controle de revisão,2026-08-31
+QN300296,Q2,2025-10-23,2025-11-01,Encerrada,4500006780,F1067,PN-77A1312,Revisão de peça superada,1,2,Devolução ao fornecedor,Documentação,2025-11-01
+QN300297,Q3,2024-07-21,2024-08-18,Encerrada,4500001116,F1193,PN-47B1365,Divergência de documentação (CoC/FAI),1,1,Devolução ao fornecedor,Processo do fornecedor,2024-08-18
+QN300298,Q2,2025-02-09,2025-02-14,Encerrada,4500003711,F1100,PN-77I1034,Certificação do fabricante ausente,1,3,Retrabalho pelo fornecedor,Processo do fornecedor,2025-02-14
+QN300299,Q2,2025-05-31,2025-06-23,Encerrada,4500004623,F1013,PN-18X1335,Revisão de peça superada,1,1,Devolução ao fornecedor,Subfornecedor,2025-06-23
+QN300300,Q2,2024-08-21,2024-09-08,Encerrada,4500001738,F1150,PN-39P1301,Revisão de peça superada,2,6,Devolução ao fornecedor,Embalagem,2024-09-08
+QN300301,Q2,2024-06-21,2024-06-26,Encerrada,4500001469,F1100,PN-77I1034,Certificação do fabricante ausente,1,6,Sucata,Controle de revisão,2024-06-26
+QN300302,Q3,2026-04-18,2026-04-27,Encerrada,4500008177,F1021,PN-83J1139,Divergência de documentação (CoC/FAI),1,6,Devolução ao fornecedor,Subfornecedor,2026-04-27
+QN300303,Q2,2025-09-12,2025-10-07,Encerrada,4500005793,F1193,PN-89S1096,Certificação do fabricante ausente,1,5,Retrabalho pelo fornecedor,Subfornecedor,2025-10-07
+QN300304,Q2,2024-06-01,2024-06-16,Encerrada,4500001240,F1054,PN-43Z1649,Reprovação na inspeção de recebimento,2,8,Devolução ao fornecedor,Subfornecedor,2024-06-16
+QN300305,Q2,2025-06-14,2025-06-16,Encerrada,4500005264,F1155,PN-87W1178,Certificação do fabricante ausente,3,7,Retrabalho pelo fornecedor,Embalagem,2025-06-16
+QN300306,Q2,2024-06-02,2024-06-10,Encerrada,4500001083,F1152,PN-97E1472,Reprovação na inspeção de recebimento,1,1,Retrabalho pelo fornecedor,Embalagem,2024-06-10
+QN300307,Q2,2024-06-03,2024-06-14,Encerrada,4500000735,F1119,PN-33F1499,Reprovação na inspeção de recebimento,2,5,Devolução ao fornecedor,Subfornecedor,2024-06-14
+QN300308,Q3,2025-11-22,2025-12-14,Encerrada,4500006616,F1193,PN-89S1096,Divergência de documentação (CoC/FAI),1,5,Devolução ao fornecedor,Documentação,2025-12-14
+QN300309,Q2,2024-09-29,2024-10-19,Encerrada,4500002449,F1117,PN-77J1321,Revisão de peça superada,1,1,Sucata,Processo do fornecedor,2024-10-19
+QN300310,Q2,2026-02-05,2026-03-09,Encerrada,4500007233,F1184,PN-23I1008,Revisão de peça superada,1,3,Sucata,Subfornecedor,2026-03-09
+QN300311,Q2,2024-08-07,2024-09-04,Encerrada,4500001875,F1150,PN-39P1301,Certificação do fabricante ausente,1,12,Retrabalho pelo fornecedor,Documentação,2024-09-04
+QN300312,Q2,2024-05-12,2024-05-28,Encerrada,4500000498,F1140,PN-96Z1025,Certificação do fabricante ausente,1,5,Retrabalho pelo fornecedor,Processo do fornecedor,2024-05-28
+QN300313,Q2,2026-01-25,2026-02-08,Encerrada,4500007755,F1029,PN-31E1420,Reprovação na inspeção de recebimento,1,1,Retrabalho pelo fornecedor,Embalagem,2026-02-08
+QN300314,Q2,2026-05-04,2026-05-29,Encerrada,4500008882,F1044,PN-61P1145,Dano no transporte,1,6,Devolução ao fornecedor,Documentação,2026-05-29
+QN300315,Q2,2025-10-01,2025-11-04,Encerrada,4500006211,F1193,PN-89S1096,Reprovação na inspeção de recebimento,1,2,Devolução ao fornecedor,Embalagem,2025-11-04
+QN300316,Q2,2024-07-03,2024-08-03,Encerrada,4500001637,F1063,PN-58F1109,Certificação do fabricante ausente,1,5,Retrabalho pelo fornecedor,Documentação,2024-08-03
+QN300317,Q2,2025-12-09,2025-12-24,Encerrada,4500006489,F1110,PN-32Y1206,Reprovação na inspeção de recebimento,1,8,Devolução ao fornecedor,Embalagem,2025-12-24
+QN300318,Q2,2026-03-09,2026-03-20,Encerrada,4500007697,F1017,PN-17A1572,Certificação do fabricante ausente,1,2,Devolução ao fornecedor,Processo do fornecedor,2026-03-20
+QN300319,Q2,2025-08-31,2025-09-21,Encerrada,4500006312,F1044,PN-13B1547,Revisão de peça superada,2,7,Devolução ao fornecedor,Processo do fornecedor,2025-09-21
+QN300320,Q2,2024-06-06,2024-06-10,Encerrada,4500000897,F1090,PN-49S1200,Certificação do fabricante ausente,1,4,Retrabalho pelo fornecedor,Documentação,2024-06-10
+QN300321,Q2,2024-08-20,2024-10-02,Encerrada,4500001896,F1102,PN-30R1225,Reprovação na inspeção de recebimento,1,7,Sucata,Documentação,2024-10-02
+QN300322,Q2,2025-04-29,2025-05-21,Encerrada,4500004832,F1051,PN-81N1533,Reprovação na inspeção de recebimento,1,3,Devolução ao fornecedor,Subfornecedor,2025-05-21
+QN300323,Q2,2025-07-21,2025-09-23,Encerrada,4500005704,F1160,PN-58J1607,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Subfornecedor,2025-09-23
+QN300324,Q3,2024-07-01,2024-07-22,Encerrada,4500001944,F1074,PN-75J1503,Divergência de documentação (CoC/FAI),3,7,Devolução ao fornecedor,Subfornecedor,2024-07-22
+QN300325,Q2,2024-11-05,2024-11-29,Encerrada,4500000948,F1123,PN-40R1615,Reprovação na inspeção de recebimento,2,8,Uso como está (concessão),Subfornecedor,2024-11-29
+QN300326,Q3,2026-01-19,2026-02-10,Encerrada,4500007216,F1193,PN-89S1096,Divergência de documentação (CoC/FAI),1,6,Devolução ao fornecedor,Processo do fornecedor,2026-02-10
+QN300327,Q2,2025-11-07,2025-11-29,Encerrada,4500007063,F1144,PN-79R1069,Revisão de peça superada,2,7,Devolução ao fornecedor,Processo do fornecedor,2025-11-29
+QN300328,Q2,2024-03-18,2024-04-03,Encerrada,4500000259,F1046,PN-29A1390,Dano no transporte,2,7,Devolução ao fornecedor,Documentação,2024-04-03
+QN300329,Q3,2024-12-07,2025-01-31,Encerrada,4500003057,F1126,PN-19X1439,Divergência de documentação (CoC/FAI),2,8,Retrabalho pelo fornecedor,Processo do fornecedor,2025-01-31
+QN300330,Q2,2025-06-19,2025-07-10,Encerrada,4500004420,F1192,PN-97E1472,Certificação do fabricante ausente,1,6,Retrabalho pelo fornecedor,Processo do fornecedor,2025-07-10
+QN300331,Q2,2025-09-13,2025-10-01,Encerrada,4500006163,F1080,PN-13G1370,Revisão de peça superada,1,3,Retrabalho pelo fornecedor,Controle de revisão,2025-10-01
+QN300332,Q2,2024-07-09,2024-07-26,Encerrada,4500001446,F1029,PN-31E1420,Reprovação na inspeção de recebimento,1,2,Devolução ao fornecedor,Subfornecedor,2024-07-26
+QN300333,Q2,2024-12-24,2025-01-02,Encerrada,4500003404,F1152,PN-97E1472,Reprovação na inspeção de recebimento,2,6,Sucata,Subfornecedor,2025-01-02
+QN300334,Q2,2026-08-23,2026-09-02,Encerrada,4500009816,F1069,PN-22A1286,Reprovação na inspeção de recebimento,1,1,Devolução ao fornecedor,Documentação,2026-09-02
+QN300335,Q2,2025-04-12,2025-04-30,Encerrada,4500004044,F1005,PN-89S1096,Certificação do fabricante ausente,2,5,Retrabalho pelo fornecedor,Embalagem,2025-04-30
+QN300336,Q3,2026-04-23,2026-04-29,Encerrada,4500008395,F1165,PN-61O1144,Divergência de documentação (CoC/FAI),3,8,Retrabalho pelo fornecedor,Subfornecedor,2026-04-29
+QN300337,Q2,2025-01-22,2025-01-29,Encerrada,4500003652,F1002,PN-88V1489,Dano no transporte,1,7,Devolução ao fornecedor,Controle de revisão,2025-01-29
+QN300338,Q2,2026-07-03,2026-07-19,Encerrada,4500008145,F1023,PN-36F1057,Reprovação na inspeção de recebimento,1,1,Retrabalho pelo fornecedor,Controle de revisão,2026-07-19
+QN300339,Q2,2025-03-28,2025-04-21,Encerrada,4500004385,F1100,PN-77I1034,Certificação do fabricante ausente,1,5,Devolução ao fornecedor,Processo do fornecedor,2025-04-21
+QN300340,Q2,2024-12-28,2024-12-29,Encerrada,4500002153,F1183,PN-56U1644,Reprovação na inspeção de recebimento,3,9,Sucata,Embalagem,2024-12-29
+QN300341,Q3,2026-09-10,2026-10-17,Encerrada,4500010401,F1061,PN-23F1187,Divergência de documentação (CoC/FAI),2,8,Devolução ao fornecedor,Subfornecedor,2026-10-17
+QN300342,Q2,2025-12-06,2026-01-11,Encerrada,4500007482,F1091,PN-40W1516,Reprovação na inspeção de recebimento,1,4,Retrabalho pelo fornecedor,Documentação,2026-01-11
+QN300343,Q2,2024-05-16,2024-06-15,Encerrada,4500001054,F1053,PN-61Q1302,Reprovação na inspeção de recebimento,1,1,Uso como está (concessão),Embalagem,2024-06-15
+QN300344,Q2,2026-02-18,2026-03-04,Encerrada,4500008026,F1020,PN-38V1047,Certificação do fabricante ausente,1,1,Devolução ao fornecedor,Documentação,2026-03-04
+QN300345,Q2,2025-01-28,2025-02-10,Encerrada,4500003903,F1142,PN-62R1589,Certificação do fabricante ausente,2,6,Devolução ao fornecedor,Subfornecedor,2025-02-10
+QN300346,Q3,2026-08-04,2026-08-24,Encerrada,4500009824,F1165,PN-84S1616,Divergência de documentação (CoC/FAI),3,11,Uso como está (concessão),Documentação,2026-08-24
+QN300347,Q2,2025-07-27,2025-08-04,Encerrada,4500005094,F1092,PN-37D1003,Reprovação na inspeção de recebimento,2,5,Devolução ao fornecedor,Embalagem,2025-08-04
+QN300348,Q2,2025-06-21,2025-07-11,Encerrada,4500005481,F1160,PN-58J1607,Certificação do fabricante ausente,2,8,Retrabalho pelo fornecedor,Processo do fornecedor,2025-07-11
+QN300349,Q2,2026-07-22,2026-07-30,Encerrada,4500009207,F1134,PN-33B1079,Certificação do fabricante ausente,2,6,Sucata,Processo do fornecedor,2026-07-30
+QN300350,Q2,2024-07-24,2024-08-16,Encerrada,4500001206,F1119,PN-35W1646,Revisão de peça superada,1,4,Retrabalho pelo fornecedor,Controle de revisão,2024-08-16
+QN300351,Q2,2026-06-13,2026-06-22,Encerrada,4500009338,F1029,PN-31E1420,Revisão de peça superada,1,1,Uso como está (concessão),Processo do fornecedor,2026-06-22
+QN300352,Q2,2025-11-23,2025-11-29,Encerrada,4500006582,F1193,PN-89S1096,Certificação do fabricante ausente,1,7,Sucata,Documentação,2025-11-29
+QN300353,Q2,2026-08-05,2026-08-22,Encerrada,4500010097,F1117,PN-77J1321,Reprovação na inspeção de recebimento,1,1,Devolução ao fornecedor,Subfornecedor,2026-08-22
+QN300354,Q2,2025-10-04,2025-10-07,Encerrada,4500005166,F1123,PN-40R1615,Dano no transporte,1,2,Devolução ao fornecedor,Subfornecedor,2025-10-07
+QN300355,Q2,2025-09-05,2025-10-14,Encerrada,4500006358,F1152,PN-97E1472,Revisão de peça superada,1,6,Retrabalho pelo fornecedor,Processo do fornecedor,2025-10-14
+QN300356,Q2,2024-08-12,2024-08-29,Encerrada,4500001935,F1040,PN-22B1573,Revisão de peça superada,1,3,Retrabalho pelo fornecedor,Subfornecedor,2024-08-29
+QN300357,Q2,2024-09-20,2024-10-11,Encerrada,4500001379,F1022,PN-55D1575,Dano no transporte,1,5,Devolução ao fornecedor,Controle de revisão,2024-10-11
+QN300358,Q2,2025-01-20,2025-03-04,Encerrada,4500003255,F1065,PN-92W1048,Certificação do fabricante ausente,1,2,Retrabalho pelo fornecedor,Documentação,2025-03-04
+QN300359,Q2,2024-03-11,2024-03-27,Encerrada,4500000052,F1122,PN-71F1447,Reprovação na inspeção de recebimento,1,4,Devolução ao fornecedor,Documentação,2024-03-27
+QN300360,Q2,2025-12-12,2026-01-11,Encerrada,4500006871,F1152,PN-97E1472,Certificação do fabricante ausente,1,6,Retrabalho pelo fornecedor,Documentação,2026-01-11
+QN300361,Q2,2025-04-13,2025-04-27,Encerrada,4500003334,F1123,PN-40R1615,Revisão de peça superada,4,15,Retrabalho pelo fornecedor,Subfornecedor,2025-04-27
+QN300362,Q2,2024-03-20,2024-04-22,Encerrada,4500000060,F1152,PN-97E1472,Certificação do fabricante ausente,1,4,Devolução ao fornecedor,Embalagem,2024-04-22
+QN300363,Q3,2025-12-13,2025-12-30,Encerrada,4500007326,F1152,PN-97E1472,Divergência de documentação (CoC/FAI),2,6,Devolução ao fornecedor,Subfornecedor,2025-12-30
+QN300364,Q3,2025-02-23,2025-03-09,Encerrada,4500004048,F1090,PN-95J1581,Divergência de documentação (CoC/FAI),1,5,Devolução ao fornecedor,Processo do fornecedor,2025-03-09
+QN300365,Q2,2024-04-06,2024-04-27,Encerrada,4500000381,F1150,PN-39P1301,Revisão de peça superada,2,9,Devolução ao fornecedor,Processo do fornecedor,2024-04-27
+QN300366,Q2,2026-08-12,2026-09-22,Encerrada,4500010012,F1102,PN-30R1225,Reprovação na inspeção de recebimento,2,6,Uso como está (concessão),Documentação,2026-09-22
+QN300367,Q2,2026-02-24,2026-04-13,Encerrada,4500008037,F1063,PN-58F1109,Revisão de peça superada,1,3,Devolução ao fornecedor,Controle de revisão,2026-04-13
+QN300368,Q3,2024-05-31,2024-07-07,Encerrada,4500001204,F1100,PN-77I1034,Divergência de documentação (CoC/FAI),1,3,Devolução ao fornecedor,Subfornecedor,2024-07-07
+QN300369,Q2,2024-08-17,2024-08-29,Encerrada,4500001700,F1029,PN-57N1507,Certificação do fabricante ausente,1,5,Devolução ao fornecedor,Processo do fornecedor,2024-08-29
+QN300370,Q2,2025-12-14,2026-01-08,Encerrada,4500005928,F1023,PN-49C1158,Revisão de peça superada,2,7,Retrabalho pelo fornecedor,Processo do fornecedor,2026-01-08
+QN300371,Q2,2024-08-02,2024-08-25,Encerrada,4500001344,F1099,PN-83F1395,Reprovação na inspeção de recebimento,1,2,Devolução ao fornecedor,Controle de revisão,2024-08-25
+QN300372,Q2,2025-08-05,2025-09-02,Encerrada,4500005176,F1164,PN-48H1033,Certificação do fabricante ausente,1,2,Devolução ao fornecedor,Documentação,2025-09-02
+QN300373,Q2,2024-09-05,2024-10-10,Encerrada,4500002192,F1029,PN-31E1420,Dano no transporte,1,2,Sucata,Processo do fornecedor,2024-10-10
+QN300374,Q2,2025-10-04,2025-10-13,Encerrada,4500006384,F1134,PN-75M1038,Reprovação na inspeção de recebimento,2,9,Devolução ao fornecedor,Embalagem,2025-10-13
+QN300375,Q2,2026-07-05,2026-07-19,Encerrada,4500009714,F1061,PN-23F1187,Reprovação na inspeção de recebimento,1,3,Retrabalho pelo fornecedor,Subfornecedor,2026-07-19
+QN300376,Q2,2026-01-29,2026-02-04,Encerrada,4500007744,F1193,PN-89S1096,Dano no transporte,1,1,Uso como está (concessão),Embalagem,2026-02-04
+QN300377,Q2,2026-06-17,2026-06-23,Encerrada,4500009836,F1052,PN-18M1428,Certificação do fabricante ausente,1,6,Devolução ao fornecedor,Controle de revisão,2026-06-23
+QN300378,Q2,2026-02-19,2026-03-15,Encerrada,4500007947,F1155,PN-70O1040,Revisão de peça superada,1,7,Uso como está (concessão),Documentação,2026-03-15
+QN300379,Q2,2025-09-04,2025-09-27,Encerrada,4500006172,F1112,PN-50T1513,Dano no transporte,1,1,Retrabalho pelo fornecedor,Processo do fornecedor,2025-09-27
+QN300380,Q2,2025-09-18,2025-10-21,Encerrada,4500006460,F1152,PN-97E1472,Reprovação na inspeção de recebimento,1,8,Devolução ao fornecedor,Subfornecedor,2025-10-21
+QN300381,Q2,2026-08-26,2026-09-03,Encerrada,4500010066,F1033,PN-97N1091,Dano no transporte,1,2,Devolução ao fornecedor,Processo do fornecedor,2026-09-03
+QN300382,Q2,2024-11-30,2024-12-12,Encerrada,4500002835,F1119,PN-35W1646,Certificação do fabricante ausente,2,7,Uso como está (concessão),Processo do fornecedor,2024-12-12
+QN300383,Q2,2025-09-17,2025-10-04,Encerrada,4500005840,F1134,PN-75M1038,Certificação do fabricante ausente,2,8,Sucata,Controle de revisão,2025-10-04
+QN300384,Q2,2025-08-06,2025-08-28,Encerrada,4500005455,F1193,PN-89S1096,Certificação do fabricante ausente,1,5,Devolução ao fornecedor,Embalagem,2025-08-28
+QN300385,Q2,2025-09-28,2025-11-03,Encerrada,4500006461,F1126,PN-19U1254,Certificação do fabricante ausente,2,9,Devolução ao fornecedor,Controle de revisão,2025-11-03
+QN300386,Q2,2026-08-31,2026-09-18,Encerrada,4500009499,F1164,PN-67B1235,Revisão de peça superada,1,2,Retrabalho pelo fornecedor,Embalagem,2026-09-18
+QN300387,Q2,2025-09-22,2025-09-30,Encerrada,4500005918,F1193,PN-89S1096,Certificação do fabricante ausente,3,10,Devolução ao fornecedor,Controle de revisão,2025-09-30
+QN300388,Q3,2024-12-08,2024-12-10,Encerrada,4500001705,F1023,PN-23P1431,Divergência de documentação (CoC/FAI),2,9,Devolução ao fornecedor,Embalagem,2024-12-10
+QN300389,Q2,2025-05-30,2025-06-04,Encerrada,4500004471,F1005,PN-89S1096,Revisão de peça superada,1,4,Devolução ao fornecedor,Subfornecedor,2025-06-04
+QN300390,Q2,2026-02-17,2026-02-24,Encerrada,4500006815,F1123,PN-40R1615,Certificação do fabricante ausente,2,5,Retrabalho pelo fornecedor,Documentação,2026-02-24
+QN300391,Q3,2025-04-25,2025-04-30,Encerrada,4500004335,F1084,PN-72P1275,Divergência de documentação (CoC/FAI),3,7,Retrabalho pelo fornecedor,Processo do fornecedor,2025-04-30
+QN300392,Q2,2026-04-29,2026-05-19,Encerrada,4500008868,F1152,PN-97E1472,Certificação do fabricante ausente,2,7,Devolução ao fornecedor,Subfornecedor,2026-05-19
+QN300393,Q2,2025-10-15,2025-10-22,Encerrada,4500006943,F1157,PN-40A1520,Certificação do fabricante ausente,1,8,Uso como está (concessão),Subfornecedor,2025-10-22
+QN300394,Q2,2024-05-26,2024-06-03,Encerrada,4500000799,F1075,PN-36M1532,Dano no transporte,1,5,Devolução ao fornecedor,Documentação,2024-06-03
+QN300395,Q2,2025-01-22,2025-01-26,Encerrada,4500003796,F1111,PN-40E1056,Certificação do fabricante ausente,3,8,Uso como está (concessão),Subfornecedor,2025-01-26
+QN300396,Q2,2024-10-09,2024-11-05,Encerrada,4500002849,F1120,PN-67Y1518,Dano no transporte,1,2,Devolução ao fornecedor,Subfornecedor,2024-11-05
+QN300397,Q2,2025-05-16,2025-05-25,Encerrada,4500004872,F1159,PN-87N1273,Revisão de peça superada,1,2,Uso como está (concessão),Documentação,2025-05-25
+QN300398,Q2,2024-11-10,2024-11-12,Encerrada,4500002885,F1014,PN-83K1608,Revisão de peça superada,1,9,Retrabalho pelo fornecedor,Subfornecedor,2024-11-12
+QN300399,Q3,2025-07-16,2025-07-28,Encerrada,4500005517,F1102,PN-30R1225,Divergência de documentação (CoC/FAI),1,7,Devolução ao fornecedor,Controle de revisão,2025-07-28
+QN300400,Q3,2024-06-18,2024-07-01,Encerrada,4500000722,F1038,PN-45I1112,Divergência de documentação (CoC/FAI),1,3,Devolução ao fornecedor,Controle de revisão,2024-07-01
+QN300401,Q2,2024-04-30,2024-05-11,Encerrada,4500000819,F1152,PN-97E1472,Reprovação na inspeção de recebimento,2,4,Devolução ao fornecedor,Documentação,2024-05-11
+QN300402,Q2,2025-11-09,2025-11-18,Encerrada,4500006834,F1135,PN-50D1211,Revisão de peça superada,1,3,Retrabalho pelo fornecedor,Controle de revisão,2025-11-18
+QN300403,Q2,2024-10-19,2024-11-12,Encerrada,4500001764,F1110,PN-32Y1206,Reprovação na inspeção de recebimento,1,7,Devolução ao fornecedor,Embalagem,2024-11-12
+QN300404,Q2,2026-06-10,2026-06-29,Encerrada,4500008847,F1193,PN-89S1096,Reprovação na inspeção de recebimento,2,6,Sucata,Controle de revisão,2026-06-29
+QN300405,Q2,2026-02-22,2026-03-18,Encerrada,4500008343,F1111,PN-60Z1415,Reprovação na inspeção de recebimento,2,5,Retrabalho pelo fornecedor,Embalagem,2026-03-18
+QN300406,Q3,2024-08-14,2024-08-25,Encerrada,4500001312,F1099,PN-79L1557,Divergência de documentação (CoC/FAI),4,10,Devolução ao fornecedor,Documentação,2024-08-25
+QN300407,Q2,2025-04-02,2025-04-21,Encerrada,4500004510,F1167,PN-63V1593,Revisão de peça superada,1,8,Devolução ao fornecedor,Embalagem,2025-04-21
+QN300408,Q2,2024-05-11,2024-05-19,Encerrada,4500000610,F1066,PN-12S1044,Reprovação na inspeção de recebimento,2,9,Retrabalho pelo fornecedor,Documentação,2024-05-19
+QN300409,Q2,2025-09-10,2025-09-19,Encerrada,4500005985,F1193,PN-89S1096,Revisão de peça superada,1,7,Retrabalho pelo fornecedor,Documentação,2025-09-19
+QN300410,Q2,2026-09-15,2026-10-07,Encerrada,4500009804,F1022,PN-55D1575,Revisão de peça superada,1,2,Uso como está (concessão),Subfornecedor,2026-10-07
+QN300411,Q2,2025-05-06,2025-05-15,Encerrada,4500004792,F1145,PN-73T1279,Reprovação na inspeção de recebimento,1,6,Retrabalho pelo fornecedor,Controle de revisão,2025-05-15
+QN300412,Q2,2024-10-25,2024-11-13,Encerrada,4500002878,F1120,PN-67Y1518,Revisão de peça superada,1,4,Uso como está (concessão),Embalagem,2024-11-13
+QN300413,Q2,2024-09-18,2024-09-30,Encerrada,4500001889,F1021,PN-52N1039,Dano no transporte,3,7,Devolução ao fornecedor,Documentação,2024-09-30
+QN300414,Q2,2026-10-22,,Aberta,4500009326,F1196,PN-39Q1380,Revisão de peça superada,1,3,Retrabalho pelo fornecedor,Subfornecedor,2026-11-22
+QN300415,Q2,2026-10-15,2026-10-26,Encerrada,4500010310,F1069,PN-22A1286,Reprovação na inspeção de recebimento,1,1,Uso como está (concessão),Controle de revisão,2026-10-26
+QN300416,Q2,2026-10-24,,Aberta,4500010405,F1092,PN-74V1541,Dano no transporte,1,1,Retrabalho pelo fornecedor,Subfornecedor,2026-10-31
+QN300417,Q2,2026-10-05,2026-10-10,Encerrada,4500010412,F1126,PN-19U1254,Certificação do fabricante ausente,1,7,Devolução ao fornecedor,Processo do fornecedor,2026-10-10
+QN300418,Q2,2026-10-15,2026-10-19,Encerrada,4500010417,F1069,PN-22A1286,Certificação do fabricante ausente,1,4,Retrabalho pelo fornecedor,Documentação,2026-10-19
+QN300419,Q2,2026-10-16,,Aberta,4500010419,F1069,PN-22A1286,Dano no transporte,1,1,Devolução ao fornecedor,Controle de revisão,2026-11-19
+QN300420,Q2,2026-10-21,2026-10-25,Encerrada,4500010465,F1041,PN-17H1267,Certificação do fabricante ausente,1,3,Retrabalho pelo fornecedor,Documentação,2026-10-25
+QN300421,Q2,2026-10-17,,Aberta,4500010514,F1087,PN-64J1477,Revisão de peça superada,1,2,Uso como está (concessão),Documentação,2026-10-30
+QN300422,Q2,2026-10-17,2026-10-22,Encerrada,4500010744,F1056,PN-73T1409,Certificação do fabricante ausente,3,12,Retrabalho pelo fornecedor,Controle de revisão,2026-10-22
+QN300423,Q2,2026-10-28,,Aberta,4500011222,F1101,PN-46S1018,Dano no transporte,1,6,Uso como está (concessão),Processo do fornecedor,2026-11-08
+QN300424,Q2,2026-10-28,,Aberta,4500011249,F1052,PN-18M1428,Reprovação na inspeção de recebimento,2,8,Sucata,Embalagem,2026-11-17
+QN300425,Q2,2026-10-13,2026-10-21,Encerrada,4500011371,F1163,PN-13Z1233,Revisão de peça superada,1,5,Devolução ao fornecedor,Subfornecedor,2026-10-21

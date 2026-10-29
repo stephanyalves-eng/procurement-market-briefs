@@ -1,0 +1,89 @@
+name: Monthly briefs
+
+on:
+  schedule:
+    # 16th of every month, 11:23 UTC (08:23 in Brasília). By then Comex Stat has published the
+    # previous month (early in the month) and BLS has released the previous month's PPI (mid-month).
+    - cron: "23 11 16 * *"
+  workflow_dispatch:
+    inputs:
+      edition_date:
+        description: "Edition date (YYYY-MM-DD). Empty = today"
+        required: false
+        default: ""
+      report_cutoff:
+        description: "Last day covered by the procurement report (YYYY-MM-DD). Empty = last day of the previous month"
+        required: false
+        default: ""
+      skip_fetch:
+        description: "Skip the data download and rebuild from the data already in the repository"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-briefs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90          # Comex Stat allows few requests per minute; the download takes 10 to 30 minutes
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python packages and Chromium
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Install the design system fonts
+        run: |
+          mkdir -p ~/.local/share/fonts
+          cp fonts/*.ttf ~/.local/share/fonts/
+          fc-cache -f
+
+      - name: Build the edition (EN and PT)
+        env:
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+        run: |
+          ARGS="--lang en pt"
+          if [ -n "${{ inputs.edition_date }}" ]; then ARGS="$ARGS --date ${{ inputs.edition_date }}"; fi
+          if [ -n "${{ inputs.report_cutoff }}" ]; then ARGS="$ARGS --report-cutoff ${{ inputs.report_cutoff }}"; fi
+          if [ "${{ inputs.skip_fetch }}" = "true" ]; then ARGS="$ARGS --skip-fetch"; fi
+          python run_edition.py $ARGS | tee build.log
+          echo "EDITION=$(cat last_edition.txt)" >> "$GITHUB_ENV"
+
+      - name: Summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, os
+          m = json.load(open(f"editions/{os.environ['EDITION']}/manifest.json"))
+          print(f"## Edition {m['edition']} (procurement report to {m['report_cutoff']})\n")
+          for lang, briefs in m["briefs"].items():
+              print(f"**{lang.upper()}**\n")
+              for b in briefs: print(f"- `{b['name']}`: {b['headline']} (height {b['height']} px)")
+              print()
+          print("**Warnings:** " + ("; ".join(m["warnings"]) if m["warnings"] else "none"))
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: edition-${{ env.EDITION }}
+          path: editions/${{ env.EDITION }}
+
+      - name: Commit the edition and the updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data editions docs/images
+          if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
+          git commit -m "Edition ${{ env.EDITION }}"
+          git push

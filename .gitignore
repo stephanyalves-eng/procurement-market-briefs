@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+fetch_warnings.txt
+build.log
+.DS_Store
+last_edition.txt

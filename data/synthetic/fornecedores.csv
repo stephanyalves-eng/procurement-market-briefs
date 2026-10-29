@@ -1,0 +1,201 @@
+id_fornecedor,fornecedor,pais,moeda,categoria,segmentacao,certificacao_as9100,lead_time_contratual_dias,prazo_pagamento_dias
+F1000,Strato Precision Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,30,90
+F1001,Sky Machining Inc,Estados Unidos,USD,Aviônica,Em desenvolvimento,Vencida,90,60
+F1002,Aero Aerospace Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,60,90
+F1003,Aurora Avionics Inc,Estados Unidos,USD,Aviônica,Preferencial,Vencida,90,60
+F1004,Nova Dynamics Inc,Estados Unidos,USD,Aviônica,Preferencial,Vencida,45,60
+F1005,Atlas Components Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Preferencial,Sim,90,30
+F1006,Prime Controls SA,Alemanha,EUR,Estruturas e usinados,Aprovado,Sim,60,30
+F1007,Jet Industries Ltda,Brasil,BRL,Aviônica,Aprovado,Sim,60,60
+F1008,Aurora Machining Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,30,45
+F1009,Sky Aerospace Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,120,30
+F1010,Titan Precision Inc,Estados Unidos,USD,Aviônica,Aprovado,Não,90,45
+F1011,Zenith Avionics Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,180,90
+F1012,Sky Components SA,Alemanha,EUR,Estruturas e usinados,Aprovado,Vencida,30,90
+F1013,Helix Systems Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,90,60
+F1014,Delta Machining Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Vencida,60,45
+F1015,Aero Machining Inc,Reino Unido,USD,Propulsão,Aprovado,Sim,60,60
+F1016,Aero Controls Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Vencida,180,60
+F1017,Sky Precision Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,120,90
+F1018,Prime Industries Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Vencida,90,30
+F1019,Prime Avionics Inc,Estados Unidos,USD,Aviônica,Aprovado,Vencida,120,45
+F1020,Falcon Avionics Inc,México,USD,Propulsão,Preferencial,Sim,60,90
+F1021,Helix Technologies SA,França,EUR,Trem de pouso e hidráulica,Preferencial,Sim,90,60
+F1022,Cirrus Controls Inc,México,USD,Propulsão,Preferencial,Sim,120,30
+F1023,Polar Precision Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,180,60
+F1024,Prime Dynamics Inc,Canadá,USD,Propulsão,Preferencial,Sim,90,60
+F1025,Strato Aerospace Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Sim,180,45
+F1026,Cirrus Systems Inc,Estados Unidos,USD,Elétrica e chicotes,Em desenvolvimento,Sim,60,60
+F1027,Delta Controls SA,França,EUR,Matéria-prima metálica,Em desenvolvimento,Sim,120,45
+F1028,Prime Aerospace Ltda,Brasil,BRL,Trem de pouso e hidráulica,Preferencial,Sim,90,90
+F1029,Apex Technologies Inc,Canadá,USD,Aviônica,Aprovado,Sim,60,30
+F1030,Helix Dynamics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,120,45
+F1031,Nova Systems Inc,Estados Unidos,USD,Propulsão,Estratégico,Sim,30,30
+F1032,Aero Systems Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Não,120,90
+F1033,Turbo Dynamics Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,60,60
+F1034,Aurora Industries Inc,Estados Unidos,USD,Elétrica e chicotes,Aprovado,Vencida,180,60
+F1035,Vector Controls SA,França,EUR,Propulsão,Aprovado,Não,120,45
+F1036,Strato Machining SA,França,EUR,Propulsão,Aprovado,Sim,60,45
+F1037,Jet Avionics Inc,México,USD,Propulsão,Em desenvolvimento,Sim,60,45
+F1038,Aurora Systems SA,França,EUR,Trem de pouso e hidráulica,Aprovado,Sim,90,30
+F1039,Vector Aerospace SA,Alemanha,EUR,Propulsão,Estratégico,Sim,180,30
+F1040,Cirrus Dynamics Ltda,Brasil,BRL,Trem de pouso e hidráulica,Em desenvolvimento,Sim,60,30
+F1041,Aurora Components SA,França,EUR,Aviônica,Aprovado,Sim,90,45
+F1042,Orbit Controls Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,90,60
+F1043,Sky Technologies Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,45,30
+F1044,Orbit Systems SA,França,EUR,Estruturas e usinados,Em desenvolvimento,Sim,60,45
+F1045,Vector Machining SA,Portugal,EUR,Propulsão,Aprovado,Vencida,45,60
+F1046,Atlas Controls Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,60,90
+F1047,Avio Systems Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Em desenvolvimento,Sim,90,60
+F1048,Apex Controls Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,120,60
+F1049,Zenith Controls Ltda,Brasil,BRL,Estruturas e usinados,Preferencial,Sim,120,30
+F1050,Jet Systems Ltda,Brasil,BRL,Estruturas e usinados,Estratégico,Sim,45,60
+F1051,Orbit Aerospace SA,Alemanha,EUR,Propulsão,Preferencial,Sim,45,60
+F1052,Sky Dynamics Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,45,30
+F1053,Polar Systems Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Vencida,45,90
+F1054,Nova Industries Inc,México,USD,Estruturas e usinados,Preferencial,Sim,60,45
+F1055,Orbit Components Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,45
+F1056,Turbo Avionics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,45,60
+F1057,Avio Controls Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,60,45
+F1058,Helix Components SA,Portugal,EUR,Estruturas e usinados,Em desenvolvimento,Não,60,60
+F1059,Prime Machining Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,30,45
+F1060,Nova Technologies Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Vencida,60,30
+F1061,Polar Controls SA,Itália,EUR,Elétrica e chicotes,Aprovado,Não,60,60
+F1062,Aurora Dynamics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,45,60
+F1063,Sky Industries Inc,Estados Unidos,USD,Matéria-prima metálica,Aprovado,Sim,60,30
+F1064,Helix Controls Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Não,45,45
+F1065,Cirrus Avionics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,60
+F1066,Apex Aerospace SA,França,EUR,Aviônica,Preferencial,Não,60,60
+F1067,Orbit Precision SA,Portugal,EUR,Aviônica,Preferencial,Não,60,60
+F1068,Turbo Systems Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Sim,30,90
+F1069,Orbit Technologies Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,90
+F1070,Orbit Dynamics SA,Alemanha,EUR,Elétrica e chicotes,Em desenvolvimento,Sim,120,30
+F1071,Prime Precision Inc,México,USD,Estruturas e usinados,Em desenvolvimento,Vencida,45,60
+F1072,Atlas Machining SA,Itália,EUR,Aviônica,Aprovado,Sim,60,60
+F1073,Vector Avionics Ltda,Brasil,BRL,Elétrica e chicotes,Estratégico,Não,60,30
+F1074,Apex Avionics SA,Portugal,EUR,Estruturas e usinados,Aprovado,Sim,30,30
+F1075,Strato Technologies Inc,Canadá,USD,Aviônica,Estratégico,Vencida,60,90
+F1076,Vector Components SA,Portugal,EUR,Aviônica,Preferencial,Vencida,60,45
+F1077,Aero Avionics SA,Alemanha,EUR,Aviônica,Aprovado,Sim,180,45
+F1078,Nova Controls SA,Alemanha,EUR,Matéria-prima metálica,Aprovado,Sim,120,45
+F1079,Vector Systems Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,45
+F1080,Sky Systems Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,60,90
+F1081,Falcon Controls Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,120,45
+F1082,Zenith Components SA,França,EUR,Aviônica,Em desenvolvimento,Sim,120,90
+F1083,Polar Avionics Inc,Canadá,USD,Propulsão,Em desenvolvimento,Vencida,60,45
+F1084,Zenith Machining Inc,Estados Unidos,USD,Propulsão,Estratégico,Não,60,45
+F1085,Strato Avionics SA,Alemanha,EUR,Propulsão,Preferencial,Sim,60,45
+F1086,Turbo Machining Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,60,45
+F1087,Jet Technologies Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,90,30
+F1088,Falcon Dynamics SA,Alemanha,EUR,Aviônica,Preferencial,Sim,45,90
+F1089,Titan Machining Inc,Canadá,USD,Propulsão,Preferencial,Sim,60,60
+F1090,Zenith Technologies Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Não,45,90
+F1091,Cirrus Machining Ltda,Brasil,BRL,Propulsão,Aprovado,Não,45,45
+F1092,Falcon Technologies Inc,Estados Unidos,USD,Aviônica,Preferencial,Sim,90,60
+F1093,Zenith Systems Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,45,60
+F1094,Orbit Machining SA,França,EUR,Matéria-prima metálica,Preferencial,Sim,120,60
+F1095,Orbit Avionics Inc,Estados Unidos,USD,Aviônica,Aprovado,Não,120,30
+F1096,Aurora Precision Inc,Canadá,USD,Propulsão,Aprovado,Sim,90,60
+F1097,Sky Avionics SA,França,EUR,Aviônica,Estratégico,Sim,90,60
+F1098,Aero Technologies SA,Alemanha,EUR,Aviônica,Preferencial,Sim,45,30
+F1099,Titan Technologies Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Não,90,60
+F1100,Prime Systems SA,Portugal,EUR,Elétrica e chicotes,Aprovado,Sim,45,60
+F1101,Apex Components SA,Portugal,EUR,Estruturas e usinados,Preferencial,Sim,60,60
+F1102,Aurora Technologies SA,França,EUR,Elétrica e chicotes,Preferencial,Sim,60,30
+F1103,Sky Controls Inc,Estados Unidos,USD,Elétrica e chicotes,Estratégico,Sim,90,90
+F1104,Nova Components SA,França,EUR,Aviônica,Preferencial,Sim,60,90
+F1105,Helix Industries Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,120,90
+F1106,Delta Dynamics Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,30,60
+F1107,Polar Machining Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,60,60
+F1108,Vector Precision Ltda,Brasil,BRL,Estruturas e usinados,Preferencial,Sim,45,90
+F1109,Atlas Precision Inc,Estados Unidos,USD,Propulsão,Aprovado,Não,45,60
+F1110,Titan Industries Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,120,60
+F1111,Falcon Precision Inc,Estados Unidos,USD,Aviônica,Preferencial,Não,45,90
+F1112,Polar Dynamics Inc,Estados Unidos,USD,Aviônica,Preferencial,Não,45,90
+F1113,Avio Machining SA,França,EUR,Aviônica,Preferencial,Sim,180,60
+F1114,Jet Precision Inc,Estados Unidos,USD,Elétrica e chicotes,Estratégico,Não,90,60
+F1115,Polar Components Inc,Estados Unidos,USD,Elétrica e chicotes,Aprovado,Sim,30,90
+F1116,Zenith Precision Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,180,45
+F1117,Delta Avionics SA,França,EUR,Aviônica,Em desenvolvimento,Sim,60,30
+F1118,Apex Machining Inc,Reino Unido,USD,Aviônica,Aprovado,Sim,60,60
+F1119,Vector Industries Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Não,90,60
+F1120,Cirrus Aerospace Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,30,60
+F1121,Prime Technologies Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,120,30
+F1122,Nova Avionics Inc,Estados Unidos,USD,Propulsão,Aprovado,Não,45,60
+F1123,Delta Technologies Inc,Canadá,USD,Propulsão,Preferencial,Não,180,45
+F1124,Turbo Aerospace Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,120,45
+F1125,Strato Industries Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Não,180,60
+F1126,Vector Technologies SA,França,EUR,Estruturas e usinados,Aprovado,Vencida,90,45
+F1127,Atlas Industries Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,45,30
+F1128,Titan Avionics Ltda,Brasil,BRL,Propulsão,Estratégico,Sim,180,30
+F1129,Polar Aerospace SA,Itália,EUR,Elétrica e chicotes,Estratégico,Sim,45,60
+F1130,Titan Controls Ltda,Brasil,BRL,Propulsão,Preferencial,Sim,60,60
+F1131,Avio Technologies SA,França,EUR,Matéria-prima metálica,Estratégico,Sim,90,90
+F1132,Avio Avionics Inc,Canadá,USD,Propulsão,Preferencial,Sim,120,60
+F1133,Apex Industries SA,França,EUR,Trem de pouso e hidráulica,Aprovado,Vencida,45,90
+F1134,Nova Machining Inc,Estados Unidos,USD,Propulsão,Estratégico,Sim,90,30
+F1135,Zenith Industries SA,Portugal,EUR,Propulsão,Aprovado,Sim,60,60
+F1136,Titan Aerospace Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,60,45
+F1137,Helix Aerospace Inc,Estados Unidos,USD,Propulsão,Preferencial,Vencida,45,60
+F1138,Jet Machining Inc,Estados Unidos,USD,Estruturas e usinados,Preferencial,Sim,180,90
+F1139,Delta Components SA,Alemanha,EUR,Propulsão,Aprovado,Não,60,60
+F1140,Vector Dynamics SA,França,EUR,Estruturas e usinados,Preferencial,Sim,90,60
+F1141,Avio Aerospace Inc,Estados Unidos,USD,Aviônica,Aprovado,Sim,90,30
+F1142,Cirrus Components Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,60,90
+F1143,Strato Systems Inc,Canadá,USD,Propulsão,Preferencial,Sim,30,30
+F1144,Aero Dynamics Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Preferencial,Sim,60,45
+F1145,Turbo Precision Inc,Estados Unidos,USD,Elétrica e chicotes,Estratégico,Sim,45,60
+F1146,Polar Industries SA,França,EUR,Trem de pouso e hidráulica,Em desenvolvimento,Sim,60,45
+F1147,Delta Precision SA,Itália,EUR,Propulsão,Aprovado,Sim,60,90
+F1148,Orbit Industries Inc,Estados Unidos,USD,Propulsão,Preferencial,Não,120,60
+F1149,Delta Industries Inc,Reino Unido,USD,Estruturas e usinados,Em desenvolvimento,Sim,60,45
+F1150,Apex Precision SA,França,EUR,Estruturas e usinados,Preferencial,Não,60,30
+F1151,Nova Precision SA,França,EUR,Propulsão,Aprovado,Sim,45,60
+F1152,Delta Aerospace Inc,México,USD,Propulsão,Preferencial,Sim,60,30
+F1153,Falcon Industries SA,Alemanha,EUR,Propulsão,Aprovado,Não,60,45
+F1154,Prime Components Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,45,60
+F1155,Strato Dynamics SA,Portugal,EUR,Matéria-prima metálica,Preferencial,Sim,60,90
+F1156,Polar Technologies SA,Itália,EUR,Aviônica,Aprovado,Não,60,45
+F1157,Avio Dynamics Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,30,60
+F1158,Atlas Dynamics Inc,Estados Unidos,USD,Estruturas e usinados,Aprovado,Sim,60,60
+F1159,Titan Systems Inc,Estados Unidos,USD,Aviônica,Em desenvolvimento,Sim,60,60
+F1160,Titan Components Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,30,60
+F1161,Jet Components Inc,Estados Unidos,USD,Estruturas e usinados,Em desenvolvimento,Sim,30,90
+F1162,Cirrus Industries SA,França,EUR,Propulsão,Em desenvolvimento,Não,60,45
+F1163,Atlas Systems Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Sim,30,90
+F1164,Atlas Avionics Ltda,Brasil,BRL,Propulsão,Aprovado,Sim,120,90
+F1165,Helix Precision Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,90,45
+F1166,Jet Aerospace Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Vencida,60,90
+F1167,Avio Components Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,60,90
+F1168,Falcon Components Inc,Canadá,USD,Trem de pouso e hidráulica,Aprovado,Sim,60,30
+F1169,Jet Controls Ltda,Brasil,BRL,Aviônica,Aprovado,Não,45,45
+F1170,Cirrus Technologies SA,Alemanha,EUR,Propulsão,Preferencial,Vencida,45,30
+F1171,Aero Industries SA,Itália,EUR,Aviônica,Aprovado,Não,60,45
+F1172,Apex Dynamics Inc,Estados Unidos,USD,Estruturas e usinados,Em desenvolvimento,Sim,120,45
+F1173,Turbo Controls Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,120,60
+F1174,Strato Components Inc,Estados Unidos,USD,Matéria-prima metálica,Aprovado,Sim,60,60
+F1175,Aurora Aerospace Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,90,90
+F1176,Falcon Aerospace SA,França,EUR,Propulsão,Aprovado,Vencida,90,30
+F1177,Turbo Components Inc,Estados Unidos,USD,Propulsão,Preferencial,Vencida,60,60
+F1178,Avio Industries Ltda,Brasil,BRL,Estruturas e usinados,Aprovado,Sim,45,45
+F1179,Helix Avionics Ltda,Brasil,BRL,Propulsão,Preferencial,Vencida,45,30
+F1180,Aero Precision Ltda,Brasil,BRL,Propulsão,Em desenvolvimento,Sim,90,90
+F1181,Jet Dynamics Inc,Estados Unidos,USD,Aviônica,Estratégico,Sim,60,45
+F1182,Zenith Dynamics Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Preferencial,Sim,120,90
+F1183,Turbo Industries Inc,Estados Unidos,USD,Aviônica,Aprovado,Vencida,180,45
+F1184,Strato Controls Inc,Estados Unidos,USD,Propulsão,Em desenvolvimento,Vencida,120,60
+F1185,Helix Machining Inc,Reino Unido,USD,Propulsão,Preferencial,Sim,90,60
+F1186,Nova Aerospace Inc,Estados Unidos,USD,Propulsão,Aprovado,Vencida,90,60
+F1187,Falcon Machining SA,França,EUR,Propulsão,Em desenvolvimento,Sim,30,30
+F1188,Titan Dynamics SA,Alemanha,EUR,Aviônica,Preferencial,Sim,45,45
+F1189,Zenith Aerospace SA,Itália,EUR,Estruturas e usinados,Aprovado,Sim,60,90
+F1190,Turbo Technologies SA,França,EUR,Propulsão,Preferencial,Sim,60,45
+F1191,Atlas Technologies Inc,Estados Unidos,USD,Propulsão,Preferencial,Sim,45,90
+F1192,Aero Components Inc,Canadá,USD,Propulsão,Aprovado,Sim,120,90
+F1193,Avio Precision Inc,Estados Unidos,USD,Trem de pouso e hidráulica,Aprovado,Sim,90,30
+F1194,Falcon Systems SA,Portugal,EUR,Aviônica,Aprovado,Não,120,60
+F1195,Apex Systems SA,França,EUR,Aviônica,Aprovado,Vencida,60,60
+F1196,Cirrus Precision SA,França,EUR,Estruturas e usinados,Preferencial,Sim,180,60
+F1197,Delta Systems SA,França,EUR,Estruturas e usinados,Em desenvolvimento,Vencida,30,45
+F1198,Aurora Controls SA,Itália,EUR,Aviônica,Aprovado,Vencida,90,45
+F1199,Atlas Aerospace Inc,Estados Unidos,USD,Propulsão,Aprovado,Sim,60,45

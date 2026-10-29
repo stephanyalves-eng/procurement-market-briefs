@@ -1,0 +1,651 @@
+part_number,descricao,categoria,ncm,eccn,preco_base_usd_2024,fonte_unica,fornecedores_aprovados,item_critico
+PN-14A1000,Bico injetor A0,Propulsão,8411.99.00,EAR99,5202.85,Não,F1015;F1020;F1184,Não
+PN-58B1001,Painel de acesso B1,Estruturas e usinados,8807.30.00,9A610,13931.38,Sim,F1140,Sim
+PN-73C1002,Pá de turbina C2,Propulsão,8411.99.00,9A991,909.59,Não,F1137;F1170;F1134,Não
+PN-37D1003,Unidade de dados de ar D3,Aviônica,8526.91.00,7A994,10754.53,Não,F1188;F1092,Não
+PN-96E1004,Unidade de dados de ar E4,Aviônica,8526.91.00,7A994,18933.76,Sim,F1156,Não
+PN-26F1005,Pá de turbina F5,Propulsão,8411.99.00,EAR99,2175.04,Sim,F1163,Não
+PN-61G1006,Pá de turbina G6,Propulsão,8411.99.00,9A991,1496.08,Não,F1022;F1015;F1039,Não
+PN-46H1007,Suporte em titânio H7,Estruturas e usinados,8807.30.00,EAR99,2168.57,Não,F1044;F1138,Não
+PN-23I1008,Sensor de EGT I8,Propulsão,8411.99.00,9A610,34433.42,Sim,F1184,Não
+PN-88J1009,Fitting de asa J9,Estruturas e usinados,8807.30.00,EAR99,11992.34,Sim,F1101,Sim
+PN-60K1010,Longarina K10,Estruturas e usinados,8807.30.00,9A991,15758.75,Sim,F1060,Não
+PN-39L1011,Fitting de asa L11,Estruturas e usinados,8807.30.00,9A991,3643.48,Sim,F1138,Não
+PN-17M1012,Kit de reparo de combustor M12,Propulsão,8411.99.00,EAR99,6601.23,Não,F1059;F1187,Não
+PN-13N1013,Sensor de EGT N13,Propulsão,8411.99.00,9A991,40274.82,Não,F1096;F1031,Não
+PN-57O1014,Painel de acesso O14,Estruturas e usinados,8807.30.00,9A991,17294.24,Não,F1025;F1196,Sim
+PN-39P1015,Antena VHF P15,Aviônica,8526.91.00,9A991,12376.66,Não,F1066;F1097;F1111,Não
+PN-18Q1016,Placa de controle FMS Q16,Aviônica,8526.91.00,EAR99,3313.83,Sim,F1097,Não
+PN-96R1017,Nervura usinada R17,Estruturas e usinados,8807.30.00,7A994,176.82,Não,F1018;F1149,Sim
+PN-46S1018,Longarina S18,Estruturas e usinados,8807.30.00,EAR99,796.06,Não,F1101;F1071,Não
+PN-42T1019,Giroscópio MEMS T19,Aviônica,8526.91.00,EAR99,41210.18,Não,F1017;F1095;F1117,Não
+PN-98U1020,Pá de turbina U20,Propulsão,8411.99.00,9A991,2768.72,Não,F1123;F1020,Não
+PN-43V1021,Freio de carbono V21,Trem de pouso e hidráulica,8807.30.00,9A610,57620.59,Sim,F1040,Não
+PN-90W1022,Placa de controle FMS W22,Aviônica,8526.91.00,EAR99,112672.23,Não,F1072;F1082;F1033,Não
+PN-61X1023,Placa de controle FMS X23,Aviônica,8526.91.00,EAR99,17510.6,Não,F1013;F1194,Não
+PN-26Y1024,Rolamento principal Y24,Propulsão,8411.99.00,EAR99,3813.81,Sim,F1139,Sim
+PN-96Z1025,Longarina Z25,Estruturas e usinados,8807.30.00,EAR99,2552.43,Sim,F1140,Não
+PN-61A1026,Sensor de EGT A26,Propulsão,8411.99.00,9A610,1087.19,Sim,F1175,Sim
+PN-44B1027,Nervura usinada B27,Estruturas e usinados,8807.30.00,9A610,1459.22,Não,F1126;F1138,Não
+PN-58C1028,Sensor de EGT C28,Propulsão,8411.99.00,EAR99,1859.66,Não,F1083;F1199;F1084,Não
+PN-87D1029,Suporte em titânio D29,Estruturas e usinados,8807.30.00,EAR99,3220.53,Não,F1142;F1197;F1025,Não
+PN-41E1030,Antena VHF E30,Aviônica,8526.91.00,EAR99,4010.28,Sim,F1194,Não
+PN-56F1031,Fitting de asa F31,Estruturas e usinados,8807.30.00,9A991,3406.57,Não,F1018;F1025,Sim
+PN-13G1032,Giroscópio MEMS G32,Aviônica,8526.91.00,9A991,21107.03,Sim,F1171,Não
+PN-48H1033,Selo de compressor H33,Propulsão,8411.99.00,7A994,39272.81,Não,F1164;F1065;F1036,Sim
+PN-77I1034,Gerador de partida I34,Elétrica e chicotes,8544.42.00,7A994,11281.18,Sim,F1100,Não
+PN-15J1035,Placa de controle FMS J35,Aviônica,8526.91.00,9A991,2112.66,Não,F1111;F1001;F1011,Não
+PN-16K1036,Transponder K36,Aviônica,8526.91.00,9A610,2940.14,Não,F1198;F1181,Não
+PN-21L1037,Transponder L37,Aviônica,8526.91.00,EAR99,5892.01,Não,F1188;F1072;F1097,Sim
+PN-75M1038,Pá de turbina M38,Propulsão,8411.99.00,7A994,7155.92,Não,F1107;F1134;F1184,Não
+PN-52N1039,Roda do trem principal N39,Trem de pouso e hidráulica,8807.30.00,EAR99,1957.71,Não,F1021;F1144,Não
+PN-70O1040,Barra de aço 17-4PH O40,Matéria-prima metálica,7606.12.90,EAR99,153.27,Sim,F1155,Não
+PN-12P1041,Bucha de bronze P41,Estruturas e usinados,8807.30.00,9A991,645.05,Sim,F1025,Não
+PN-20Q1042,Antena VHF Q42,Aviônica,8526.91.00,9A991,97653.71,Não,F1156;F1077,Sim
+PN-58R1043,Selo de compressor R43,Propulsão,8411.99.00,EAR99,20574.39,Sim,F1085,Não
+PN-12S1044,Transponder S44,Aviônica,8526.91.00,EAR99,14766.21,Sim,F1066,Não
+PN-39T1045,Bico injetor T45,Propulsão,8411.99.00,EAR99,853.79,Sim,F1175,Não
+PN-11U1046,Placa de controle FMS U46,Aviônica,8526.91.00,EAR99,15330.93,Não,F1082;F1111,Não
+PN-38V1047,Pá de turbina V47,Propulsão,8411.99.00,9A991,32268.17,Não,F1020;F1184;F1148,Não
+PN-92W1048,Kit de reparo de combustor W48,Propulsão,8411.99.00,EAR99,32997.92,Não,F1106;F1065,Não
+PN-18X1049,Giroscópio MEMS X49,Aviônica,8526.91.00,EAR99,2853.36,Sim,F1080,Não
+PN-97Y1050,Amortecedor Y0,Trem de pouso e hidráulica,8807.30.00,EAR99,2926.99,Não,F1168;F1133,Sim
+PN-14Z1051,Chicote elétrico Z1,Elétrica e chicotes,8544.42.00,EAR99,193.31,Não,F1103;F1115,Não
+PN-54A1052,Transponder A2,Aviônica,8526.91.00,EAR99,105742.32,Sim,F1019,Não
+PN-91B1053,Roda do trem principal B3,Trem de pouso e hidráulica,8807.30.00,EAR99,4042.43,Não,F1005;F1028,Não
+PN-70C1054,Bico injetor C4,Propulsão,8411.99.00,9A991,5091.07,Sim,F1015,Não
+PN-50D1055,Antena VHF D5,Aviônica,8526.91.00,EAR99,6918.38,Não,F1013;F1165,Não
+PN-40E1056,Transponder E6,Aviônica,8526.91.00,9A991,3828.52,Não,F1017;F1165;F1111,Sim
+PN-36F1057,Sensor de EGT F7,Propulsão,8411.99.00,7A994,27260.16,Sim,F1023,Não
+PN-56G1058,Nervura usinada G8,Estruturas e usinados,8807.30.00,9A991,5775.28,Não,F1060;F1108;F1119,Não
+PN-92H1059,Rolamento principal H9,Propulsão,8411.99.00,EAR99,14476.74,Sim,F1087,Sim
+PN-41I1060,Selo de compressor I10,Propulsão,8411.99.00,EAR99,2916.84,Sim,F1143,Não
+PN-17J1061,Placa de controle FMS J11,Aviônica,8526.91.00,EAR99,6626.03,Sim,F1029,Não
+PN-81K1062,Perfil extrudado 2024 K12,Matéria-prima metálica,7606.12.90,EAR99,4406.9,Não,F1174;F1155,Não
+PN-48L1063,Nervura usinada L13,Estruturas e usinados,8807.30.00,9A610,11270.33,Não,F1074;F1054;F1050,Não
+PN-49M1064,Gerador de partida M14,Elétrica e chicotes,8544.42.00,EAR99,69.97,Não,F1034;F1073;F1070,Não
+PN-63N1065,Rolamento principal N15,Propulsão,8411.99.00,EAR99,30399.11,Não,F1062;F1123,Não
+PN-51O1066,Unidade de dados de ar O16,Aviônica,8526.91.00,EAR99,1806.73,Não,F1165;F1169,Não
+PN-47P1067,Mangueira de alta pressão P17,Trem de pouso e hidráulica,8807.30.00,9A991,2252.21,Não,F1168;F1053;F1099,Não
+PN-78Q1068,Bico injetor Q18,Propulsão,8411.99.00,9A991,8593.34,Sim,F1122,Não
+PN-79R1069,Válvula seletora R19,Trem de pouso e hidráulica,8807.30.00,9A610,2107.02,Não,F1144;F1173;F1028,Sim
+PN-36S1070,Placa de controle FMS S20,Aviônica,8526.91.00,EAR99,3159.19,Não,F1113;F1195;F1019,Não
+PN-15T1071,Bico injetor T21,Propulsão,8411.99.00,9A610,11472.49,Não,F1106;F1199,Sim
+PN-43U1072,Display multifunção U22,Aviônica,8526.91.00,7A994,4657.46,Não,F1033;F1011,Não
+PN-73V1073,Bico injetor V23,Propulsão,8411.99.00,EAR99,3682.63,Não,F1130;F1036,Sim
+PN-52W1074,Chapa de Inconel 718 W24,Matéria-prima metálica,7606.12.90,EAR99,571.35,Não,F1131;F1027;F1155,Sim
+PN-39X1075,Relé de potência X25,Elétrica e chicotes,8544.42.00,9A991,10988.46,Sim,F1115,Não
+PN-72Y1076,Rolamento principal Y26,Propulsão,8411.99.00,EAR99,55692.27,Sim,F1062,Não
+PN-81Z1077,Kit de reparo de combustor Z27,Propulsão,8411.99.00,9A991,17682.24,Sim,F1030,Não
+PN-51A1078,Selo de compressor A28,Propulsão,8411.99.00,EAR99,3629.02,Sim,F1096,Não
+PN-33B1079,Selo de compressor B29,Propulsão,8411.99.00,EAR99,4950.78,Sim,F1134,Não
+PN-35C1080,Placa de controle FMS C30,Aviônica,8526.91.00,7A994,44158.2,Sim,F1082,Não
+PN-48D1081,Painel de iluminação D31,Elétrica e chicotes,8544.42.00,7A994,4415.69,Sim,F1070,Não
+PN-72E1082,Sensor de EGT E32,Propulsão,8411.99.00,9A991,11372.52,Sim,F1107,Não
+PN-62F1083,Roda do trem principal F33,Trem de pouso e hidráulica,8807.30.00,7A994,13020.49,Não,F1021;F1046,Sim
+PN-67G1084,Antena VHF G34,Aviônica,8526.91.00,EAR99,3869.65,Não,F1188;F1010;F1120,Não
+PN-54H1085,Bucha de bronze H35,Estruturas e usinados,8807.30.00,9A610,426.72,Sim,F1138,Sim
+PN-64I1086,Selo de compressor I36,Propulsão,8411.99.00,EAR99,78877.69,Não,F1122;F1083,Sim
+PN-95J1087,Fitting de asa J37,Estruturas e usinados,8807.30.00,7A994,187.08,Sim,F1142,Não
+PN-38K1088,Transponder K38,Aviônica,8526.91.00,EAR99,12620.57,Não,F1066;F1159,Não
+PN-44L1089,Atuador hidráulico L39,Trem de pouso e hidráulica,8807.30.00,EAR99,78070.2,Sim,F1009,Não
+PN-64M1090,Kit de reparo de combustor M40,Propulsão,8411.99.00,EAR99,29534.29,Não,F1051;F1093,Sim
+PN-97N1091,Unidade de dados de ar N41,Aviônica,8526.91.00,EAR99,2132.39,Sim,F1033,Não
+PN-37O1092,Transponder O42,Aviônica,8526.91.00,EAR99,19086.12,Sim,F1082,Não
+PN-60P1093,Painel de acesso P43,Estruturas e usinados,8807.30.00,EAR99,12740.35,Sim,F1068,Sim
+PN-10Q1094,Nervura usinada Q44,Estruturas e usinados,8807.30.00,7A994,654.81,Não,F1108;F1126,Não
+PN-85R1095,Sensor de EGT R45,Propulsão,8411.99.00,9A991,894.99,Sim,F1051,Não
+PN-89S1096,Roda do trem principal S46,Trem de pouso e hidráulica,8807.30.00,EAR99,6561.91,Não,F1005;F1193,Não
+PN-91T1097,Sensor de EGT T47,Propulsão,8411.99.00,EAR99,7635.2,Não,F1164;F1162;F1177,Não
+PN-39U1098,Transponder U48,Aviônica,8526.91.00,EAR99,14738.21,Não,F1159;F1181,Não
+PN-61V1099,Pá de turbina V49,Propulsão,8411.99.00,9A991,49193.64,Não,F1163;F1015,Não
+PN-14W1100,Selo de compressor W0,Propulsão,8411.99.00,7A994,1629.28,Sim,F1176,Sim
+PN-40X1101,Fitting de asa X1,Estruturas e usinados,8807.30.00,EAR99,216.65,Não,F1068;F1074,Sim
+PN-26Y1102,Placa de controle FMS Y2,Aviônica,8526.91.00,9A991,115483.25,Sim,F1171,Não
+PN-44Z1103,Mangueira de alta pressão Z3,Trem de pouso e hidráulica,8807.30.00,EAR99,23899.34,Não,F1040;F1168;F1173,Não
+PN-70A1104,Kit de reparo de combustor A4,Propulsão,8411.99.00,EAR99,3797.78,Não,F1107;F1022;F1143,Não
+PN-56B1105,Display multifunção B5,Aviônica,8526.91.00,7A994,2400.31,Sim,F1171,Sim
+PN-23C1106,Kit de reparo de combustor C6,Propulsão,8411.99.00,9A991,29708.49,Sim,F1048,Sim
+PN-83D1107,Bucha de bronze D7,Estruturas e usinados,8807.30.00,9A991,3797.3,Não,F1050;F1090,Não
+PN-26E1108,Painel de acesso E8,Estruturas e usinados,8807.30.00,EAR99,20060.3,Não,F1172;F1071,Não
+PN-58F1109,Tarugo de aço 4340 F9,Matéria-prima metálica,7606.12.90,9A991,159.89,Sim,F1063,Sim
+PN-40G1110,Placa de controle FMS G10,Aviônica,8526.91.00,9A991,19299.74,Não,F1156;F1003,Não
+PN-63H1111,Mangueira de alta pressão H11,Trem de pouso e hidráulica,8807.30.00,EAR99,12756.44,Não,F1182;F1053,Não
+PN-45I1112,Freio de carbono I12,Trem de pouso e hidráulica,8807.30.00,EAR99,16637.74,Sim,F1038,Não
+PN-40J1113,Mangueira de alta pressão J13,Trem de pouso e hidráulica,8807.30.00,7A994,10944.84,Não,F1144;F1182,Não
+PN-79K1114,Display multifunção K14,Aviônica,8526.91.00,EAR99,7531.31,Sim,F1113,Não
+PN-19L1115,Conector circular L15,Elétrica e chicotes,8544.42.00,9A610,798.62,Sim,F1061,Não
+PN-92M1116,Painel de acesso M16,Estruturas e usinados,8807.30.00,7A994,9111.3,Sim,F1178,Não
+PN-56N1117,Kit de reparo de combustor N17,Propulsão,8411.99.00,EAR99,62650.51,Não,F1045;F1170;F1036,Não
+PN-78O1118,Giroscópio MEMS O18,Aviônica,8526.91.00,9A610,1740.06,Não,F1077;F1075,Não
+PN-57P1119,Sensor de EGT P19,Propulsão,8411.99.00,9A991,67903.81,Não,F1122;F1089;F1023,Não
+PN-38Q1120,Kit de reparo de combustor Q20,Propulsão,8411.99.00,EAR99,1263.41,Sim,F1143,Sim
+PN-81R1121,Antena VHF R21,Aviônica,8526.91.00,9A991,3850.4,Sim,F1029,Não
+PN-83S1122,Selo de compressor S22,Propulsão,8411.99.00,9A991,59797.32,Não,F1062;F1121;F1089,Não
+PN-90T1123,Painel de acesso T23,Estruturas e usinados,8807.30.00,9A610,163.2,Não,F1018;F1161;F1189,Não
+PN-48U1124,Rolamento principal U24,Propulsão,8411.99.00,EAR99,8884.51,Não,F1180;F1157,Não
+PN-38V1125,Giroscópio MEMS V25,Aviônica,8526.91.00,9A991,105186.24,Sim,F1095,Não
+PN-58W1126,Fitting de asa W26,Estruturas e usinados,8807.30.00,EAR99,19357.6,Sim,F1090,Não
+PN-70X1127,Display multifunção X27,Aviônica,8526.91.00,9A991,1718.21,Não,F1198;F1092,Não
+PN-50Y1128,Placa de controle FMS Y28,Aviônica,8526.91.00,7A994,1797.21,Sim,F1072,Sim
+PN-58Z1129,Display multifunção Z29,Aviônica,8526.91.00,9A991,40302.18,Não,F1007;F1077;F1113,Não
+PN-35A1130,Kit de reparo de combustor A30,Propulsão,8411.99.00,EAR99,63508.37,Sim,F1107,Sim
+PN-24B1131,Selo de compressor B31,Propulsão,8411.99.00,EAR99,6552.08,Sim,F1096,Não
+PN-82C1132,Amortecedor C32,Trem de pouso e hidráulica,8807.30.00,7A994,14615.6,Sim,F1038,Sim
+PN-46D1133,Giroscópio MEMS D33,Aviônica,8526.91.00,9A991,93274.38,Não,F1033;F1169;F1017,Não
+PN-81E1134,Selo de compressor E34,Propulsão,8411.99.00,9A991,1580.44,Não,F1152;F1153,Não
+PN-34F1135,Atuador hidráulico F35,Trem de pouso e hidráulica,8807.30.00,EAR99,33039.03,Não,F1009;F1038,Não
+PN-90G1136,Roda do trem principal G36,Trem de pouso e hidráulica,8807.30.00,EAR99,49563.74,Não,F1182;F1154;F1124,Não
+PN-15H1137,Unidade de dados de ar H37,Aviônica,8526.91.00,EAR99,9552.95,Não,F1004;F1112,Sim
+PN-56I1138,Unidade de dados de ar I38,Aviônica,8526.91.00,9A991,73380.66,Não,F1041;F1017,Sim
+PN-83J1139,Mangueira de alta pressão J39,Trem de pouso e hidráulica,8807.30.00,9A991,1583.81,Não,F1021;F1154,Não
+PN-81K1140,Pá de turbina K40,Propulsão,8411.99.00,9A610,51454.26,Não,F1031;F1085,Não
+PN-15L1141,Antena VHF L41,Aviônica,8526.91.00,7A994,53094.07,Não,F1198;F1077,Não
+PN-71M1142,Antena VHF M42,Aviônica,8526.91.00,EAR99,2386.21,Sim,F1082,Sim
+PN-16N1143,Transponder N43,Aviônica,8526.91.00,9A991,51242.87,Não,F1181;F1076;F1120,Não
+PN-61O1144,Unidade de dados de ar O44,Aviônica,8526.91.00,9A991,8604.95,Não,F1165;F1095,Não
+PN-61P1145,Bucha de bronze P45,Estruturas e usinados,8807.30.00,EAR99,860.17,Não,F1138;F1119;F1044,Não
+PN-69Q1146,Selo de compressor Q46,Propulsão,8411.99.00,9A991,26257.0,Sim,F1062,Não
+PN-25R1147,Display multifunção R47,Aviônica,8526.91.00,9A610,69614.61,Não,F1077;F1141;F1171,Sim
+PN-57S1148,Display multifunção S48,Aviônica,8526.91.00,9A610,68104.41,Não,F1112;F1113,Não
+PN-41T1149,Unidade de dados de ar T49,Aviônica,8526.91.00,9A991,74915.08,Sim,F1171,Não
+PN-86U1150,Kit de reparo de combustor U0,Propulsão,8411.99.00,9A991,2601.37,Sim,F1093,Não
+PN-92V1151,Sensor de EGT V1,Propulsão,8411.99.00,EAR99,11079.7,Não,F1166;F1084,Não
+PN-22W1152,Pá de turbina W2,Propulsão,8411.99.00,7A994,26461.53,Não,F1087;F1048,Sim
+PN-59X1153,Selo de compressor X3,Propulsão,8411.99.00,9A991,11004.4,Sim,F1164,Sim
+PN-18Y1154,Unidade de dados de ar Y4,Aviônica,8526.91.00,EAR99,33189.23,Não,F1001;F1011,Não
+PN-78Z1155,Unidade de dados de ar Z5,Aviônica,8526.91.00,9A991,46318.72,Sim,F1003,Sim
+PN-17A1156,Rolamento principal A6,Propulsão,8411.99.00,9A610,24442.72,Não,F1185;F1136;F1135,Não
+PN-48B1157,Painel de acesso B7,Estruturas e usinados,8807.30.00,7A994,4720.17,Não,F1018;F1032,Sim
+PN-49C1158,Pá de turbina C8,Propulsão,8411.99.00,9A610,1126.44,Não,F1093;F1023;F1105,Não
+PN-23D1159,Pá de turbina D9,Propulsão,8411.99.00,9A610,34915.02,Não,F1105;F1087;F1081,Não
+PN-22E1160,Suporte em titânio E10,Estruturas e usinados,8807.30.00,EAR99,2080.79,Sim,F1074,Não
+PN-31F1161,Transponder F11,Aviônica,8526.91.00,9A991,3875.83,Não,F1076;F1098,Não
+PN-75G1162,Unidade de dados de ar G12,Aviônica,8526.91.00,9A610,58453.93,Sim,F1067,Não
+PN-77H1163,Fitting de asa H13,Estruturas e usinados,8807.30.00,7A994,914.21,Não,F1014;F1161,Não
+PN-31I1164,Rolamento principal I14,Propulsão,8411.99.00,9A991,13343.98,Sim,F1083,Sim
+PN-28J1165,Sensor de EGT J15,Propulsão,8411.99.00,EAR99,989.28,Não,F1163;F1043;F1116,Sim
+PN-19K1166,Giroscópio MEMS K16,Aviônica,8526.91.00,EAR99,5173.44,Não,F1169;F1188,Não
+PN-75L1167,Pá de turbina L17,Propulsão,8411.99.00,EAR99,73064.38,Não,F1152;F1106;F1139,Não
+PN-58M1168,Suporte em titânio M18,Estruturas e usinados,8807.30.00,9A610,466.92,Não,F1071;F1138,Não
+PN-43N1169,Painel de acesso N19,Estruturas e usinados,8807.30.00,9A610,4167.83,Sim,F1000,Não
+PN-42O1170,Placa de controle FMS O20,Aviônica,8526.91.00,EAR99,4395.68,Sim,F1120,Sim
+PN-48P1171,Longarina P21,Estruturas e usinados,8807.30.00,EAR99,1029.32,Não,F1032;F1126,Não
+PN-27Q1172,Gerador de partida Q22,Elétrica e chicotes,8544.42.00,9A991,2009.81,Não,F1100;F1145,Não
+PN-46R1173,Giroscópio MEMS R23,Aviônica,8526.91.00,EAR99,6035.95,Sim,F1013,Não
+PN-89S1174,Relé de potência S24,Elétrica e chicotes,8544.42.00,EAR99,49.58,Não,F1129;F1070,Sim
+PN-45T1175,Selo de compressor T25,Propulsão,8411.99.00,EAR99,2227.24,Sim,F1105,Sim
+PN-51U1176,Rolamento principal U26,Propulsão,8411.99.00,EAR99,10728.87,Sim,F1062,Sim
+PN-88V1177,Painel de iluminação V27,Elétrica e chicotes,8544.42.00,9A991,76.01,Sim,F1129,Não
+PN-87W1178,Perfil extrudado 2024 W28,Matéria-prima metálica,7606.12.90,EAR99,117.2,Não,F1131;F1078;F1155,Não
+PN-43X1179,Gerador de partida X29,Elétrica e chicotes,8544.42.00,7A994,96.87,Não,F1145;F1034;F1102,Sim
+PN-87Y1180,Chicote elétrico Y30,Elétrica e chicotes,8544.42.00,9A991,1157.78,Não,F1129;F1115,Não
+PN-86Z1181,Giroscópio MEMS Z31,Aviônica,8526.91.00,9A991,2958.3,Sim,F1117,Não
+PN-63A1182,Pá de turbina A32,Propulsão,8411.99.00,9A991,1711.67,Não,F1008;F1132,Não
+PN-62B1183,Placa de controle FMS B33,Aviônica,8526.91.00,9A991,7431.4,Não,F1007;F1088,Não
+PN-73C1184,Nervura usinada C34,Estruturas e usinados,8807.30.00,EAR99,1676.26,Sim,F1012,Sim
+PN-25D1185,Perfil extrudado 2024 D35,Matéria-prima metálica,7606.12.90,EAR99,209.05,Não,F1155;F1078;F1063,Não
+PN-92E1186,Atuador hidráulico E36,Trem de pouso e hidráulica,8807.30.00,9A610,65041.58,Não,F1193;F1086;F1021,Sim
+PN-23F1187,Disjuntor F37,Elétrica e chicotes,8544.42.00,EAR99,861.18,Sim,F1061,Não
+PN-62G1188,Atuador hidráulico G38,Trem de pouso e hidráulica,8807.30.00,9A991,69008.64,Sim,F1038,Não
+PN-51H1189,Selo de compressor H39,Propulsão,8411.99.00,EAR99,12026.36,Sim,F1175,Não
+PN-70I1190,Transponder I40,Aviônica,8526.91.00,9A991,54416.02,Não,F1075;F1011,Não
+PN-63J1191,Longarina J41,Estruturas e usinados,8807.30.00,EAR99,622.66,Sim,F1071,Sim
+PN-63K1192,Transponder K42,Aviônica,8526.91.00,9A610,3028.51,Não,F1077;F1118,Não
+PN-68L1193,Display multifunção L43,Aviônica,8526.91.00,7A994,17682.81,Não,F1171;F1067,Sim
+PN-34M1194,Mangueira de alta pressão M44,Trem de pouso e hidráulica,8807.30.00,EAR99,10979.15,Sim,F1168,Não
+PN-76N1195,Unidade de dados de ar N45,Aviônica,8526.91.00,7A994,2437.02,Sim,F1112,Não
+PN-78O1196,Bucha de bronze O46,Estruturas e usinados,8807.30.00,EAR99,623.9,Não,F1149;F1000,Não
+PN-52P1197,Pá de turbina P47,Propulsão,8411.99.00,EAR99,5125.14,Não,F1177;F1166,Sim
+PN-67Q1198,Bico injetor Q48,Propulsão,8411.99.00,9A610,46390.11,Não,F1153;F1059,Sim
+PN-73R1199,Rolamento principal R49,Propulsão,8411.99.00,EAR99,2371.74,Não,F1177;F1081;F1036,Sim
+PN-49S1200,Suporte em titânio S0,Estruturas e usinados,8807.30.00,9A991,1046.57,Não,F1090;F1000;F1158,Não
+PN-32T1201,Unidade de dados de ar T1,Aviônica,8526.91.00,EAR99,25053.93,Não,F1007;F1165;F1112,Não
+PN-51U1202,Freio de carbono U2,Trem de pouso e hidráulica,8807.30.00,EAR99,12138.13,Não,F1086;F1154,Sim
+PN-31V1203,Pá de turbina V3,Propulsão,8411.99.00,EAR99,13465.63,Não,F1164;F1020,Não
+PN-15W1204,Antena VHF W4,Aviônica,8526.91.00,EAR99,3329.24,Não,F1181;F1001,Não
+PN-90X1205,Freio de carbono X5,Trem de pouso e hidráulica,8807.30.00,9A991,20685.72,Não,F1005;F1146;F1021,Não
+PN-32Y1206,Rolamento principal Y6,Propulsão,8411.99.00,9A610,2282.17,Sim,F1110,Não
+PN-58Z1207,Sensor de EGT Z7,Propulsão,8411.99.00,7A994,2109.16,Não,F1036;F1045,Não
+PN-90A1208,Atuador hidráulico A8,Trem de pouso e hidráulica,8807.30.00,EAR99,67270.9,Não,F1021;F1047,Não
+PN-27B1209,Pá de turbina B9,Propulsão,8411.99.00,9A610,1785.11,Não,F1176;F1153;F1048,Não
+PN-49C1210,Longarina C10,Estruturas e usinados,8807.30.00,7A994,817.67,Não,F1071;F1126,Não
+PN-50D1211,Bico injetor D11,Propulsão,8411.99.00,EAR99,23003.47,Não,F1135;F1105,Não
+PN-91E1212,Selo de compressor E12,Propulsão,8411.99.00,EAR99,2902.14,Sim,F1030,Não
+PN-21F1213,Rolamento principal F13,Propulsão,8411.99.00,7A994,1990.57,Não,F1137;F1030,Não
+PN-34G1214,Gerador de partida G14,Elétrica e chicotes,8544.42.00,9A610,71.64,Sim,F1114,Não
+PN-36H1215,Rolamento principal H15,Propulsão,8411.99.00,7A994,31379.42,Sim,F1130,Sim
+PN-16I1216,Mangueira de alta pressão I16,Trem de pouso e hidráulica,8807.30.00,7A994,13710.01,Não,F1009;F1133,Sim
+PN-21J1217,Bico injetor J17,Propulsão,8411.99.00,EAR99,13513.36,Sim,F1147,Sim
+PN-97K1218,Pá de turbina K18,Propulsão,8411.99.00,EAR99,60534.02,Sim,F1030,Não
+PN-15L1219,Longarina L19,Estruturas e usinados,8807.30.00,EAR99,5135.76,Sim,F1196,Não
+PN-97M1220,Tarugo de aço 4340 M20,Matéria-prima metálica,7606.12.90,EAR99,1455.8,Não,F1078;F1131,Não
+PN-93N1221,Transponder N21,Aviônica,8526.91.00,9A991,1528.96,Não,F1183;F1067,Sim
+PN-86O1222,Pá de turbina O22,Propulsão,8411.99.00,EAR99,1170.31,Não,F1139;F1062,Sim
+PN-29P1223,Rolamento principal P23,Propulsão,8411.99.00,EAR99,10920.99,Não,F1177;F1125,Não
+PN-77Q1224,Selo de compressor Q24,Propulsão,8411.99.00,7A994,1658.02,Não,F1093;F1179;F1157,Não
+PN-30R1225,Chicote elétrico R25,Elétrica e chicotes,8544.42.00,EAR99,472.79,Sim,F1102,Sim
+PN-62S1226,Transponder S26,Aviônica,8526.91.00,9A991,32409.53,Não,F1195;F1198,Não
+PN-84T1227,Selo de compressor T27,Propulsão,8411.99.00,9A610,3010.37,Sim,F1015,Não
+PN-70U1228,Suporte em titânio U28,Estruturas e usinados,8807.30.00,9A991,305.45,Não,F1058;F1150;F1138,Não
+PN-42V1229,Display multifunção V29,Aviônica,8526.91.00,EAR99,2451.72,Não,F1076;F1077,Sim
+PN-38W1230,Disjuntor W30,Elétrica e chicotes,8544.42.00,9A991,216.43,Sim,F1026,Não
+PN-40X1231,Selo de compressor X31,Propulsão,8411.99.00,7A994,1376.05,Não,F1199;F1020,Não
+PN-94Y1232,Tarugo de aço 4340 Y32,Matéria-prima metálica,7606.12.90,EAR99,871.01,Sim,F1027,Não
+PN-13Z1233,Pá de turbina Z33,Propulsão,8411.99.00,9A991,3438.59,Não,F1107;F1163,Sim
+PN-54A1234,Unidade de dados de ar A34,Aviônica,8526.91.00,9A610,6616.98,Sim,F1113,Não
+PN-67B1235,Sensor de EGT B35,Propulsão,8411.99.00,9A991,74394.79,Não,F1163;F1164,Não
+PN-94C1236,Display multifunção C36,Aviônica,8526.91.00,9A991,15528.18,Sim,F1159,Sim
+PN-66D1237,Pá de turbina D37,Propulsão,8411.99.00,EAR99,1248.45,Sim,F1008,Sim
+PN-74E1238,Placa de controle FMS E38,Aviônica,8526.91.00,9A991,7037.14,Não,F1097;F1195,Não
+PN-52F1239,Chapa de alumínio 7075 F39,Matéria-prima metálica,7606.12.90,7A994,2095.02,Não,F1078;F1027,Não
+PN-39G1240,Pá de turbina G40,Propulsão,8411.99.00,EAR99,89749.1,Não,F1043;F1091,Sim
+PN-93H1241,Placa de controle FMS H41,Aviônica,8526.91.00,9A991,2052.51,Não,F1077;F1007;F1159,Não
+PN-18I1242,Pá de turbina I42,Propulsão,8411.99.00,EAR99,26045.57,Sim,F1091,Sim
+PN-63J1243,Unidade de dados de ar J43,Aviônica,8526.91.00,EAR99,33332.79,Não,F1066;F1097;F1141,Não
+PN-34K1244,Transponder K44,Aviônica,8526.91.00,EAR99,3986.11,Não,F1120;F1017;F1007,Não
+PN-36L1245,Giroscópio MEMS L45,Aviônica,8526.91.00,EAR99,14947.92,Não,F1033;F1159;F1082,Não
+PN-50M1246,Sensor de EGT M46,Propulsão,8411.99.00,9A610,1304.38,Não,F1048;F1106,Não
+PN-20N1247,Bucha de bronze N47,Estruturas e usinados,8807.30.00,EAR99,1118.49,Sim,F1158,Não
+PN-70O1248,Unidade de dados de ar O48,Aviônica,8526.91.00,EAR99,17496.96,Não,F1198;F1188,Não
+PN-71P1249,Unidade de dados de ar P49,Aviônica,8526.91.00,9A991,20471.79,Sim,F1075,Não
+PN-13Q1250,Kit de reparo de combustor Q0,Propulsão,8411.99.00,EAR99,6422.94,Não,F1147;F1065;F1167,Não
+PN-56R1251,Antena VHF R1,Aviônica,8526.91.00,7A994,1568.08,Não,F1111;F1013;F1194,Não
+PN-28S1252,Freio de carbono S2,Trem de pouso e hidráulica,8807.30.00,9A991,54723.34,Não,F1124;F1038,Não
+PN-45T1253,Transponder T3,Aviônica,8526.91.00,7A994,4865.16,Sim,F1067,Sim
+PN-19U1254,Nervura usinada U4,Estruturas e usinados,8807.30.00,9A991,17202.45,Sim,F1126,Sim
+PN-14V1255,Roda do trem principal V5,Trem de pouso e hidráulica,8807.30.00,9A610,7769.53,Não,F1028;F1146;F1182,Não
+PN-68W1256,Kit de reparo de combustor W6,Propulsão,8411.99.00,9A991,8728.16,Sim,F1184,Sim
+PN-15X1257,Sensor de EGT X7,Propulsão,8411.99.00,EAR99,2393.99,Não,F1087;F1143,Não
+PN-45Y1258,Válvula seletora Y8,Trem de pouso e hidráulica,8807.30.00,9A991,3202.23,Não,F1124;F1053,Sim
+PN-74Z1259,Freio de carbono Z9,Trem de pouso e hidráulica,8807.30.00,9A991,55234.49,Não,F1144;F1005;F1124,Não
+PN-39A1260,Bico injetor A10,Propulsão,8411.99.00,EAR99,1145.17,Não,F1096;F1170,Não
+PN-88B1261,Bico injetor B11,Propulsão,8411.99.00,7A994,1942.75,Sim,F1175,Não
+PN-83C1262,Nervura usinada C12,Estruturas e usinados,8807.30.00,9A991,7194.89,Sim,F1189,Sim
+PN-36D1263,Kit de reparo de combustor D13,Propulsão,8411.99.00,7A994,86199.94,Não,F1177;F1037,Sim
+PN-10E1264,Válvula seletora E14,Trem de pouso e hidráulica,8807.30.00,9A610,5455.17,Não,F1182;F1040,Não
+PN-80F1265,Bucha de bronze F15,Estruturas e usinados,8807.30.00,EAR99,700.55,Sim,F1149,Não
+PN-48G1266,Transponder G16,Aviônica,8526.91.00,7A994,9024.25,Não,F1194;F1003,Não
+PN-17H1267,Giroscópio MEMS H17,Aviônica,8526.91.00,9A991,10412.13,Não,F1097;F1041,Não
+PN-28I1268,Painel de acesso I18,Estruturas e usinados,8807.30.00,9A991,4774.59,Não,F1044;F1126,Sim
+PN-60J1269,Mangueira de alta pressão J19,Trem de pouso e hidráulica,8807.30.00,9A991,11869.05,Sim,F1009,Não
+PN-60K1270,Antena VHF K20,Aviônica,8526.91.00,9A991,63345.46,Não,F1010;F1097,Não
+PN-64L1271,Transponder L21,Aviônica,8526.91.00,EAR99,13215.61,Não,F1075;F1095;F1104,Não
+PN-91M1272,Bucha de bronze M22,Estruturas e usinados,8807.30.00,9A991,23504.02,Não,F1054;F1158;F1071,Sim
+PN-87N1273,Giroscópio MEMS N23,Aviônica,8526.91.00,EAR99,42921.18,Não,F1013;F1159,Não
+PN-43O1274,Giroscópio MEMS O24,Aviônica,8526.91.00,9A991,2414.02,Sim,F1033,Sim
+PN-72P1275,Selo de compressor P25,Propulsão,8411.99.00,EAR99,7486.18,Sim,F1084,Não
+PN-75Q1276,Rolamento principal Q26,Propulsão,8411.99.00,7A994,3355.71,Não,F1170;F1157;F1089,Sim
+PN-98R1277,Pá de turbina R27,Propulsão,8411.99.00,7A994,7397.49,Não,F1002;F1055,Não
+PN-34S1278,Unidade de dados de ar S28,Aviônica,8526.91.00,9A610,6773.68,Não,F1104;F1007,Não
+PN-73T1279,Disjuntor T29,Elétrica e chicotes,8544.42.00,7A994,1602.83,Não,F1070;F1145,Sim
+PN-11U1280,Tarugo de aço 4340 U30,Matéria-prima metálica,7606.12.90,9A610,2666.84,Não,F1094;F1131;F1174,Não
+PN-49V1281,Longarina V31,Estruturas e usinados,8807.30.00,EAR99,307.72,Sim,F1071,Não
+PN-14W1282,Sensor de EGT W32,Propulsão,8411.99.00,9A610,27025.6,Sim,F1127,Não
+PN-44X1283,Nervura usinada X33,Estruturas e usinados,8807.30.00,9A610,16195.35,Não,F1014;F1189;F1068,Não
+PN-51Y1284,Atuador hidráulico Y34,Trem de pouso e hidráulica,8807.30.00,EAR99,2987.32,Não,F1168;F1144;F1046,Não
+PN-70Z1285,Amortecedor Z35,Trem de pouso e hidráulica,8807.30.00,EAR99,45097.05,Não,F1053;F1144;F1154,Não
+PN-22A1286,Selo de compressor A36,Propulsão,8411.99.00,EAR99,66381.56,Sim,F1069,Sim
+PN-89B1287,Bucha de bronze B37,Estruturas e usinados,8807.30.00,9A991,801.26,Não,F1149;F1172,Não
+PN-55C1288,Rolamento principal C38,Propulsão,8411.99.00,EAR99,3636.28,Não,F1122;F1179;F1064,Não
+PN-88D1289,Amortecedor D39,Trem de pouso e hidráulica,8807.30.00,9A991,15796.21,Não,F1016;F1040,Sim
+PN-78E1290,Bico injetor E40,Propulsão,8411.99.00,9A991,76338.51,Não,F1093;F1135,Sim
+PN-57F1291,Freio de carbono F41,Trem de pouso e hidráulica,8807.30.00,EAR99,1731.85,Não,F1124;F1133;F1168,Não
+PN-34G1292,Bico injetor G42,Propulsão,8411.99.00,EAR99,1021.76,Não,F1125;F1036,Sim
+PN-37H1293,Freio de carbono H43,Trem de pouso e hidráulica,8807.30.00,EAR99,2570.15,Sim,F1047,Sim
+PN-29I1294,Selo de compressor I44,Propulsão,8411.99.00,7A994,5734.94,Não,F1064;F1135;F1176,Não
+PN-28J1295,Suporte em titânio J45,Estruturas e usinados,8807.30.00,EAR99,513.32,Não,F1068;F1161,Não
+PN-92K1296,Transponder K46,Aviônica,8526.91.00,7A994,21804.46,Sim,F1111,Não
+PN-75L1297,Display multifunção L47,Aviônica,8526.91.00,EAR99,5075.27,Sim,F1120,Não
+PN-42M1298,Kit de reparo de combustor M48,Propulsão,8411.99.00,9A991,1250.37,Sim,F1163,Não
+PN-58N1299,Selo de compressor N49,Propulsão,8411.99.00,EAR99,13625.17,Sim,F1109,Não
+PN-76O1300,Kit de reparo de combustor O0,Propulsão,8411.99.00,EAR99,899.32,Não,F1030;F1170,Não
+PN-39P1301,Longarina P1,Estruturas e usinados,8807.30.00,EAR99,204.76,Sim,F1150,Não
+PN-61Q1302,Mangueira de alta pressão Q2,Trem de pouso e hidráulica,8807.30.00,7A994,24527.08,Não,F1182;F1047;F1053,Não
+PN-52R1303,Nervura usinada R3,Estruturas e usinados,8807.30.00,9A991,9069.3,Não,F1161;F1054;F1050,Não
+PN-86S1304,Giroscópio MEMS S4,Aviônica,8526.91.00,EAR99,54463.44,Não,F1198;F1041,Não
+PN-61T1305,Painel de acesso T5,Estruturas e usinados,8807.30.00,EAR99,18045.15,Não,F1049;F1074;F1161,Não
+PN-80U1306,Bico injetor U6,Propulsão,8411.99.00,EAR99,24526.44,Não,F1151;F1079,Sim
+PN-73V1307,Amortecedor V7,Trem de pouso e hidráulica,8807.30.00,7A994,7302.6,Sim,F1028,Não
+PN-77W1308,Bico injetor W8,Propulsão,8411.99.00,9A610,1194.39,Não,F1164;F1042,Não
+PN-92X1309,Unidade de dados de ar X9,Aviônica,8526.91.00,7A994,4721.11,Sim,F1111,Não
+PN-80Y1310,Kit de reparo de combustor Y10,Propulsão,8411.99.00,EAR99,2589.36,Sim,F1110,Não
+PN-45Z1311,Fitting de asa Z11,Estruturas e usinados,8807.30.00,9A610,18379.97,Não,F1032;F1000;F1196,Não
+PN-77A1312,Display multifunção A12,Aviônica,8526.91.00,EAR99,32865.39,Sim,F1067,Não
+PN-71B1313,Painel de iluminação B13,Elétrica e chicotes,8544.42.00,7A994,152.85,Não,F1102;F1070,Sim
+PN-38C1314,Display multifunção C14,Aviônica,8526.91.00,EAR99,31968.58,Sim,F1183,Não
+PN-46D1315,Nervura usinada D15,Estruturas e usinados,8807.30.00,EAR99,4148.35,Não,F1025;F1057,Sim
+PN-14E1316,Pá de turbina E16,Propulsão,8411.99.00,9A991,1856.18,Sim,F1167,Não
+PN-22F1317,Painel de iluminação F17,Elétrica e chicotes,8544.42.00,EAR99,4534.93,Não,F1034;F1103,Não
+PN-22G1318,Transponder G18,Aviônica,8526.91.00,9A610,9778.21,Sim,F1120,Não
+PN-42H1319,Painel de acesso H19,Estruturas e usinados,8807.30.00,EAR99,2356.2,Sim,F1172,Não
+PN-65I1320,Gerador de partida I20,Elétrica e chicotes,8544.42.00,9A991,1618.78,Não,F1073;F1103,Não
+PN-77J1321,Transponder J21,Aviônica,8526.91.00,EAR99,30257.63,Sim,F1117,Não
+PN-95K1322,Bucha de bronze K22,Estruturas e usinados,8807.30.00,9A991,4227.97,Não,F1149;F1074,Não
+PN-55L1323,Selo de compressor L23,Propulsão,8411.99.00,EAR99,3049.25,Não,F1143;F1176,Não
+PN-48M1324,Fitting de asa M24,Estruturas e usinados,8807.30.00,EAR99,462.01,Não,F1000;F1068;F1140,Não
+PN-29N1325,Kit de reparo de combustor N25,Propulsão,8411.99.00,EAR99,19475.31,Sim,F1166,Não
+PN-42O1326,Kit de reparo de combustor O26,Propulsão,8411.99.00,EAR99,14963.58,Não,F1163;F1134,Sim
+PN-23P1327,Barra de aço 17-4PH P27,Matéria-prima metálica,7606.12.90,EAR99,474.46,Sim,F1131,Não
+PN-51Q1328,Longarina Q28,Estruturas e usinados,8807.30.00,EAR99,16150.74,Não,F1044;F1126,Não
+PN-55R1329,Atuador hidráulico R29,Trem de pouso e hidráulica,8807.30.00,9A991,56502.89,Sim,F1040,Não
+PN-37S1330,Display multifunção S30,Aviônica,8526.91.00,EAR99,86243.18,Não,F1097;F1188,Sim
+PN-30T1331,Rolamento principal T31,Propulsão,8411.99.00,EAR99,36738.47,Não,F1132;F1136,Não
+PN-82U1332,Atuador hidráulico U32,Trem de pouso e hidráulica,8807.30.00,9A991,44742.25,Não,F1193;F1086,Não
+PN-45V1333,Placa de controle FMS V33,Aviônica,8526.91.00,9A991,8502.54,Sim,F1113,Não
+PN-40W1334,Unidade de dados de ar W34,Aviônica,8526.91.00,EAR99,3896.33,Não,F1007;F1066;F1120,Não
+PN-18X1335,Giroscópio MEMS X35,Aviônica,8526.91.00,9A991,56634.71,Sim,F1013,Não
+PN-33Y1336,Antena VHF Y36,Aviônica,8526.91.00,9A991,1756.51,Não,F1183;F1013,Não
+PN-82Z1337,Selo de compressor Z37,Propulsão,8411.99.00,9A991,1129.56,Sim,F1167,Sim
+PN-87A1338,Roda do trem principal A38,Trem de pouso e hidráulica,8807.30.00,EAR99,1674.48,Sim,F1047,Não
+PN-14B1339,Disjuntor B39,Elétrica e chicotes,8544.42.00,7A994,2768.72,Sim,F1129,Não
+PN-21C1340,Pá de turbina C40,Propulsão,8411.99.00,EAR99,5191.34,Sim,F1128,Não
+PN-26D1341,Bico injetor D41,Propulsão,8411.99.00,EAR99,8404.22,Sim,F1132,Não
+PN-16E1342,Rolamento principal E42,Propulsão,8411.99.00,EAR99,9409.36,Sim,F1110,Sim
+PN-63F1343,Antena VHF F43,Aviônica,8526.91.00,9A991,26094.85,Sim,F1098,Sim
+PN-51G1344,Display multifunção G44,Aviônica,8526.91.00,7A994,2054.94,Sim,F1118,Não
+PN-10H1345,Unidade de dados de ar H45,Aviônica,8526.91.00,EAR99,2136.16,Sim,F1033,Sim
+PN-73I1346,Unidade de dados de ar I46,Aviônica,8526.91.00,7A994,6645.07,Sim,F1010,Sim
+PN-80J1347,Display multifunção J47,Aviônica,8526.91.00,EAR99,3361.44,Não,F1183;F1004,Não
+PN-13K1348,Bico injetor K48,Propulsão,8411.99.00,9A991,1805.68,Não,F1031;F1130;F1176,Não
+PN-89L1349,Unidade de dados de ar L49,Aviônica,8526.91.00,EAR99,2203.25,Não,F1076;F1112,Não
+PN-68M1350,Gerador de partida M0,Elétrica e chicotes,8544.42.00,9A991,4489.42,Não,F1070;F1061;F1102,Não
+PN-28N1351,Placa de controle FMS N1,Aviônica,8526.91.00,EAR99,7108.9,Não,F1007;F1095,Não
+PN-83O1352,Kit de reparo de combustor O2,Propulsão,8411.99.00,9A610,43659.14,Sim,F1056,Sim
+PN-68P1353,Conector circular P3,Elétrica e chicotes,8544.42.00,EAR99,690.3,Sim,F1061,Não
+PN-58Q1354,Suporte em titânio Q4,Estruturas e usinados,8807.30.00,9A610,19318.15,Não,F1057;F1161,Não
+PN-47R1355,Sensor de EGT R5,Propulsão,8411.99.00,7A994,72227.13,Não,F1166;F1083,Não
+PN-80S1356,Rolamento principal S6,Propulsão,8411.99.00,9A991,12745.19,Sim,F1121,Não
+PN-63T1357,Bico injetor T7,Propulsão,8411.99.00,EAR99,5115.66,Não,F1180;F1121,Sim
+PN-23U1358,Giroscópio MEMS U8,Aviônica,8526.91.00,EAR99,25798.5,Não,F1097;F1066,Não
+PN-88V1359,Bucha de bronze V9,Estruturas e usinados,8807.30.00,9A991,731.29,Não,F1000;F1101,Não
+PN-78W1360,Rolamento principal W10,Propulsão,8411.99.00,EAR99,1855.54,Sim,F1107,Sim
+PN-39X1361,Sensor de EGT X11,Propulsão,8411.99.00,7A994,13046.09,Não,F1134;F1024,Não
+PN-90Y1362,Fitting de asa Y12,Estruturas e usinados,8807.30.00,9A991,2628.52,Sim,F1189,Não
+PN-64Z1363,Gerador de partida Z13,Elétrica e chicotes,8544.42.00,9A610,864.77,Sim,F1061,Não
+PN-87A1364,Bucha de bronze A14,Estruturas e usinados,8807.30.00,9A991,590.57,Não,F1014;F1172,Não
+PN-47B1365,Roda do trem principal B15,Trem de pouso e hidráulica,8807.30.00,EAR99,46031.47,Não,F1144;F1193,Não
+PN-75C1366,Transponder C16,Aviônica,8526.91.00,EAR99,49611.18,Não,F1188;F1141;F1169,Não
+PN-17D1367,Giroscópio MEMS D17,Aviônica,8526.91.00,9A991,1640.04,Não,F1188;F1019,Não
+PN-55E1368,Antena VHF E18,Aviônica,8526.91.00,EAR99,15232.63,Sim,F1001,Sim
+PN-32F1369,Suporte em titânio F19,Estruturas e usinados,8807.30.00,EAR99,1389.28,Não,F1090;F1161,Não
+PN-13G1370,Display multifunção G20,Aviônica,8526.91.00,9A991,1542.15,Não,F1118;F1077;F1080,Sim
+PN-45H1371,Display multifunção H21,Aviônica,8526.91.00,EAR99,5121.47,Não,F1181;F1004;F1097,Sim
+PN-88I1372,Giroscópio MEMS I22,Aviônica,8526.91.00,9A991,15742.49,Não,F1077;F1198,Não
+PN-59J1373,Kit de reparo de combustor J23,Propulsão,8411.99.00,9A991,33232.16,Não,F1055;F1037,Não
+PN-53K1374,Suporte em titânio K24,Estruturas e usinados,8807.30.00,9A610,287.82,Não,F1074;F1052,Sim
+PN-31L1375,Pá de turbina L25,Propulsão,8411.99.00,9A991,1111.41,Não,F1127;F1056,Não
+PN-20M1376,Atuador hidráulico M26,Trem de pouso e hidráulica,8807.30.00,EAR99,2358.85,Não,F1168;F1005,Sim
+PN-18N1377,Rolamento principal N27,Propulsão,8411.99.00,9A991,36040.74,Sim,F1079,Não
+PN-28O1378,Sensor de EGT O28,Propulsão,8411.99.00,EAR99,1070.26,Não,F1116;F1151,Não
+PN-17P1379,Sensor de EGT P29,Propulsão,8411.99.00,EAR99,11674.07,Sim,F1175,Não
+PN-39Q1380,Suporte em titânio Q30,Estruturas e usinados,8807.30.00,EAR99,380.07,Sim,F1196,Não
+PN-46R1381,Longarina R31,Estruturas e usinados,8807.30.00,7A994,369.96,Não,F1142;F1108,Sim
+PN-25S1382,Suporte em titânio S32,Estruturas e usinados,8807.30.00,7A994,7826.61,Sim,F1049,Não
+PN-21T1383,Suporte em titânio T33,Estruturas e usinados,8807.30.00,9A991,8238.11,Não,F1161;F1014;F1196,Não
+PN-27U1384,Rolamento principal U34,Propulsão,8411.99.00,EAR99,45266.69,Sim,F1143,Sim
+PN-70V1385,Pá de turbina V35,Propulsão,8411.99.00,EAR99,9811.88,Não,F1059;F1187;F1109,Não
+PN-89W1386,Relé de potência W36,Elétrica e chicotes,8544.42.00,9A610,209.05,Não,F1070;F1129;F1103,Não
+PN-59X1387,Transponder X37,Aviônica,8526.91.00,9A610,9570.59,Não,F1010;F1019;F1077,Não
+PN-28Y1388,Giroscópio MEMS Y38,Aviônica,8526.91.00,EAR99,51491.83,Não,F1077;F1011;F1075,Não
+PN-96Z1389,Bico injetor Z39,Propulsão,8411.99.00,9A991,21823.16,Sim,F1085,Sim
+PN-29A1390,Freio de carbono A40,Trem de pouso e hidráulica,8807.30.00,9A991,1288.91,Não,F1046;F1021;F1124,Sim
+PN-56B1391,Sensor de EGT B41,Propulsão,8411.99.00,EAR99,1139.64,Não,F1107;F1162,Não
+PN-51C1392,Unidade de dados de ar C42,Aviônica,8526.91.00,7A994,15506.56,Não,F1003;F1033,Não
+PN-40D1393,Sensor de EGT D43,Propulsão,8411.99.00,9A991,1447.99,Não,F1121;F1110,Não
+PN-35E1394,Atuador hidráulico E44,Trem de pouso e hidráulica,8807.30.00,9A991,2126.37,Não,F1021;F1046;F1009,Não
+PN-83F1395,Roda do trem principal F45,Trem de pouso e hidráulica,8807.30.00,9A991,39090.53,Não,F1173;F1099,Sim
+PN-11G1396,Sensor de EGT G46,Propulsão,8411.99.00,9A610,10794.49,Sim,F1179,Não
+PN-52H1397,Pá de turbina H47,Propulsão,8411.99.00,EAR99,67701.7,Sim,F1147,Sim
+PN-89I1398,Pá de turbina I48,Propulsão,8411.99.00,EAR99,8949.18,Não,F1024;F1187;F1069,Não
+PN-78J1399,Bico injetor J49,Propulsão,8411.99.00,9A991,25169.22,Não,F1127;F1035;F1059,Não
+PN-62K1400,Pá de turbina K0,Propulsão,8411.99.00,7A994,1104.8,Não,F1147;F1128,Não
+PN-76L1401,Gerador de partida L1,Elétrica e chicotes,8544.42.00,9A991,257.05,Não,F1129;F1145,Não
+PN-44M1402,Tarugo de aço 4340 M2,Matéria-prima metálica,7606.12.90,9A991,1992.76,Sim,F1174,Sim
+PN-55N1403,Display multifunção N3,Aviônica,8526.91.00,9A991,5206.91,Sim,F1072,Sim
+PN-30O1404,Nervura usinada O4,Estruturas e usinados,8807.30.00,9A991,407.28,Não,F1108;F1101;F1058,Não
+PN-91P1405,Rolamento principal P5,Propulsão,8411.99.00,EAR99,7420.26,Não,F1164;F1187;F1163,Não
+PN-56Q1406,Unidade de dados de ar Q6,Aviônica,8526.91.00,EAR99,3619.45,Não,F1113;F1188,Não
+PN-85R1407,Sensor de EGT R7,Propulsão,8411.99.00,9A610,28498.33,Sim,F1123,Não
+PN-63S1408,Rolamento principal S8,Propulsão,8411.99.00,EAR99,2906.22,Não,F1023;F1030,Não
+PN-73T1409,Sensor de EGT T9,Propulsão,8411.99.00,EAR99,4620.01,Sim,F1056,Não
+PN-10U1410,Fitting de asa U10,Estruturas e usinados,8807.30.00,EAR99,2312.87,Sim,F1101,Sim
+PN-32V1411,Suporte em titânio V11,Estruturas e usinados,8807.30.00,EAR99,482.66,Não,F1149;F1196,Sim
+PN-90W1412,Sensor de EGT W12,Propulsão,8411.99.00,EAR99,921.04,Sim,F1125,Não
+PN-37X1413,Unidade de dados de ar X13,Aviônica,8526.91.00,EAR99,56656.97,Sim,F1183,Sim
+PN-19Y1414,Kit de reparo de combustor Y14,Propulsão,8411.99.00,EAR99,50562.09,Não,F1020;F1069;F1136,Não
+PN-60Z1415,Giroscópio MEMS Z15,Aviônica,8526.91.00,9A991,1639.25,Não,F1111;F1188;F1017,Não
+PN-61A1416,Unidade de dados de ar A16,Aviônica,8526.91.00,9A610,6489.98,Sim,F1104,Não
+PN-69B1417,Unidade de dados de ar B17,Aviônica,8526.91.00,EAR99,6291.1,Não,F1198;F1088;F1010,Sim
+PN-90C1418,Bucha de bronze C18,Estruturas e usinados,8807.30.00,9A991,23984.61,Sim,F1054,Sim
+PN-89D1419,Unidade de dados de ar D19,Aviônica,8526.91.00,9A610,26411.73,Não,F1183;F1041,Não
+PN-31E1420,Antena VHF E20,Aviônica,8526.91.00,EAR99,24339.01,Não,F1066;F1029,Não
+PN-98F1421,Rolamento principal F21,Propulsão,8411.99.00,7A994,3123.31,Não,F1056;F1091,Não
+PN-52G1422,Pá de turbina G22,Propulsão,8411.99.00,7A994,2882.36,Sim,F1036,Não
+PN-80H1423,Bico injetor H23,Propulsão,8411.99.00,EAR99,6861.34,Não,F1139;F1056,Não
+PN-38I1424,Transponder I24,Aviônica,8526.91.00,9A991,3414.53,Não,F1003;F1041,Não
+PN-67J1425,Bico injetor J25,Propulsão,8411.99.00,EAR99,1372.34,Sim,F1175,Não
+PN-78K1426,Kit de reparo de combustor K26,Propulsão,8411.99.00,9A991,1193.92,Não,F1167;F1125,Não
+PN-98L1427,Painel de acesso L27,Estruturas e usinados,8807.30.00,9A610,4898.19,Sim,F1090,Não
+PN-18M1428,Nervura usinada M28,Estruturas e usinados,8807.30.00,7A994,1761.44,Não,F1052;F1126,Sim
+PN-46N1429,Giroscópio MEMS N29,Aviônica,8526.91.00,9A991,1856.56,Sim,F1120,Não
+PN-74O1430,Bico injetor O30,Propulsão,8411.99.00,EAR99,81892.74,Sim,F1125,Não
+PN-23P1431,Sensor de EGT P31,Propulsão,8411.99.00,9A610,19460.47,Sim,F1023,Não
+PN-31Q1432,Pá de turbina Q32,Propulsão,8411.99.00,9A610,22210.64,Não,F1132;F1106;F1157,Sim
+PN-66R1433,Painel de acesso R33,Estruturas e usinados,8807.30.00,9A991,7139.14,Sim,F1150,Não
+PN-85S1434,Roda do trem principal S34,Trem de pouso e hidráulica,8807.30.00,9A610,1330.41,Sim,F1086,Sim
+PN-68T1435,Transponder T35,Aviônica,8526.91.00,9A610,2086.66,Não,F1082;F1019,Não
+PN-16U1436,Painel de acesso U36,Estruturas e usinados,8807.30.00,7A994,7670.62,Não,F1057;F1071,Sim
+PN-28V1437,Display multifunção V37,Aviônica,8526.91.00,EAR99,36728.43,Sim,F1077,Sim
+PN-40W1438,Kit de reparo de combustor W38,Propulsão,8411.99.00,7A994,5226.0,Não,F1079;F1187,Não
+PN-19X1439,Nervura usinada X39,Estruturas e usinados,8807.30.00,7A994,778.3,Não,F1006;F1126;F1197,Não
+PN-59Y1440,Longarina Y40,Estruturas e usinados,8807.30.00,EAR99,1635.82,Sim,F1054,Não
+PN-93Z1441,Transponder Z41,Aviônica,8526.91.00,7A994,14152.34,Sim,F1097,Sim
+PN-52A1442,Longarina A42,Estruturas e usinados,8807.30.00,EAR99,11573.56,Sim,F1074,Não
+PN-67B1443,Giroscópio MEMS B43,Aviônica,8526.91.00,EAR99,6257.91,Sim,F1082,Não
+PN-21C1444,Pá de turbina C44,Propulsão,8411.99.00,9A991,2271.15,Sim,F1139,Sim
+PN-29D1445,Sensor de EGT D45,Propulsão,8411.99.00,9A991,87818.0,Não,F1137;F1084;F1162,Não
+PN-69E1446,Válvula seletora E46,Trem de pouso e hidráulica,8807.30.00,7A994,1112.77,Sim,F1021,Não
+PN-71F1447,Sensor de EGT F47,Propulsão,8411.99.00,9A991,12052.06,Sim,F1122,Sim
+PN-93G1448,Antena VHF G48,Aviônica,8526.91.00,7A994,8985.36,Não,F1183;F1141;F1033,Não
+PN-35H1449,Pá de turbina H49,Propulsão,8411.99.00,EAR99,3401.95,Sim,F1079,Sim
+PN-73I1450,Kit de reparo de combustor I0,Propulsão,8411.99.00,EAR99,1153.88,Não,F1187;F1002;F1180,Não
+PN-34J1451,Suporte em titânio J1,Estruturas e usinados,8807.30.00,7A994,24607.82,Sim,F1049,Não
+PN-86K1452,Antena VHF K2,Aviônica,8526.91.00,9A991,4380.43,Não,F1082;F1104,Não
+PN-52L1453,Giroscópio MEMS L3,Aviônica,8526.91.00,EAR99,14963.84,Não,F1066;F1088,Não
+PN-17M1454,Placa de controle FMS M4,Aviônica,8526.91.00,EAR99,2697.08,Sim,F1183,Não
+PN-90N1455,Válvula seletora N5,Trem de pouso e hidráulica,8807.30.00,EAR99,1998.63,Não,F1160;F1144,Não
+PN-47O1456,Antena VHF O6,Aviônica,8526.91.00,9A991,13810.77,Sim,F1095,Não
+PN-81P1457,Longarina P7,Estruturas e usinados,8807.30.00,9A991,214.77,Sim,F1138,Não
+PN-66Q1458,Selo de compressor Q8,Propulsão,8411.99.00,7A994,60564.18,Sim,F1130,Não
+PN-66R1459,Painel de acesso R9,Estruturas e usinados,8807.30.00,EAR99,193.26,Sim,F1058,Não
+PN-56S1460,Bico injetor S10,Propulsão,8411.99.00,9A991,1121.83,Sim,F1153,Não
+PN-42T1461,Selo de compressor T11,Propulsão,8411.99.00,7A994,2025.33,Não,F1136;F1059,Não
+PN-91U1462,Giroscópio MEMS U12,Aviônica,8526.91.00,9A991,114573.57,Sim,F1112,Não
+PN-34V1463,Disjuntor V13,Elétrica e chicotes,8544.42.00,9A991,808.96,Não,F1114;F1129,Sim
+PN-67W1464,Nervura usinada W14,Estruturas e usinados,8807.30.00,EAR99,4047.2,Não,F1197;F1068,Sim
+PN-34X1465,Sensor de EGT X15,Propulsão,8411.99.00,EAR99,6114.16,Sim,F1069,Não
+PN-94Y1466,Painel de iluminação Y16,Elétrica e chicotes,8544.42.00,EAR99,1284.3,Não,F1115;F1100;F1103,Não
+PN-11Z1467,Sensor de EGT Z17,Propulsão,8411.99.00,7A994,20286.6,Não,F1069;F1062,Não
+PN-70A1468,Kit de reparo de combustor A18,Propulsão,8411.99.00,9A610,1939.75,Não,F1116;F1130,Não
+PN-82B1469,Kit de reparo de combustor B19,Propulsão,8411.99.00,EAR99,994.43,Não,F1042;F1139,Não
+PN-28C1470,Transponder C20,Aviônica,8526.91.00,9A991,18967.54,Não,F1007;F1159,Não
+PN-54D1471,Giroscópio MEMS D21,Aviônica,8526.91.00,9A991,1608.35,Sim,F1165,Não
+PN-97E1472,Bico injetor E22,Propulsão,8411.99.00,EAR99,18488.81,Não,F1152;F1192,Sim
+PN-18F1473,Unidade de dados de ar F23,Aviônica,8526.91.00,9A991,47149.11,Não,F1004;F1159;F1076,Não
+PN-10G1474,Sensor de EGT G24,Propulsão,8411.99.00,EAR99,39670.32,Sim,F1024,Não
+PN-34H1475,Antena VHF H25,Aviônica,8526.91.00,EAR99,5003.93,Não,F1112;F1080,Sim
+PN-27I1476,Suporte em titânio I26,Estruturas e usinados,8807.30.00,9A610,301.72,Não,F1014;F1090,Sim
+PN-64J1477,Pá de turbina J27,Propulsão,8411.99.00,EAR99,70926.51,Não,F1125;F1087,Não
+PN-68K1478,Roda do trem principal K28,Trem de pouso e hidráulica,8807.30.00,EAR99,2264.35,Não,F1040;F1005,Sim
+PN-57L1479,Unidade de dados de ar L29,Aviônica,8526.91.00,9A991,24276.69,Não,F1004;F1029,Não
+PN-70M1480,Unidade de dados de ar M30,Aviônica,8526.91.00,EAR99,17029.49,Sim,F1141,Sim
+PN-72N1481,Giroscópio MEMS N31,Aviônica,8526.91.00,9A610,21038.55,Sim,F1007,Sim
+PN-30O1482,Bucha de bronze O32,Estruturas e usinados,8807.30.00,EAR99,1124.95,Não,F1149;F1126;F1068,Não
+PN-97P1483,Painel de acesso P33,Estruturas e usinados,8807.30.00,7A994,1756.29,Sim,F1000,Não
+PN-88Q1484,Display multifunção Q34,Aviônica,8526.91.00,9A991,5310.29,Sim,F1141,Não
+PN-81R1485,Pá de turbina R35,Propulsão,8411.99.00,9A991,20089.98,Sim,F1175,Não
+PN-20S1486,Gerador de partida S36,Elétrica e chicotes,8544.42.00,7A994,272.89,Não,F1129;F1061;F1103,Não
+PN-88T1487,Placa de controle FMS T37,Aviônica,8526.91.00,EAR99,3036.61,Sim,F1104,Sim
+PN-57U1488,Transponder U38,Aviônica,8526.91.00,9A991,34671.29,Sim,F1077,Não
+PN-88V1489,Sensor de EGT V39,Propulsão,8411.99.00,9A991,15755.24,Sim,F1002,Sim
+PN-97W1490,Roda do trem principal W40,Trem de pouso e hidráulica,8807.30.00,9A610,778.97,Não,F1038;F1047,Não
+PN-61X1491,Amortecedor X41,Trem de pouso e hidráulica,8807.30.00,9A991,14833.67,Não,F1038;F1021,Sim
+PN-86Y1492,Perfil extrudado 2024 Y42,Matéria-prima metálica,7606.12.90,EAR99,213.9,Sim,F1078,Não
+PN-60Z1493,Selo de compressor Z43,Propulsão,8411.99.00,EAR99,1695.78,Não,F1164;F1136,Sim
+PN-65A1494,Placa de controle FMS A44,Aviônica,8526.91.00,EAR99,6049.93,Sim,F1188,Não
+PN-15B1495,Válvula seletora B45,Trem de pouso e hidráulica,8807.30.00,EAR99,10356.68,Não,F1154;F1124,Não
+PN-37C1496,Gerador de partida C46,Elétrica e chicotes,8544.42.00,EAR99,8833.6,Sim,F1129,Não
+PN-32D1497,Nervura usinada D47,Estruturas e usinados,8807.30.00,EAR99,395.78,Não,F1196;F1197;F1057,Não
+PN-29E1498,Bucha de bronze E48,Estruturas e usinados,8807.30.00,9A991,923.95,Não,F1049;F1108,Não
+PN-33F1499,Fitting de asa F49,Estruturas e usinados,8807.30.00,EAR99,457.92,Não,F1006;F1119,Sim
+PN-72G1500,Transponder G0,Aviônica,8526.91.00,EAR99,44578.84,Não,F1011;F1181,Não
+PN-15H1501,Selo de compressor H1,Propulsão,8411.99.00,9A991,24699.94,Sim,F1107,Não
+PN-84I1502,Painel de acesso I2,Estruturas e usinados,8807.30.00,9A991,1406.13,Não,F1014;F1189;F1052,Não
+PN-75J1503,Painel de acesso J3,Estruturas e usinados,8807.30.00,EAR99,1387.84,Sim,F1074,Sim
+PN-64K1504,Amortecedor K4,Trem de pouso e hidráulica,8807.30.00,7A994,753.01,Não,F1028;F1046,Sim
+PN-29L1505,Atuador hidráulico L5,Trem de pouso e hidráulica,8807.30.00,EAR99,25087.58,Sim,F1086,Não
+PN-83M1506,Kit de reparo de combustor M6,Propulsão,8411.99.00,7A994,89530.07,Sim,F1093,Sim
+PN-57N1507,Transponder N7,Aviônica,8526.91.00,EAR99,17341.59,Sim,F1029,Não
+PN-25O1508,Transponder O8,Aviônica,8526.91.00,EAR99,21036.36,Sim,F1171,Sim
+PN-13P1509,Relé de potência P9,Elétrica e chicotes,8544.42.00,EAR99,836.41,Não,F1114;F1073,Não
+PN-55Q1510,Rolamento principal Q10,Propulsão,8411.99.00,EAR99,4054.71,Não,F1163;F1176,Não
+PN-84R1511,Selo de compressor R11,Propulsão,8411.99.00,9A991,4178.22,Não,F1164;F1107,Não
+PN-79S1512,Kit de reparo de combustor S12,Propulsão,8411.99.00,7A994,65609.94,Não,F1125;F1083,Não
+PN-50T1513,Antena VHF T13,Aviônica,8526.91.00,7A994,41713.65,Sim,F1112,Não
+PN-30U1514,Painel de acesso U14,Estruturas e usinados,8807.30.00,EAR99,4034.29,Não,F1126;F1071;F1149,Sim
+PN-24V1515,Fitting de asa V15,Estruturas e usinados,8807.30.00,9A991,10236.66,Não,F1101;F1189,Não
+PN-40W1516,Kit de reparo de combustor W16,Propulsão,8411.99.00,EAR99,14411.29,Não,F1191;F1091,Não
+PN-55X1517,Fitting de asa X17,Estruturas e usinados,8807.30.00,EAR99,7578.55,Sim,F1000,Não
+PN-67Y1518,Antena VHF Y18,Aviônica,8526.91.00,EAR99,16890.39,Sim,F1120,Não
+PN-29Z1519,Barra de titânio Ti-6Al-4V Z19,Matéria-prima metálica,7606.12.90,7A994,291.71,Sim,F1131,Não
+PN-40A1520,Kit de reparo de combustor A20,Propulsão,8411.99.00,9A991,965.83,Sim,F1157,Não
+PN-16B1521,Kit de reparo de combustor B21,Propulsão,8411.99.00,9A991,64488.64,Sim,F1083,Não
+PN-52C1522,Rolamento principal C22,Propulsão,8411.99.00,EAR99,17932.36,Sim,F1109,Sim
+PN-36D1523,Kit de reparo de combustor D23,Propulsão,8411.99.00,7A994,12951.11,Não,F1085;F1176,Sim
+PN-54E1524,Antena VHF E24,Aviônica,8526.91.00,9A991,25757.6,Não,F1195;F1112,Sim
+PN-84F1525,Kit de reparo de combustor F25,Propulsão,8411.99.00,EAR99,23583.25,Não,F1002;F1177,Sim
+PN-96G1526,Rolamento principal G26,Propulsão,8411.99.00,9A991,816.35,Não,F1147;F1166,Não
+PN-87H1527,Selo de compressor H27,Propulsão,8411.99.00,9A991,19290.5,Sim,F1125,Não
+PN-76I1528,Display multifunção I28,Aviônica,8526.91.00,9A991,21575.61,Não,F1113;F1097,Não
+PN-77J1529,Barra de titânio Ti-6Al-4V J29,Matéria-prima metálica,7606.12.90,EAR99,541.8,Sim,F1063,Sim
+PN-11K1530,Kit de reparo de combustor K30,Propulsão,8411.99.00,7A994,6997.33,Sim,F1199,Sim
+PN-22L1531,Kit de reparo de combustor L31,Propulsão,8411.99.00,7A994,6738.24,Sim,F1035,Não
+PN-36M1532,Display multifunção M32,Aviônica,8526.91.00,EAR99,7761.87,Sim,F1075,Não
+PN-81N1533,Bico injetor N33,Propulsão,8411.99.00,EAR99,1300.82,Não,F1179;F1051,Sim
+PN-91O1534,Selo de compressor O34,Propulsão,8411.99.00,EAR99,2437.48,Não,F1127;F1062;F1023,Não
+PN-72P1535,Suporte em titânio P35,Estruturas e usinados,8807.30.00,9A991,384.79,Sim,F1142,Sim
+PN-51Q1536,Kit de reparo de combustor Q36,Propulsão,8411.99.00,9A991,3393.33,Sim,F1064,Sim
+PN-68R1537,Pá de turbina R37,Propulsão,8411.99.00,EAR99,38803.57,Não,F1091;F1179,Não
+PN-47S1538,Fitting de asa S38,Estruturas e usinados,8807.30.00,EAR99,13244.13,Não,F1025;F1049,Não
+PN-84T1539,Antena VHF T39,Aviônica,8526.91.00,EAR99,2956.73,Não,F1013;F1007;F1066,Não
+PN-95U1540,Freio de carbono U40,Trem de pouso e hidráulica,8807.30.00,9A610,53287.8,Não,F1154;F1182,Não
+PN-74V1541,Transponder V41,Aviônica,8526.91.00,9A991,41278.1,Não,F1072;F1092,Não
+PN-94W1542,Selo de compressor W42,Propulsão,8411.99.00,EAR99,84305.77,Sim,F1185,Não
+PN-39X1543,Placa de controle FMS X43,Aviônica,8526.91.00,7A994,5762.22,Não,F1007;F1019,Não
+PN-67Y1544,Longarina Y44,Estruturas e usinados,8807.30.00,EAR99,2968.42,Não,F1172;F1025;F1189,Sim
+PN-39Z1545,Display multifunção Z45,Aviônica,8526.91.00,9A991,22047.99,Não,F1033;F1075,Não
+PN-43A1546,Bico injetor A46,Propulsão,8411.99.00,EAR99,1907.07,Sim,F1069,Não
+PN-13B1547,Nervura usinada B47,Estruturas e usinados,8807.30.00,EAR99,876.38,Não,F1119;F1044,Não
+PN-41C1548,Pá de turbina C48,Propulsão,8411.99.00,EAR99,15991.77,Não,F1121;F1096;F1008,Sim
+PN-61D1549,Fitting de asa D49,Estruturas e usinados,8807.30.00,9A991,16708.06,Não,F1044;F1014,Sim
+PN-71E1550,Sensor de EGT E0,Propulsão,8411.99.00,9A610,4335.24,Não,F1151;F1079,Não
+PN-73F1551,Rolamento principal F1,Propulsão,8411.99.00,EAR99,977.09,Não,F1020;F1147;F1136,Sim
+PN-52G1552,Bucha de bronze G2,Estruturas e usinados,8807.30.00,9A610,6913.1,Não,F1060;F1142,Não
+PN-63H1553,Longarina H3,Estruturas e usinados,8807.30.00,EAR99,15326.3,Não,F1197;F1052;F1178,Não
+PN-80I1554,Bucha de bronze I4,Estruturas e usinados,8807.30.00,7A994,222.72,Sim,F1060,Não
+PN-38J1555,Placa de controle FMS J5,Aviônica,8526.91.00,7A994,46583.24,Não,F1195;F1088;F1198,Sim
+PN-36K1556,Unidade de dados de ar K6,Aviônica,8526.91.00,9A991,25912.17,Não,F1007;F1011,Sim
+PN-79L1557,Roda do trem principal L7,Trem de pouso e hidráulica,8807.30.00,EAR99,1752.91,Não,F1099;F1038,Não
+PN-35M1558,Kit de reparo de combustor M8,Propulsão,8411.99.00,9A991,1969.56,Não,F1166;F1180,Não
+PN-46N1559,Barra de titânio Ti-6Al-4V N9,Matéria-prima metálica,7606.12.90,EAR99,592.35,Não,F1063;F1131,Não
+PN-65O1560,Bico injetor O10,Propulsão,8411.99.00,EAR99,20026.27,Sim,F1179,Não
+PN-30P1561,Painel de acesso P11,Estruturas e usinados,8807.30.00,EAR99,920.62,Sim,F1058,Não
+PN-36Q1562,Bico injetor Q12,Propulsão,8411.99.00,EAR99,1950.78,Não,F1190;F1121,Não
+PN-79R1563,Pá de turbina R13,Propulsão,8411.99.00,7A994,4246.02,Não,F1170;F1125,Não
+PN-23S1564,Disjuntor S14,Elétrica e chicotes,8544.42.00,EAR99,5082.14,Não,F1145;F1070;F1129,Não
+PN-18T1565,Painel de acesso T15,Estruturas e usinados,8807.30.00,EAR99,1332.51,Não,F1071;F1161,Não
+PN-24U1566,Sensor de EGT U16,Propulsão,8411.99.00,9A991,1472.4,Não,F1031;F1008;F1024,Não
+PN-57V1567,Rolamento principal V17,Propulsão,8411.99.00,EAR99,39689.23,Sim,F1132,Não
+PN-64W1568,Painel de acesso W18,Estruturas e usinados,8807.30.00,EAR99,366.37,Não,F1071;F1178;F1090,Não
+PN-19X1569,Pá de turbina X19,Propulsão,8411.99.00,9A991,1079.96,Não,F1051;F1055,Sim
+PN-93Y1570,Freio de carbono Y20,Trem de pouso e hidráulica,8807.30.00,EAR99,29506.56,Sim,F1182,Não
+PN-70Z1571,Pá de turbina Z21,Propulsão,8411.99.00,EAR99,69241.15,Sim,F1062,Não
+PN-17A1572,Display multifunção A22,Aviônica,8526.91.00,EAR99,119403.73,Sim,F1017,Não
+PN-22B1573,Freio de carbono B23,Trem de pouso e hidráulica,8807.30.00,9A991,52159.48,Não,F1099;F1040;F1047,Não
+PN-86C1574,Suporte em titânio C24,Estruturas e usinados,8807.30.00,7A994,504.65,Sim,F1149,Não
+PN-55D1575,Rolamento principal D25,Propulsão,8411.99.00,9A991,2666.43,Sim,F1022,Não
+PN-87E1576,Transponder E26,Aviônica,8526.91.00,9A991,3138.69,Não,F1076;F1098,Sim
+PN-19F1577,Unidade de dados de ar F27,Aviônica,8526.91.00,EAR99,11665.41,Sim,F1169,Sim
+PN-35G1578,Selo de compressor G28,Propulsão,8411.99.00,EAR99,11820.69,Não,F1023;F1136,Não
+PN-27H1579,Pá de turbina H29,Propulsão,8411.99.00,9A610,60311.3,Sim,F1164,Não
+PN-46I1580,Roda do trem principal I30,Trem de pouso e hidráulica,8807.30.00,9A610,7596.26,Sim,F1028,Não
+PN-95J1581,Painel de acesso J31,Estruturas e usinados,8807.30.00,9A991,992.71,Sim,F1090,Não
+PN-73K1582,Placa de controle FMS K32,Aviônica,8526.91.00,9A991,5346.61,Não,F1156;F1183;F1013,Não
+PN-25L1583,Selo de compressor L33,Propulsão,8411.99.00,7A994,1084.13,Sim,F1023,Não
+PN-33M1584,Kit de reparo de combustor M34,Propulsão,8411.99.00,EAR99,18971.86,Sim,F1125,Sim
+PN-68N1585,Kit de reparo de combustor N35,Propulsão,8411.99.00,EAR99,65508.02,Sim,F1185,Não
+PN-40O1586,Kit de reparo de combustor O36,Propulsão,8411.99.00,EAR99,874.08,Não,F1015;F1079,Sim
+PN-76P1587,Tarugo de aço 4340 P37,Matéria-prima metálica,7606.12.90,EAR99,1485.99,Não,F1131;F1063;F1094,Não
+PN-28Q1588,Painel de acesso Q38,Estruturas e usinados,8807.30.00,EAR99,5868.39,Não,F1014;F1172;F1012,Não
+PN-62R1589,Painel de acesso R39,Estruturas e usinados,8807.30.00,9A991,1331.13,Não,F1142;F1178,Não
+PN-54S1590,Relé de potência S40,Elétrica e chicotes,8544.42.00,9A991,464.51,Não,F1115;F1034,Sim
+PN-59T1591,Atuador hidráulico T41,Trem de pouso e hidráulica,8807.30.00,9A991,51608.55,Não,F1086;F1144,Não
+PN-79U1592,Longarina U42,Estruturas e usinados,8807.30.00,9A991,190.9,Não,F1006;F1142,Não
+PN-63V1593,Kit de reparo de combustor V43,Propulsão,8411.99.00,EAR99,6405.09,Não,F1167;F1109;F1177,Não
+PN-88W1594,Painel de acesso W44,Estruturas e usinados,8807.30.00,9A991,3479.84,Sim,F1108,Não
+PN-25X1595,Kit de reparo de combustor X45,Propulsão,8411.99.00,EAR99,3356.91,Não,F1045;F1151,Sim
+PN-53Y1596,Nervura usinada Y46,Estruturas e usinados,8807.30.00,9A991,574.76,Não,F1149;F1189,Não
+PN-65Z1597,Mangueira de alta pressão Z47,Trem de pouso e hidráulica,8807.30.00,9A991,27797.15,Sim,F1133,Sim
+PN-21A1598,Antena VHF A48,Aviônica,8526.91.00,9A991,3340.71,Não,F1104;F1169;F1033,Não
+PN-24B1599,Pá de turbina B49,Propulsão,8411.99.00,9A991,2085.98,Não,F1008;F1065;F1002,Não
+PN-28C1600,Kit de reparo de combustor C0,Propulsão,8411.99.00,EAR99,9701.79,Sim,F1055,Não
+PN-61D1601,Bucha de bronze D1,Estruturas e usinados,8807.30.00,EAR99,10599.84,Não,F1000;F1050,Não
+PN-61E1602,Unidade de dados de ar E2,Aviônica,8526.91.00,EAR99,78720.22,Sim,F1092,Não
+PN-86F1603,Antena VHF F3,Aviônica,8526.91.00,EAR99,3205.63,Não,F1188;F1194,Sim
+PN-58G1604,Pá de turbina G4,Propulsão,8411.99.00,9A991,30276.32,Não,F1176;F1187;F1024,Não
+PN-62H1605,Bucha de bronze H5,Estruturas e usinados,8807.30.00,7A994,665.07,Sim,F1119,Sim
+PN-77I1606,Freio de carbono I6,Trem de pouso e hidráulica,8807.30.00,EAR99,965.43,Sim,F1124,Não
+PN-58J1607,Mangueira de alta pressão J7,Trem de pouso e hidráulica,8807.30.00,9A991,795.42,Não,F1053;F1160,Não
+PN-83K1608,Longarina K8,Estruturas e usinados,8807.30.00,EAR99,255.55,Sim,F1014,Sim
+PN-69L1609,Bucha de bronze L9,Estruturas e usinados,8807.30.00,9A610,208.49,Sim,F1050,Não
+PN-36M1610,Nervura usinada M10,Estruturas e usinados,8807.30.00,7A994,781.12,Não,F1197;F1018;F1060,Não
+PN-90N1611,Freio de carbono N11,Trem de pouso e hidráulica,8807.30.00,9A991,1286.57,Não,F1099;F1021;F1086,Não
+PN-80O1612,Unidade de dados de ar O12,Aviônica,8526.91.00,9A991,35116.18,Não,F1112;F1029,Sim
+PN-14P1613,Kit de reparo de combustor P13,Propulsão,8411.99.00,EAR99,72417.7,Não,F1107;F1024;F1176,Não
+PN-64Q1614,Longarina Q14,Estruturas e usinados,8807.30.00,9A991,7061.38,Sim,F1189,Sim
+PN-40R1615,Sensor de EGT R15,Propulsão,8411.99.00,7A994,1167.41,Não,F1123;F1121;F1167,Não
+PN-84S1616,Transponder S16,Aviônica,8526.91.00,9A610,7213.94,Não,F1165;F1033,Não
+PN-13T1617,Sensor de EGT T17,Propulsão,8411.99.00,9A991,9640.35,Sim,F1020,Não
+PN-51U1618,Pá de turbina U18,Propulsão,8411.99.00,EAR99,88118.28,Não,F1081;F1122;F1180,Não
+PN-98V1619,Válvula seletora V19,Trem de pouso e hidráulica,8807.30.00,9A610,32304.81,Não,F1040;F1053;F1047,Não
+PN-65W1620,Rolamento principal W20,Propulsão,8411.99.00,7A994,1371.83,Não,F1106;F1147,Não
+PN-77X1621,Transponder X21,Aviônica,8526.91.00,9A991,9201.12,Não,F1072;F1097,Não
+PN-40Y1622,Fitting de asa Y22,Estruturas e usinados,8807.30.00,9A991,10495.34,Sim,F1060,Sim
+PN-80Z1623,Longarina Z23,Estruturas e usinados,8807.30.00,EAR99,5863.21,Não,F1197;F1052,Não
+PN-52A1624,Transponder A24,Aviônica,8526.91.00,EAR99,31660.34,Não,F1104;F1198;F1095,Não
+PN-56B1625,Rolamento principal B25,Propulsão,8411.99.00,9A991,20495.86,Sim,F1064,Não
+PN-30C1626,Pá de turbina C26,Propulsão,8411.99.00,7A994,17508.13,Não,F1148;F1022,Não
+PN-39D1627,Placa de controle FMS D27,Aviônica,8526.91.00,9A991,3578.81,Sim,F1077,Não
+PN-72E1628,Atuador hidráulico E28,Trem de pouso e hidráulica,8807.30.00,9A610,60041.22,Sim,F1046,Não
+PN-13F1629,Freio de carbono F29,Trem de pouso e hidráulica,8807.30.00,9A991,673.76,Sim,F1047,Não
+PN-60G1630,Display multifunção G30,Aviônica,8526.91.00,9A991,4534.49,Não,F1067;F1188,Não
+PN-73H1631,Nervura usinada H31,Estruturas e usinados,8807.30.00,EAR99,820.36,Não,F1050;F1071;F1012,Não
+PN-16I1632,Pá de turbina I32,Propulsão,8411.99.00,9A991,1406.26,Sim,F1064,Não
+PN-37J1633,Selo de compressor J33,Propulsão,8411.99.00,9A610,23148.84,Sim,F1143,Não
+PN-24K1634,Transponder K34,Aviônica,8526.91.00,EAR99,1803.35,Sim,F1141,Não
+PN-57L1635,Display multifunção L35,Aviônica,8526.91.00,9A610,14500.96,Não,F1183;F1029;F1082,Sim
+PN-84M1636,Freio de carbono M36,Trem de pouso e hidráulica,8807.30.00,EAR99,7991.32,Sim,F1182,Não
+PN-22N1637,Placa de controle FMS N37,Aviônica,8526.91.00,EAR99,71359.74,Não,F1113;F1019,Sim
+PN-65O1638,Barra de titânio Ti-6Al-4V O38,Matéria-prima metálica,7606.12.90,9A991,125.77,Não,F1094;F1131,Não
+PN-51P1639,Fitting de asa P39,Estruturas e usinados,8807.30.00,9A991,12777.24,Sim,F1000,Não
+PN-82Q1640,Placa de controle FMS Q40,Aviônica,8526.91.00,EAR99,3149.81,Não,F1098;F1011;F1072,Não
+PN-18R1641,Selo de compressor R41,Propulsão,8411.99.00,9A991,3449.73,Sim,F1036,Sim
+PN-65S1642,Placa de controle FMS S42,Aviônica,8526.91.00,EAR99,26531.98,Não,F1004;F1041;F1007,Não
+PN-69T1643,Rolamento principal T43,Propulsão,8411.99.00,9A991,2786.04,Sim,F1157,Não
+PN-56U1644,Antena VHF U44,Aviônica,8526.91.00,9A991,11159.18,Sim,F1183,Não
+PN-11V1645,Pá de turbina V45,Propulsão,8411.99.00,9A991,18766.13,Sim,F1107,Não
+PN-35W1646,Suporte em titânio W46,Estruturas e usinados,8807.30.00,9A610,513.79,Não,F1119;F1018,Não
+PN-25X1647,Kit de reparo de combustor X47,Propulsão,8411.99.00,EAR99,10031.6,Não,F1079;F1153;F1191,Não
+PN-22Y1648,Placa de controle FMS Y48,Aviônica,8526.91.00,9A610,3027.64,Não,F1095;F1171,Não
+PN-43Z1649,Painel de acesso Z49,Estruturas e usinados,8807.30.00,9A991,976.59,Sim,F1054,Sim
