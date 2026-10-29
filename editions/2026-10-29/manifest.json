@@ -1,9 +1,7 @@
 {
   "edition": "2026-10-29",
   "report_cutoff": "2026-10-28",
-  "warnings": [
-    "pt/Relatorio_Mensal_Performance_Compras_2026-10 overflows A4 (1126 px): shorten the text"
-  ],
+  "warnings": [],
   "briefs": {
     "en": [
       {
@@ -48,7 +46,7 @@
       },
       {
         "name": "Relatorio_Mensal_Performance_Compras_2026-10",
-        "height": 1126,
+        "height": 1123,
         "fit_level": 4,
         "headline": "Savings acima do plano, mas a entrega segue piorando e a qualidade voltou a passar da meta",
         "savings_ytd_pct": 105.5,
