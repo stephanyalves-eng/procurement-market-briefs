@@ -1,7 +1,9 @@
 {
   "edition": "2026-10-29",
   "report_cutoff": "2026-09-30",
-  "warnings": [],
+  "warnings": [
+    "pt/Relatorio_Mensal_Performance_Compras_2026-09 overflows A4 (1145 px): shorten the text"
+  ],
   "briefs": {
     "en": [
       {
@@ -17,7 +19,7 @@
       {
         "name": "Monthly_Procurement_Performance_Report_2026-09",
         "height": 1123,
-        "fit_level": 0,
+        "fit_level": 3,
         "headline": "Savings are ahead of plan, but delivery is below target and RFQs are taking longer",
         "savings_ytd_pct": 101.6,
         "otd": 88.27,
@@ -46,7 +48,7 @@
       },
       {
         "name": "Relatorio_Mensal_Performance_Compras_2026-09",
-        "height": 1123,
+        "height": 1145,
         "fit_level": 3,
         "headline": "Savings acima do plano, mas a entrega está abaixo da meta e as RFQs estão mais lentas",
         "savings_ytd_pct": 101.6,
