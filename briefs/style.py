@@ -106,6 +106,7 @@ FIT_LEVELS = [
     ".page { gap: 2.6mm; } .lead { font-size: 9pt; } ol.imp { font-size: 8.1pt; } ol.imp li { margin-bottom: 1.1mm; }",
     ".page { gap: 2.3mm; padding-top: 7.5mm; padding-bottom: 6mm; } .lead { font-size: 8.7pt; line-height: 1.45; } .hdr h1 { font-size: 14.5pt; } .hdr { padding: 4mm 6mm 4.5mm; } ol.imp { font-size: 7.9pt; line-height: 1.4; } .kpi { padding: 2.4mm 3mm; } .kpi .v { font-size: 15pt; } .card { padding: 2.4mm 3mm; } .sec { margin-bottom: 1.3mm; }",
     ".page { gap: 2mm; padding-top: 7mm; padding-bottom: 5.5mm; } .lead { font-size: 8.4pt; line-height: 1.4; } .hdr h1 { font-size: 13.5pt; } .hdr { padding: 3.6mm 5.5mm 4mm; } ol.imp { font-size: 7.7pt; line-height: 1.38; } ol.imp li { margin-bottom: .8mm; } .kpi { padding: 2.2mm 2.8mm; } .kpi .v { font-size: 14pt; } .card { padding: 2.2mm 2.8mm; } .sec { margin-bottom: 1.1mm; } ul.pc { font-size: 7.4pt; } table.t td { padding: .8mm 1.2mm; }",
+    ".page { gap: 1.7mm; padding-top: 6.5mm; padding-bottom: 5mm; } .lead { font-size: 8.4pt; line-height: 1.4; } .hdr h1 { font-size: 13.5pt; } .hdr { padding: 3.6mm 5.5mm 4mm; } ol.imp { font-size: 7.7pt; line-height: 1.38; } ol.imp li { margin-bottom: .8mm; } .kpi { padding: 2.2mm 2.8mm; } .kpi .v { font-size: 14pt; } .card { padding: 2.2mm 2.8mm; } .sec { margin-bottom: 1.1mm; } ul.pc { font-size: 7.4pt; } table.t td { padding: .7mm 1.2mm; } .foot .src { font-size: 5.8pt; line-height: 1.3; }",
 ]
 
 
