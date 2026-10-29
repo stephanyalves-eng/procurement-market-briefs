@@ -250,7 +250,7 @@ table.rt { width:100%; border-collapse:collapse; font-size:7.4pt; } table.rt td 
 <div class="card" style="margin-top:2mm"><p class="ct">{T(lang, 'Actions for ', 'Ações para ')}{next_m}</p><ul class="pc">{ac}</ul></div></div>
 </div>
 {footer(T(lang, f"Synthetic data, portfolio purposes only; no real company data. Prices indexed to the latest published BLS PPI of each category and FX at the monthly PTAX average. {'The month covers 1 to ' + str(cutoff.day) + ' ' + MON['en'][cutoff.month-1] + ' ' + str(cutoff.year) + '. ' if mtd else ''}Supplier score: up to 50 points for OTD and 50 for PPM (5 dots = 100). Status: green on target, amber within 5%, red beyond 5%.",
-          f"Dados sintéticos, apenas para portfólio; nenhum dado de empresa real. Preços indexados ao último PPI do BLS de cada categoria e câmbio pela PTAX média do mês. {'O mês cobre de 1 a ' + str(cutoff.day) + '/' + f'{cutoff.month:02d}' + '/' + str(cutoff.year) + '. ' if mtd else ''}Score do fornecedor: até 50 pontos por OTD e 50 por PPM (5 pontos = 100). Status: verde na meta, âmbar até 5% fora, vermelho acima de 5%.") + " " + bls_notice())}
+          f"Dados sintéticos, para portfólio; nenhum dado de empresa real. Preços indexados ao último PPI do BLS de cada categoria e câmbio pela PTAX média do mês. {'O mês cobre de 1 a ' + str(cutoff.day) + '/' + f'{cutoff.month:02d}' + '/' + str(cutoff.year) + '. ' if mtd else ''}Score: até 50 pontos por OTD e 50 por PPM (5 pontos = 100). Status: verde na meta, âmbar até 5% fora, vermelho acima de 5%.") + " " + bls_notice())}
 """
     name = T(lang, "Monthly_Procurement_Performance_Report", "Relatorio_Mensal_Performance_Compras") + f"_{CUR}"
     html = os.path.join(outdir, name + ".html")
