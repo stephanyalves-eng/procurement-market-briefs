@@ -29,7 +29,8 @@ def data(edition):
         pre = before.loc[pd.Timestamp(ev["date"]).replace(day=1):] if pd.Timestamp(ev["date"]).month == last.month else before.tail(20)
         ev["pre_vs_ref"] = (pre.usd_brl_ptax_venda.mean() / u_ref - 1) * 100
         ev["vs_before"] = (u / ev["before"] - 1) * 100
-    st = json.load(open(os.path.join(PUB, "comex_status.json"))) if os.path.exists(os.path.join(PUB, "comex_status.json")) else {}    return dict(Y=Y, L=L, ytd=ytd, g=(ytd[Y] / ytd[Y - 1] - 1) * 100, t411=(t411[Y] / t411[Y - 1] - 1) * 100, sh=sh,
+    st = json.load(open(os.path.join(PUB, "comex_status.json"))) if os.path.exists(os.path.join(PUB, "comex_status.json")) else {}
+    return dict(Y=Y, L=L, ytd=ytd, g=(ytd[Y] / ytd[Y - 1] - 1) * 100, t411=(t411[Y] / t411[Y - 1] - 1) * 100, sh=sh,
                 pm=pm, av=yoy["ppi_avionica_navegacao_PCU334511"], pa=yoy["ppi_pecas_aeronauticas_PCU336413"], en=yoy["ppi_motores_aeronauticos_PCU336412"],
                 dd=dd, last=last.date(), u=u, e=e, ref_m=ref_m, u_ref=u_ref, vs=(u / u_ref - 1) * 100, e_vs=(e / e_ref - 1) * 100, ev=ev,
                 comex_updated=st.get("comex_updated"))
