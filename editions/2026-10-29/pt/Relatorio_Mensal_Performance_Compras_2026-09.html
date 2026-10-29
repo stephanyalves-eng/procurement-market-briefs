@@ -1,0 +1,1070 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Relatório Mensal de Performance de Compras · Setembro de 2026</title><style>
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #F5F4EC; }
+body { font-family: 'IBM Plex Sans', Arial, sans-serif; color: #101714; font-feature-settings: 'tnum' 1; font-size: 8pt; }
+.page { width: 210mm; height: 297mm; padding: 9mm 11mm 7mm; display: flex; flex-direction: column; gap: 3.2mm; background: #F5F4EC; }
+.page > * { flex-shrink: 0; }
+.hdr { background: #0B302B; color: #F5F4EC; border-radius: 1.1mm; padding: 5mm 6mm 5.5mm; position: relative; overflow: hidden; }
+.hdr .grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(185,232,207,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(185,232,207,.06) 1px, transparent 1px); background-size: 8mm 8mm; }
+.hdr .in { position: relative; display: flex; justify-content: space-between; gap: 6mm; align-items: flex-start; }
+.eyebrow { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 7pt; letter-spacing: .08em; text-transform: uppercase; color: #B8C9C0; display: flex; align-items: center; gap: 2mm; }
+.eyebrow .node { width: 1.6mm; height: 1.6mm; background: #35D58A; display: inline-block; }
+.hdr h1 { font-size: 15.5pt; line-height: 1.2; font-weight: 500; letter-spacing: -.01em; margin: 2.2mm 0 0; }
+.hdr .side { text-align: right; flex: none; }
+.hdr .side .big { font-size: 12pt; font-weight: 500; margin-top: 1mm; }
+.hdr .side .sm { font-family: 'IBM Plex Mono', monospace; font-size: 6.5pt; letter-spacing: .08em; text-transform: uppercase; color: #B8C9C0; }
+.lead { font-size: 9.5pt; line-height: 1.5; color: #454C48; margin: 0; }
+.kpis { display: grid; gap: 3mm; }
+.kpi { background: #FFFFFF; border: 1px solid #D6D8D2; border-radius: 1.1mm; padding: 3mm 3.2mm; }
+.kpi.inv { background: #0B302B; border-color: #0B302B; color: #F5F4EC; }
+.kpi .lb { font-family: 'IBM Plex Mono', monospace; font-size: 6.2pt; letter-spacing: .08em; text-transform: uppercase; color: #5E6561; }
+.kpi.inv .lb { color: #B8C9C0; }
+.kpi .v { font-size: 17pt; font-weight: 500; letter-spacing: -.02em; margin-top: 1.2mm; line-height: 1; }
+.kpi .d { font-size: 7pt; margin-top: 1.4mm; line-height: 1.3; color: #5E6561; }
+.kpi.inv .d { color: #B8C9C0; }
+.bad { color: #A63A2A !important; } .good { color: #1F7A4F !important; } .warn { color: #9A6412 !important; }
+.card { background: #FFFFFF; border: 1px solid #D6D8D2; border-radius: 1.1mm; padding: 3mm 3.4mm; }
+.card svg { width: 100%; height: auto; display: block; }
+.sec { border-top: 1.5px solid #0B302B; padding-top: 1.6mm; margin-bottom: 2mm; display: flex; align-items: baseline; gap: 3mm; }
+.sec .no { font-family: 'IBM Plex Mono', monospace; font-size: 6.5pt; letter-spacing: .08em; color: #5E6561; }
+.sec h2 { margin: 0; font-size: 10pt; font-weight: 500; }
+.sec .r { margin-left: auto; font-family: 'IBM Plex Mono', monospace; font-size: 6.2pt; letter-spacing: .08em; text-transform: uppercase; color: #5E6561; }
+.ct { font-size: 8pt; font-weight: 500; margin: 0 0 .6mm; }
+.cs { font-size: 6.8pt; color: #5E6561; margin: 0 0 1.4mm; }
+ol.imp { margin: 0; padding-left: 4.5mm; font-size: 8.4pt; line-height: 1.45; } ol.imp li { margin-bottom: 1.5mm; }
+table.t { width: 100%; border-collapse: collapse; font-size: 7.6pt; }
+table.t th { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 6.2pt; letter-spacing: .08em; text-transform: uppercase; color: #5E6561; text-align: right; padding: 0 1.2mm 1mm; border-bottom: 1px solid #D6D8D2; background: #E8E9E5; }
+table.t td { padding: 1mm 1.2mm; border-bottom: 1px solid #E8E9E5; text-align: right; }
+table.t th:first-child, table.t td:first-child { text-align: left; }
+.foot { margin-top: auto; border-top: 1px solid #D6D8D2; padding-top: 2mm; display: flex; gap: 5mm; align-items: flex-start; }
+.foot .brand { display: flex; align-items: center; gap: 2mm; flex: none; }
+.foot .wm { font-family: 'Newsreader', Georgia, serif; font-weight: 400; font-size: 10pt; color: #0B302B; }
+.foot .ss { font-family: 'IBM Plex Mono', monospace; font-size: 5.8pt; letter-spacing: .1em; color: #5E6561; border-left: 1px solid #D6D8D2; padding-left: 2mm; }
+.foot .src { font-size: 6.2pt; color: #5E6561; line-height: 1.4; }
+</style></head><body><div class="page"><style>.page { gap: 2mm; padding-top: 7mm; padding-bottom: 5.5mm; } .lead { font-size: 8.4pt; line-height: 1.4; } .hdr h1 { font-size: 13.5pt; } .hdr { padding: 3.6mm 5.5mm 4mm; } ol.imp { font-size: 7.7pt; line-height: 1.38; } ol.imp li { margin-bottom: .8mm; } .kpi { padding: 2.2mm 2.8mm; } .kpi .v { font-size: 14pt; } .card { padding: 2.2mm 2.8mm; } .sec { margin-bottom: 1.1mm; } ul.pc { font-size: 7.4pt; } table.t td { padding: .8mm 1.2mm; }</style><style>
+table.t.sc2 td, table.t.sc2 th { padding: .55mm 1.2mm; }
+table.t tr.grp td { font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#1E5246; background:#E4ECE7; padding:.7mm 1.2mm; }
+table.t td.tg { color:#5E6561; }
+.dot { width:2.2mm; height:2.2mm; border-radius:50%; display:inline-block; } .dot.good{background:#1F7A4F} .dot.warn{background:#9A6412} .dot.bad{background:#A63A2A}
+.hb { background:#E8E9E5; height:2mm; border-radius:.4mm; overflow:hidden; } .hb span { display:block; height:100%; background:#1E5246; }
+td .hb { width:22mm; } td.sc { letter-spacing:.06em; font-size:7pt; }
+.stk { display:flex; height:3.4mm; border-radius:.5mm; overflow:hidden; margin:1mm 0 1.6mm; } .stk span { display:block; height:100%; }
+.lgs { display:grid; grid-template-columns:1fr 1fr; gap:.8mm 3mm; font-size:6.8pt; color:#454C48; }
+.lg { display:flex; align-items:center; gap:1.4mm; } .lg i { width:2mm; height:2mm; display:inline-block; flex:none; } .lg b { margin-left:auto; font-weight:500; color:#101714; }
+.pb { margin-bottom:.9mm; } .pl { display:flex; justify-content:space-between; font-size:7.2pt; margin-bottom:.5mm; } .pl b { font-weight:500; }
+ul.pc { list-style:none; margin:0; padding:0; font-size:7.6pt; line-height:1.42; } ul.pc li { display:flex; gap:2mm; margin-bottom:1.3mm; }
+ul.pc i { flex:none; width:1.6mm; height:1.6mm; margin-top:1.3mm; } ul.pc i.good{background:#1F7A4F} ul.pc i.bad{background:#A63A2A} ul.pc i.warn{background:#9A6412}
+ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#0B302B; color:#F5F4EC; font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:6.5pt; display:flex; align-items:center; justify-content:center; border-radius:.5mm; }
+table.rt { width:100%; border-collapse:collapse; font-size:7.4pt; } table.rt td { padding:.8mm 0; border-bottom:1px solid #E8E9E5; } table.rt td:last-child { text-align:right; font-weight:500; }
+.syn { display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; color:#0B302B; background:#35D58A; padding:.5mm 1.5mm; border-radius:.5mm; margin-top:2.5mm; }
+.page { gap: 2.3mm; padding-top: 7.5mm; padding-bottom: 6mm; } .kpi { padding: 2.4mm 3mm; } .kpi .v { font-size: 15pt; } .card { padding: 2.3mm 3mm; } .sec { margin-bottom: 1.3mm; } .hdr { padding: 4mm 6mm 4.5mm; }
+</style>
+<div class="hdr"><div class="grid"></div><div class="in"><div>
+<div class="eyebrow"><span class="node"></span>Relatório mensal de compras · Materiais diretos · Aeroespacial</div>
+<h1>Savings acima do plano, mas a entrega está abaixo da meta e as RFQs estão mais lentas</h1>
+<span class="syn">DADOS SINTÉTICOS · CASO DE PORTFÓLIO</span></div>
+<div class="side"><div class="sm">Mês de referência</div><div class="big">Setembro de 2026</div><div class="sm" style="margin-top:2mm">Período</div><div class="big" style="font-size:9pt">Mês fechado · edição 29/10/2026</div></div></div></div>
+<div class="kpis" style="grid-template-columns:repeat(5,1fr)">
+<div class="kpi inv"><div class="lb">Savings no ano</div><div class="v">274 mil</div><div class="d">US$ · 102% da meta</div></div>
+<div class="kpi"><div class="lb">Gasto</div><div class="v">16,3 mi</div><div class="d">US$ · ago 17,5 mi</div></div>
+<div class="kpi"><div class="lb">Entrega no prazo</div><div class="v warn">88,3%</div><div class="d">-1,7 pp vs meta de 90%</div></div>
+<div class="kpi"><div class="lb">PPM de recebimento</div><div class="v good">5.217</div><div class="d">Meta 7.500 · ago 11.546</div></div>
+<div class="kpi"><div class="lb">Ciclo de RFQ</div><div class="v bad">24,6 d</div><div class="d">Meta 21 dias · 11 RFQs concluídas</div></div>
+</div>
+<div style="display:grid;grid-template-columns:1.15fr 1fr;gap:4mm">
+<div><div class="sec"><span class="no">01</span><h2>Scorecard</h2><span class="r">Status vs meta</span></div>
+<table class="t sc2"><tr><th>Indicador</th><th>jul</th><th>ago</th><th>set</th><th>Meta</th><th></th></tr><tr class="grp"><td colspan="6">Gasto e sourcing</td></tr><tr><td>Gasto (US$ milhões)</td><td>18,61</td><td>17,46</td><td>16,32</td><td class="tg">–</td><td></td></tr><tr><td>Linhas de pedido emitidas</td><td>383</td><td>375</td><td>345</td><td class="tg">–</td><td></td></tr><tr><td>Gasto em itens de fonte única</td><td>38,9%</td><td>45,7%</td><td>35,5%</td><td class="tg">–</td><td></td></tr><tr><td>RFQs concluídas</td><td>15</td><td>10</td><td>11</td><td class="tg">–</td><td></td></tr><tr><td>Ciclo médio de RFQ (dias)</td><td>21,0</td><td>19,7</td><td>24,6</td><td class="tg">21,0</td><td><span class="dot bad"></span></td></tr><tr class="grp"><td colspan="6">Negociação (US$ mil)</td></tr><tr><td>Savings</td><td>16,3</td><td>28,8</td><td>0,8</td><td class="tg">30,0</td><td><span class="dot bad"></span></td></tr><tr><td>Cost avoidance</td><td>16,4</td><td>24,1</td><td>33,2</td><td class="tg">–</td><td></td></tr><tr><td>Aumentos aceitos</td><td>-10,6</td><td>-7,4</td><td>-3,1</td><td class="tg">–</td><td></td></tr><tr class="grp"><td colspan="6">Entrega e qualidade</td></tr><tr><td>Entrega no prazo (OTD)</td><td>90,2%</td><td>89,0%</td><td>88,3%</td><td class="tg">90,0%</td><td><span class="dot warn"></span></td></tr><tr><td>PPM de recebimento</td><td>8.954</td><td>11.546</td><td>5.217</td><td class="tg">7.500</td><td><span class="dot good"></span></td></tr><tr><td>Não conformidades abertas</td><td>15</td><td>18</td><td>7</td><td class="tg">–</td><td></td></tr></table></div>
+<div><div class="sec"><span class="no">02</span><h2>Savings e negociação</h2><span class="r">2026 no ano</span></div>
+<div class="card"><p class="ct">Savings acumulado vs meta, US$ mil</p><p class="cs">Metas mensais acumuladas</p><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="237.6pt" height="80.64pt" viewBox="0 0 237.6 80.64" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T21:38:43.315886</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 80.64 
+L 237.6 80.64 
+L 237.6 0 
+L 0 0 
+L 0 80.64 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.76 68.544 
+L 235.224 68.544 
+L 235.224 4.032 
+L 23.76 4.032 
+L 23.76 68.544 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <!-- jan -->
+      <g style="fill: #5e6561" transform="translate(35.891402 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-10" d="M 544 3302 
+L 1056 3302 
+L 1056 -512 
+Q 1056 -858 883 -1069 
+Q 710 -1280 339 -1280 
+L 6 -1280 
+L 6 -832 
+L 544 -832 
+L 544 3302 
+z
+M 800 4077 
+Q 634 4077 560 4157 
+Q 486 4237 486 4365 
+L 486 4448 
+Q 486 4576 560 4656 
+Q 634 4736 800 4736 
+Q 966 4736 1040 4656 
+Q 1114 4576 1114 4448 
+L 1114 4365 
+Q 1114 4237 1040 4157 
+Q 966 4077 800 4077 
+z
+" transform="scale(0.015625)"/>
+        <path id="IBMPlexSans-4" d="M 2944 0 
+Q 2656 0 2531 153 
+Q 2406 307 2374 538 
+L 2342 538 
+Q 2234 230 1984 76 
+Q 1734 -77 1389 -77 
+Q 864 -77 573 192 
+Q 282 461 282 922 
+Q 282 1389 624 1638 
+Q 966 1888 1690 1888 
+L 2342 1888 
+L 2342 2214 
+Q 2342 2566 2150 2752 
+Q 1958 2938 1562 2938 
+Q 1261 2938 1059 2803 
+Q 858 2669 723 2445 
+L 416 2733 
+Q 550 3002 844 3190 
+Q 1139 3379 1587 3379 
+Q 2189 3379 2521 3084 
+Q 2854 2790 2854 2266 
+L 2854 448 
+L 3232 448 
+L 3232 0 
+L 2944 0 
+z
+M 1472 358 
+Q 1664 358 1824 403 
+Q 1984 448 2099 531 
+Q 2214 614 2278 723 
+Q 2342 832 2342 960 
+L 2342 1504 
+L 1664 1504 
+Q 1222 1504 1020 1376 
+Q 819 1248 819 1005 
+L 819 870 
+Q 819 627 995 492 
+Q 1171 358 1472 358 
+z
+" transform="scale(0.015625)"/>
+        <path id="IBMPlexSans-14" d="M 544 0 
+L 544 3302 
+L 1056 3302 
+L 1056 2765 
+L 1082 2765 
+Q 1203 3046 1424 3212 
+Q 1645 3379 2016 3379 
+Q 2528 3379 2825 3049 
+Q 3123 2720 3123 2118 
+L 3123 0 
+L 2611 0 
+L 2611 2029 
+Q 2611 2918 1862 2918 
+Q 1709 2918 1565 2880 
+Q 1421 2842 1305 2765 
+Q 1190 2688 1123 2569 
+Q 1056 2451 1056 2291 
+L 1056 0 
+L 544 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-10"/>
+       <use xlink:href="#IBMPlexSans-4" transform="translate(25 0)"/>
+       <use xlink:href="#IBMPlexSans-14" transform="translate(78.40625 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <!-- fev -->
+      <g style="fill: #5e6561" transform="translate(58.189471 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-a" d="M 723 2854 
+L 186 2854 
+L 186 3302 
+L 723 3302 
+L 723 3968 
+Q 723 4314 902 4525 
+Q 1082 4736 1446 4736 
+L 1946 4736 
+L 1946 4288 
+L 1235 4288 
+L 1235 3302 
+L 1946 3302 
+L 1946 2854 
+L 1235 2854 
+L 1235 0 
+L 723 0 
+L 723 2854 
+z
+" transform="scale(0.015625)"/>
+        <path id="IBMPlexSans-9" d="M 1786 -77 
+Q 1446 -77 1174 44 
+Q 902 166 707 393 
+Q 512 621 406 937 
+Q 301 1254 301 1651 
+Q 301 2042 406 2362 
+Q 512 2682 707 2909 
+Q 902 3136 1174 3257 
+Q 1446 3379 1786 3379 
+Q 2118 3379 2380 3257 
+Q 2643 3136 2828 2921 
+Q 3014 2707 3113 2412 
+Q 3213 2118 3213 1766 
+L 3213 1523 
+L 838 1523 
+L 838 1370 
+Q 838 1158 905 976 
+Q 973 794 1097 659 
+Q 1222 525 1404 448 
+Q 1587 371 1818 371 
+Q 2131 371 2364 518 
+Q 2598 666 2726 941 
+L 3091 678 
+Q 2931 339 2592 131 
+Q 2253 -77 1786 -77 
+z
+M 1786 2950 
+Q 1574 2950 1401 2876 
+Q 1229 2803 1104 2668 
+Q 979 2534 908 2352 
+Q 838 2170 838 1952 
+L 838 1907 
+L 2662 1907 
+L 2662 1978 
+Q 2662 2419 2422 2684 
+Q 2182 2950 1786 2950 
+z
+" transform="scale(0.015625)"/>
+        <path id="IBMPlexSans-1c" d="M 1274 0 
+L 115 3302 
+L 627 3302 
+L 1203 1664 
+L 1562 538 
+L 1594 538 
+L 1952 1664 
+L 2541 3302 
+L 3034 3302 
+L 1869 0 
+L 1274 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-a"/>
+       <use xlink:href="#IBMPlexSans-9" transform="translate(32 0)"/>
+       <use xlink:href="#IBMPlexSans-1c" transform="translate(86.109375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <!-- mar -->
+      <g style="fill: #5e6561" transform="translate(79.123049 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-13" d="M 544 0 
+L 544 3302 
+L 1056 3302 
+L 1056 2765 
+L 1082 2765 
+Q 1139 2893 1212 3005 
+Q 1286 3117 1392 3200 
+Q 1498 3283 1638 3331 
+Q 1779 3379 1971 3379 
+Q 2298 3379 2573 3222 
+Q 2848 3066 2982 2707 
+L 2995 2707 
+Q 3085 2976 3331 3177 
+Q 3578 3379 4000 3379 
+Q 4506 3379 4790 3049 
+Q 5075 2720 5075 2118 
+L 5075 0 
+L 4563 0 
+L 4563 2029 
+Q 4563 2470 4390 2694 
+Q 4218 2918 3840 2918 
+Q 3686 2918 3548 2880 
+Q 3411 2842 3302 2765 
+Q 3194 2688 3130 2569 
+Q 3066 2451 3066 2291 
+L 3066 0 
+L 2554 0 
+L 2554 2029 
+Q 2554 2470 2381 2694 
+Q 2208 2918 1843 2918 
+Q 1690 2918 1549 2880 
+Q 1408 2842 1299 2765 
+Q 1190 2688 1123 2569 
+Q 1056 2451 1056 2291 
+L 1056 0 
+L 544 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="IBMPlexSans-18" d="M 544 0 
+L 544 3302 
+L 1056 3302 
+L 1056 2694 
+L 1088 2694 
+Q 1178 2931 1408 3116 
+Q 1638 3302 2042 3302 
+L 2240 3302 
+L 2240 2790 
+L 1939 2790 
+Q 1523 2790 1289 2633 
+Q 1056 2477 1056 2240 
+L 1056 0 
+L 544 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-13"/>
+       <use xlink:href="#IBMPlexSans-4" transform="translate(87.296875 0)"/>
+       <use xlink:href="#IBMPlexSans-18" transform="translate(140.703125 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <!-- abr -->
+      <g style="fill: #5e6561" transform="translate(102.376821 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-6" d="M 544 4736 
+L 1056 4736 
+L 1056 2765 
+L 1082 2765 
+Q 1210 3078 1456 3228 
+Q 1702 3379 2048 3379 
+Q 2355 3379 2604 3257 
+Q 2854 3136 3030 2912 
+Q 3206 2688 3299 2368 
+Q 3392 2048 3392 1651 
+Q 3392 1254 3299 934 
+Q 3206 614 3030 390 
+Q 2854 166 2604 44 
+Q 2355 -77 2048 -77 
+Q 1376 -77 1082 538 
+L 1056 538 
+L 1056 0 
+L 544 0 
+L 544 4736 
+z
+M 1907 384 
+Q 2342 384 2592 656 
+Q 2842 928 2842 1370 
+L 2842 1933 
+Q 2842 2374 2592 2646 
+Q 2342 2918 1907 2918 
+Q 1734 2918 1577 2870 
+Q 1421 2822 1305 2739 
+Q 1190 2656 1123 2537 
+Q 1056 2419 1056 2285 
+L 1056 1056 
+Q 1056 896 1123 771 
+Q 1190 646 1305 560 
+Q 1421 474 1577 429 
+Q 1734 384 1907 384 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-4"/>
+       <use xlink:href="#IBMPlexSans-6" transform="translate(53.40625 0)"/>
+       <use xlink:href="#IBMPlexSans-18" transform="translate(111.40625 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <!-- mai -->
+      <g style="fill: #5e6561" transform="translate(124.106648 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-f" d="M 800 4077 
+Q 634 4077 560 4157 
+Q 486 4237 486 4365 
+L 486 4448 
+Q 486 4576 560 4656 
+Q 634 4736 800 4736 
+Q 966 4736 1040 4656 
+Q 1114 4576 1114 4448 
+L 1114 4365 
+Q 1114 4237 1040 4157 
+Q 966 4077 800 4077 
+z
+M 544 3302 
+L 1056 3302 
+L 1056 0 
+L 544 0 
+L 544 3302 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-13"/>
+       <use xlink:href="#IBMPlexSans-4" transform="translate(87.296875 0)"/>
+       <use xlink:href="#IBMPlexSans-f" transform="translate(140.703125 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <!-- jun -->
+      <g style="fill: #5e6561" transform="translate(147.289327 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-1b" d="M 2579 538 
+L 2554 538 
+Q 2502 422 2428 310 
+Q 2355 198 2246 112 
+Q 2138 26 1984 -25 
+Q 1830 -77 1626 -77 
+Q 1114 -77 813 252 
+Q 512 582 512 1184 
+L 512 3302 
+L 1024 3302 
+L 1024 1274 
+Q 1024 384 1779 384 
+Q 1933 384 2077 422 
+Q 2221 461 2333 537 
+Q 2445 614 2512 732 
+Q 2579 851 2579 1018 
+L 2579 3302 
+L 3091 3302 
+L 3091 0 
+L 2579 0 
+L 2579 538 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-10"/>
+       <use xlink:href="#IBMPlexSans-1b" transform="translate(25 0)"/>
+       <use xlink:href="#IBMPlexSans-14" transform="translate(81.796875 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <!-- jul -->
+      <g style="fill: #5e6561" transform="translate(170.552748 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-12" d="M 1088 0 
+Q 819 0 681 150 
+Q 544 301 544 531 
+L 544 4736 
+L 1056 4736 
+L 1056 448 
+L 1542 448 
+L 1542 0 
+L 1088 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-10"/>
+       <use xlink:href="#IBMPlexSans-1b" transform="translate(25 0)"/>
+       <use xlink:href="#IBMPlexSans-12" transform="translate(81.796875 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <!-- ago -->
+      <g style="fill: #5e6561" transform="translate(191.144568 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-b" d="M 3328 -365 
+Q 3328 -877 2928 -1117 
+Q 2528 -1357 1728 -1357 
+Q 954 -1357 614 -1145 
+Q 275 -934 275 -544 
+Q 275 -275 416 -124 
+Q 557 26 800 96 
+L 800 166 
+Q 506 307 506 627 
+Q 506 877 666 1008 
+Q 826 1139 1075 1203 
+L 1075 1229 
+Q 781 1370 617 1632 
+Q 454 1894 454 2240 
+Q 454 2490 544 2701 
+Q 634 2912 797 3062 
+Q 960 3213 1187 3296 
+Q 1414 3379 1696 3379 
+Q 2048 3379 2323 3251 
+L 2323 3309 
+Q 2323 3501 2412 3625 
+Q 2502 3750 2707 3750 
+L 3200 3750 
+L 3200 3302 
+L 2573 3302 
+L 2573 3091 
+Q 2752 2938 2851 2723 
+Q 2950 2509 2950 2240 
+Q 2950 1990 2860 1779 
+Q 2771 1568 2608 1417 
+Q 2445 1267 2214 1184 
+Q 1984 1101 1702 1101 
+Q 1542 1101 1382 1133 
+Q 1216 1088 1081 1001 
+Q 947 915 947 762 
+Q 947 614 1088 563 
+Q 1229 512 1453 512 
+L 2157 512 
+Q 2771 512 3049 278 
+Q 3328 45 3328 -365 
+z
+M 2848 -403 
+Q 2848 -205 2697 -86 
+Q 2547 32 2163 32 
+L 1062 32 
+Q 755 -109 755 -416 
+Q 755 -634 918 -787 
+Q 1082 -941 1472 -941 
+L 1946 -941 
+Q 2374 -941 2611 -806 
+Q 2848 -672 2848 -403 
+z
+M 1702 1510 
+Q 2029 1510 2221 1667 
+Q 2413 1824 2413 2150 
+L 2413 2330 
+Q 2413 2656 2221 2813 
+Q 2029 2970 1702 2970 
+Q 1376 2970 1184 2813 
+Q 992 2656 992 2330 
+L 992 2150 
+Q 992 1824 1184 1667 
+Q 1376 1510 1702 1510 
+z
+" transform="scale(0.015625)"/>
+        <path id="IBMPlexSans-15" d="M 1792 -77 
+Q 1459 -77 1184 44 
+Q 909 166 713 393 
+Q 518 621 409 937 
+Q 301 1254 301 1651 
+Q 301 2042 409 2362 
+Q 518 2682 713 2909 
+Q 909 3136 1184 3257 
+Q 1459 3379 1792 3379 
+Q 2125 3379 2397 3257 
+Q 2669 3136 2867 2909 
+Q 3066 2682 3174 2362 
+Q 3283 2042 3283 1651 
+Q 3283 1254 3174 937 
+Q 3066 621 2867 393 
+Q 2669 166 2397 44 
+Q 2125 -77 1792 -77 
+z
+M 1792 378 
+Q 2208 378 2470 634 
+Q 2733 890 2733 1414 
+L 2733 1888 
+Q 2733 2413 2470 2669 
+Q 2208 2925 1792 2925 
+Q 1376 2925 1113 2669 
+Q 851 2413 851 1888 
+L 851 1414 
+Q 851 890 1113 634 
+Q 1376 378 1792 378 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-4"/>
+       <use xlink:href="#IBMPlexSans-b" transform="translate(53.40625 0)"/>
+       <use xlink:href="#IBMPlexSans-15" transform="translate(105.609375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <!-- set -->
+      <g style="fill: #5e6561" transform="translate(214.190645 77.114) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-19" d="M 1536 -77 
+Q 1075 -77 764 99 
+Q 454 275 230 570 
+L 595 864 
+Q 787 621 1024 489 
+Q 1261 358 1574 358 
+Q 1901 358 2083 499 
+Q 2266 640 2266 896 
+Q 2266 1088 2141 1225 
+Q 2016 1363 1690 1414 
+L 1427 1453 
+Q 1197 1485 1005 1552 
+Q 813 1619 669 1731 
+Q 525 1843 445 2009 
+Q 365 2176 365 2406 
+Q 365 2650 454 2832 
+Q 544 3014 701 3136 
+Q 858 3258 1075 3318 
+Q 1293 3379 1542 3379 
+Q 1946 3379 2218 3238 
+Q 2490 3098 2694 2848 
+L 2355 2541 
+Q 2246 2694 2035 2819 
+Q 1824 2944 1504 2944 
+Q 1184 2944 1021 2806 
+Q 858 2669 858 2432 
+Q 858 2189 1021 2080 
+Q 1184 1971 1491 1920 
+L 1747 1882 
+Q 2298 1798 2528 1564 
+Q 2758 1331 2758 954 
+Q 2758 474 2432 198 
+Q 2106 -77 1536 -77 
+z
+" transform="scale(0.015625)"/>
+        <path id="IBMPlexSans-1a" d="M 1274 0 
+Q 1005 0 867 150 
+Q 730 301 730 544 
+L 730 2854 
+L 186 2854 
+L 186 3302 
+L 493 3302 
+Q 659 3302 720 3369 
+Q 781 3437 781 3603 
+L 781 4218 
+L 1242 4218 
+L 1242 3302 
+L 1965 3302 
+L 1965 2854 
+L 1242 2854 
+L 1242 448 
+L 1914 448 
+L 1914 0 
+L 1274 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-19"/>
+       <use xlink:href="#IBMPlexSans-9" transform="translate(48.703125 0)"/>
+       <use xlink:href="#IBMPlexSans-1a" transform="translate(103.609375 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_10">
+      <path d="M 23.76 68.544 
+L 235.224 68.544 
+" clip-path="url(#p2593a1da4b)" style="fill: none; stroke: #e8e9e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_10">
+      <!-- 0 -->
+      <g style="fill: #5e6561" transform="translate(16.36 71.079) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-3b" d="M 1920 -77 
+Q 1120 -77 752 531 
+Q 384 1139 384 2234 
+Q 384 3328 752 3936 
+Q 1120 4544 1920 4544 
+Q 2720 4544 3088 3936 
+Q 3456 3328 3456 2234 
+Q 3456 1139 3088 531 
+Q 2720 -77 1920 -77 
+z
+M 1920 390 
+Q 2182 390 2368 499 
+Q 2554 608 2669 806 
+Q 2784 1005 2838 1273 
+Q 2893 1542 2893 1869 
+L 2893 2598 
+Q 2893 2925 2838 3193 
+Q 2784 3462 2669 3660 
+Q 2554 3859 2368 3968 
+Q 2182 4077 1920 4077 
+Q 1658 4077 1472 3968 
+Q 1286 3859 1171 3660 
+Q 1056 3462 1001 3193 
+Q 947 2925 947 2598 
+L 947 1869 
+Q 947 1542 1001 1273 
+Q 1056 1005 1171 806 
+Q 1286 608 1472 499 
+Q 1658 390 1920 390 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-3b"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12">
+      <path d="M 23.76 46.14411 
+L 235.224 46.14411 
+" clip-path="url(#p2593a1da4b)" style="fill: none; stroke: #e8e9e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_11">
+      <!-- 100 -->
+      <g style="fill: #5e6561" transform="translate(8.56 48.67911) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-3e" d="M 563 0 
+L 563 474 
+L 1811 474 
+L 1811 4070 
+L 1766 4070 
+L 640 3021 
+L 326 3360 
+L 1510 4467 
+L 2349 4467 
+L 2349 474 
+L 3501 474 
+L 3501 0 
+L 563 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-3e"/>
+       <use xlink:href="#IBMPlexSans-3b" transform="translate(60 0)"/>
+       <use xlink:href="#IBMPlexSans-3b" transform="translate(120 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_14">
+      <path d="M 23.76 23.74422 
+L 235.224 23.74422 
+" clip-path="url(#p2593a1da4b)" style="fill: none; stroke: #e8e9e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_12">
+      <!-- 200 -->
+      <g style="fill: #5e6561" transform="translate(8.56 26.27922) scale(0.065 -0.065)">
+       <defs>
+        <path id="IBMPlexSans-3f" d="M 3411 0 
+L 480 0 
+L 480 550 
+L 1939 1894 
+Q 2253 2182 2464 2505 
+Q 2675 2829 2675 3155 
+L 2675 3232 
+Q 2675 3603 2470 3833 
+Q 2266 4064 1850 4064 
+Q 1645 4064 1491 4006 
+Q 1338 3949 1226 3846 
+Q 1114 3744 1040 3606 
+Q 966 3469 922 3309 
+L 442 3494 
+Q 506 3693 618 3881 
+Q 730 4070 899 4217 
+Q 1069 4365 1309 4454 
+Q 1549 4544 1875 4544 
+Q 2202 4544 2458 4448 
+Q 2714 4352 2886 4179 
+Q 3059 4006 3152 3769 
+Q 3245 3533 3245 3245 
+Q 3245 2982 3171 2758 
+Q 3098 2534 2970 2332 
+Q 2842 2131 2659 1939 
+Q 2477 1747 2266 1555 
+L 1062 474 
+L 3411 474 
+L 3411 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#IBMPlexSans-3f"/>
+       <use xlink:href="#IBMPlexSans-3b" transform="translate(60 0)"/>
+       <use xlink:href="#IBMPlexSans-3b" transform="translate(120 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 33.372 68.544 
+L 47.199007 68.544 
+L 47.199007 66.665986 
+L 33.372 66.665986 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 55.673624 68.544 
+L 69.500631 68.544 
+L 69.500631 55.295659 
+L 55.673624 55.295659 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 77.975248 68.544 
+L 91.802255 68.544 
+L 91.802255 45.182355 
+L 77.975248 45.182355 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 100.276872 68.544 
+L 114.103879 68.544 
+L 114.103879 37.78004 
+L 100.276872 37.78004 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 122.578497 68.544 
+L 136.405503 68.544 
+L 136.405503 27.321245 
+L 122.578497 27.321245 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 144.880121 68.544 
+L 158.707128 68.544 
+L 158.707128 17.392641 
+L 144.880121 17.392641 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 167.181745 68.544 
+L 181.008752 68.544 
+L 181.008752 13.741594 
+L 167.181745 13.741594 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 189.483369 68.544 
+L 203.310376 68.544 
+L 203.310376 7.286297 
+L 189.483369 7.286297 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #d6d8d2"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 211.784993 68.544 
+L 225.612 68.544 
+L 225.612 7.104 
+L 211.784993 7.104 
+z
+" clip-path="url(#p2593a1da4b)" style="fill: #1e5246"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 40.285503 61.824033 
+L 62.587128 55.104066 
+L 84.888752 48.384099 
+L 107.190376 41.664132 
+L 129.492 34.944165 
+L 151.793624 28.224198 
+L 174.095248 21.504231 
+L 196.396872 14.784264 
+L 218.698497 8.064297 
+" clip-path="url(#p2593a1da4b)" style="fill: none; stroke-dasharray: 3.3,2.2; stroke-dashoffset: 0; stroke: #101714; stroke-width: 1.1"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 23.76 68.544 
+L 235.224 68.544 
+" style="fill: none; stroke: #bdc1bb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_17">
+     <path d="M 29.61 12.677 
+L 34.81 12.677 
+L 40.01 12.677 
+" style="fill: none; stroke-dasharray: 3.3,2.2; stroke-dashoffset: 0; stroke: #101714; stroke-width: 1.1"/>
+    </g>
+    <g id="text_13">
+     <!-- Meta -->
+     <g style="fill: #101714" transform="translate(45.21 14.952) scale(0.065 -0.065)">
+      <defs>
+       <path id="IBMPlexSans-2d" d="M 4077 3763 
+L 4045 3763 
+L 3667 3014 
+L 2598 1069 
+L 1530 3014 
+L 1152 3763 
+L 1120 3763 
+L 1120 0 
+L 595 0 
+L 595 4467 
+L 1312 4467 
+L 2592 2061 
+L 2624 2061 
+L 3910 4467 
+L 4602 4467 
+L 4602 0 
+L 4077 0 
+L 4077 3763 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#IBMPlexSans-2d"/>
+      <use xlink:href="#IBMPlexSans-9" transform="translate(81.203125 0)"/>
+      <use xlink:href="#IBMPlexSans-1a" transform="translate(136.109375 0)"/>
+      <use xlink:href="#IBMPlexSans-4" transform="translate(171.203125 0)"/>
+     </g>
+    </g>
+    <g id="patch_13">
+     <path d="M 29.61 24.702 
+L 40.01 24.702 
+L 40.01 20.152 
+L 29.61 20.152 
+z
+" style="fill: #d6d8d2"/>
+    </g>
+    <g id="text_14">
+     <!-- Realizado -->
+     <g style="fill: #101714" transform="translate(45.21 24.702) scale(0.065 -0.065)">
+      <defs>
+       <path id="IBMPlexSans-32" d="M 1133 0 
+L 595 0 
+L 595 4467 
+L 2374 4467 
+Q 2963 4467 3292 4140 
+Q 3622 3814 3622 3200 
+Q 3622 2707 3395 2390 
+Q 3168 2074 2726 1971 
+L 3750 0 
+L 3142 0 
+L 2176 1920 
+L 1133 1920 
+L 1133 0 
+z
+M 2374 2381 
+Q 2694 2381 2870 2547 
+Q 3046 2714 3046 3021 
+L 3046 3354 
+Q 3046 3661 2870 3827 
+Q 2694 3994 2374 3994 
+L 1133 3994 
+L 1133 2381 
+L 2374 2381 
+z
+" transform="scale(0.015625)"/>
+       <path id="IBMPlexSans-20" d="M 211 0 
+L 211 429 
+L 2086 2854 
+L 269 2854 
+L 269 3302 
+L 2707 3302 
+L 2707 2918 
+L 794 448 
+L 2758 448 
+L 2758 0 
+L 211 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="IBMPlexSans-8" d="M 2656 538 
+L 2630 538 
+Q 2330 -77 1664 -77 
+Q 1357 -77 1107 44 
+Q 858 166 682 390 
+Q 506 614 413 934 
+Q 320 1254 320 1651 
+Q 320 2048 413 2368 
+Q 506 2688 682 2912 
+Q 858 3136 1107 3257 
+Q 1357 3379 1664 3379 
+Q 2010 3379 2256 3228 
+Q 2502 3078 2630 2765 
+L 2656 2765 
+L 2656 4736 
+L 3168 4736 
+L 3168 0 
+L 2656 0 
+L 2656 538 
+z
+M 1805 384 
+Q 1978 384 2134 429 
+Q 2291 474 2406 560 
+Q 2522 646 2589 771 
+Q 2656 896 2656 1056 
+L 2656 2285 
+Q 2656 2419 2589 2537 
+Q 2522 2656 2406 2739 
+Q 2291 2822 2134 2870 
+Q 1978 2918 1805 2918 
+Q 1370 2918 1120 2646 
+Q 870 2374 870 1933 
+L 870 1370 
+Q 870 928 1120 656 
+Q 1370 384 1805 384 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#IBMPlexSans-32"/>
+      <use xlink:href="#IBMPlexSans-9" transform="translate(62.5 0)"/>
+      <use xlink:href="#IBMPlexSans-4" transform="translate(117.40625 0)"/>
+      <use xlink:href="#IBMPlexSans-12" transform="translate(170.8125 0)"/>
+      <use xlink:href="#IBMPlexSans-f" transform="translate(198.015625 0)"/>
+      <use xlink:href="#IBMPlexSans-20" transform="translate(223.015625 0)"/>
+      <use xlink:href="#IBMPlexSans-4" transform="translate(269.421875 0)"/>
+      <use xlink:href="#IBMPlexSans-8" transform="translate(322.828125 0)"/>
+      <use xlink:href="#IBMPlexSans-15" transform="translate(380.828125 0)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2593a1da4b">
+   <rect x="23.76" y="4.032" width="211.464" height="64.512"/>
+  </clipPath>
+ </defs>
+</svg>
+</div>
+<div class="card" style="margin-top:2mm"><table class="rt">
+<tr><td>Savings validado por Finanças</td><td>82%</td></tr>
+<tr><td>Aumentos aceitos no ano (US$ mil)</td><td class="bad">-118</td></tr>
+<tr><td>Resultado líquido no ano (US$ mil)</td><td>156</td></tr></table></div></div>
+</div>
+<div><div class="sec"><span class="no">03</span><h2>Composição do gasto</h2><span class="r">set</span></div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:3mm">
+<div class="card"><p class="ct">Por categoria</p><div class="stk"><span style="width:46.64%;background:#1E5246"></span><span style="width:31.41%;background:#8FA99D"></span><span style="width:13.64%;background:#4F6D8A"></span><span style="width:8.31%;background:#D6D8D2"></span></div><div class="lgs"><div class="lg"><i style="background:#1E5246"></i>Aviônica<b>47%</b></div><div class="lg"><i style="background:#8FA99D"></i>Propulsão<b>31%</b></div><div class="lg"><i style="background:#4F6D8A"></i>Trem de pouso<b>14%</b></div><div class="lg"><i style="background:#D6D8D2"></i>Outros<b>8%</b></div></div></div><div class="card"><p class="ct">Por moeda</p><div class="stk"><span style="width:73.26%;background:#1E5246"></span><span style="width:19.59%;background:#8FA99D"></span><span style="width:7.15%;background:#4F6D8A"></span></div><div class="lgs"><div class="lg"><i style="background:#1E5246"></i>USD<b>73%</b></div><div class="lg"><i style="background:#8FA99D"></i>EUR<b>20%</b></div><div class="lg"><i style="background:#4F6D8A"></i>BRL<b>7%</b></div></div></div><div class="card"><p class="ct">Por segmento de fornecedor</p><div class="stk"><span style="width:47.86%;background:#1E5246"></span><span style="width:36.05%;background:#8FA99D"></span><span style="width:11.79%;background:#4F6D8A"></span><span style="width:4.30%;background:#D6D8D2"></span></div><div class="lgs"><div class="lg"><i style="background:#1E5246"></i>Aprovado<b>48%</b></div><div class="lg"><i style="background:#8FA99D"></i>Preferencial<b>36%</b></div><div class="lg"><i style="background:#4F6D8A"></i>Estratégico<b>12%</b></div><div class="lg"><i style="background:#D6D8D2"></i>Em desenv.<b>4%</b></div></div></div></div></div>
+<div style="display:grid;grid-template-columns:1.15fr 1fr;gap:4mm">
+<div><div class="sec"><span class="no">04</span><h2>Performance de fornecedores</h2><span class="r">Top 6 · jul–set</span></div>
+<table class="t"><tr><th>Fornecedor</th><th>Gasto</th><th>US$ mi</th><th>OTD</th><th>PPM</th><th>Score</th></tr><tr><td>Apex Technologies Inc</td><td><div class="hb"><span style="width:100%"></span></div></td><td>3,33</td><td class="bad">83%</td><td class="">11.834</td><td class="sc bad">●●○○○</td></tr><tr><td>Polar Dynamics Inc</td><td><div class="hb"><span style="width:86%"></span></div></td><td>2,85</td><td class="">95%</td><td class="bad">16.949</td><td class="sc warn">●●●○○</td></tr><tr><td>Delta Aerospace Inc</td><td><div class="hb"><span style="width:68%"></span></div></td><td>2,27</td><td class="bad">81%</td><td class="">6.849</td><td class="sc bad">●●○○○</td></tr><tr><td>Sky Precision Inc</td><td><div class="hb"><span style="width:53%"></span></div></td><td>1,77</td><td class="">100%</td><td class="">0</td><td class="sc good">●●●●●</td></tr><tr><td>Cirrus Aerospace Inc</td><td><div class="hb"><span style="width:44%"></span></div></td><td>1,47</td><td class="bad">80%</td><td class="">0</td><td class="sc warn">●●●●○</td></tr><tr><td>Atlas Components Inc</td><td><div class="hb"><span style="width:43%"></span></div></td><td>1,44</td><td class="">92%</td><td class="">13.514</td><td class="sc warn">●●●○○</td></tr></table>
+<div class="card" style="margin-top:2mm"><p class="ct">Destaques e pontos de atenção</p><ul class="pc"><li><i class="warn"></i><span><b>Savings acima do plano no ano,</b> com 102% da meta, embora setembro tenha ficado em 3% da meta do mês (US$ 0,8 mil).</span></li><li><i class="warn"></i><span><b>Entrega abaixo da meta:</b> OTD em 88,3% para meta de 90%; 3 dos seis maiores fornecedores estão abaixo de 85% em jul–set.</span></li><li><i class="good"></i><span><b>Qualidade na meta:</b> PPM de recebimento em 5.217 para meta de 7.500.</span></li><li><i class="warn"></i><span><b>Sourcing mais lento:</b> ciclo de RFQ subiu de 21,0 para 24,6 dias (meta 21), com 11 RFQs concluídas.</span></li></ul></div></div>
+<div><div class="sec"><span class="no">05</span><h2>Qualidade e ações</h2><span class="r">5 NCs abertas</span></div>
+<div class="card"><p class="ct">Não conformidades por motivo, jul–set</p><div class="pb"><div class="pl"><span>Reprovação na inspeção</span><b>17 · 42%</b></div><div class="hb"><span style="width:100%"></span></div></div><div class="pb"><div class="pl"><span>Certificado do fabricante ausente</span><b>7 · 18%</b></div><div class="hb"><span style="width:41%"></span></div></div><div class="pb"><div class="pl"><span>Dano no transporte</span><b>6 · 15%</b></div><div class="hb"><span style="width:35%"></span></div></div><div class="pb"><div class="pl"><span>Revisão de peça superada</span><b>6 · 15%</b></div><div class="hb"><span style="width:35%"></span></div></div><div class="pb"><div class="pl"><span>Documentação divergente (CoC/FAI)</span><b>4 · 10%</b></div><div class="hb"><span style="width:24%"></span></div></div></div>
+<div class="card" style="margin-top:2mm"><p class="ct">Ações para outubro</p><ul class="pc"><li><i class="n">1</i><span>Cobrar as 23 linhas de pedido atrasadas (US$ 1,07 mi), começando por Delta Aerospace Inc (US$ 0,15 mi) e Apex Technologies Inc (US$ 0,15 mi).</span></li><li><i class="n">2</i><span>Abrir um 8D com Polar Dynamics Inc e conter os recebimentos em aberto até o PPM voltar à meta.</span></li><li><i class="n">3</i><span>Pacote padrão e prazo de resposta de 5 dias úteis para RFQs recorrentes, para trazer o ciclo abaixo de 21 dias.</span></li><li><i class="n">4</i><span>Confrontar os US$ 118 mil de aumentos aceitos no ano com o PPI de cada categoria antes das renovações.</span></li></ul></div></div>
+</div>
+<div class="foot"><div class="brand"><svg viewBox="0 0 58 48" width="18" height="14.9" aria-label="SA"><g fill="none" stroke="#0B302B" stroke-width="5" stroke-linejoin="miter"><path d="M22 8.5H10.5a4 4 0 0 0-4 4V20a4 4 0 0 0 4 4h5a4 4 0 0 1 4 4v7.5a4 4 0 0 1-4 4H4"/><path d="M15.5 24H44"/></g><path fill="#0B302B" d="M25.4 42 37.6 6h4.8l12.2 36h-5.3L40 14.5 30.7 42z"/></svg><span class="wm">Stephany Alves</span><span class="ss">SIGNAL &amp; STRUCTURE</span></div><div class="src">Dados sintéticos, apenas para portfólio; nenhum dado de empresa real. Preços indexados ao último PPI publicado pelo BLS para cada categoria e câmbio pela PTAX média do mês. Score do fornecedor: até 50 pontos por OTD e 50 por PPM (5 pontos = 100). Status: verde na meta, âmbar até 5% fora, vermelho acima de 5%.</div></div>
+</div></body></html>

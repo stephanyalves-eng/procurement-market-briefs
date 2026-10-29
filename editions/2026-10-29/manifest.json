@@ -1,6 +1,6 @@
 {
   "edition": "2026-10-29",
-  "report_cutoff": "2026-10-28",
+  "report_cutoff": "2026-09-30",
   "warnings": [],
   "briefs": {
     "en": [
@@ -15,13 +15,13 @@
         "ptax_to": "2026-10-28"
       },
       {
-        "name": "Monthly_Procurement_Performance_Report_2026-10",
+        "name": "Monthly_Procurement_Performance_Report_2026-09",
         "height": 1123,
         "fit_level": 0,
-        "headline": "Savings are ahead of plan, but delivery keeps slipping and quality is back above target",
-        "savings_ytd_pct": 105.5,
-        "otd": 87.95,
-        "ppm": 8987
+        "headline": "Savings are ahead of plan, but delivery is below target and RFQs are taking longer",
+        "savings_ytd_pct": 101.6,
+        "otd": 88.27,
+        "ppm": 5217
       },
       {
         "name": "Brazil_EV_Supply_Chain_Brief_2026-10-29",
@@ -45,13 +45,13 @@
         "ptax_to": "2026-10-28"
       },
       {
-        "name": "Relatorio_Mensal_Performance_Compras_2026-10",
+        "name": "Relatorio_Mensal_Performance_Compras_2026-09",
         "height": 1123,
-        "fit_level": 0,
-        "headline": "Savings acima do plano, mas a entrega segue piorando e a qualidade voltou a passar da meta",
-        "savings_ytd_pct": 105.5,
-        "otd": 87.95,
-        "ppm": 8987
+        "fit_level": 3,
+        "headline": "Savings acima do plano, mas a entrega está abaixo da meta e as RFQs estão mais lentas",
+        "savings_ytd_pct": 101.6,
+        "otd": 88.27,
+        "ppm": 5217
       },
       {
         "name": "Brief_Cadeia_Veiculos_Eletricos_2026-10-29",
