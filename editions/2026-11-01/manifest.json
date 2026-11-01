@@ -1,0 +1,67 @@
+{
+  "edition": "2026-11-01",
+  "report_cutoff": "2026-10-31",
+  "warnings": [],
+  "briefs": {
+    "en": [
+      {
+        "name": "Aerospace_Supply_Market_Brief_2026-11-01",
+        "height": 1123,
+        "fit_level": 0,
+        "headline": "Aircraft parts demand up 11.1% and avionics prices up 17.2%, while the late-October BRL selloff erased most of the currency cushion",
+        "g": 11.07,
+        "avionics_ppi": 17.18,
+        "usd": 5.342,
+        "ptax_to": "2026-10-28"
+      },
+      {
+        "name": "Monthly_Procurement_Performance_Report_2026-10",
+        "height": 1123,
+        "fit_level": 3,
+        "headline": "Savings are ahead of plan, but delivery keeps slipping and quality is back above target",
+        "savings_ytd_pct": 104.4,
+        "otd": 86.92,
+        "ppm": 7970
+      },
+      {
+        "name": "Brazil_EV_Supply_Chain_Brief_2026-11-01",
+        "height": 1123,
+        "fit_level": 0,
+        "headline": "Electrified car imports rose 160% to 425k units, 93% from China, and spiked before every July tariff step. From 2027, localization is the only cost lever left",
+        "units": 424853,
+        "growth": 160.3,
+        "china": 93.0
+      }
+    ],
+    "pt": [
+      {
+        "name": "Brief_Mercado_Aeroespacial_2026-11-01",
+        "height": 1123,
+        "fit_level": 2,
+        "headline": "Demanda por peças aeronáuticas sobe 11,1% e preço de aviônica sobe 17,2%, enquanto a alta do dólar no fim de outubro apagou quase toda a folga do câmbio",
+        "g": 11.07,
+        "avionics_ppi": 17.18,
+        "usd": 5.342,
+        "ptax_to": "2026-10-28"
+      },
+      {
+        "name": "Relatorio_Mensal_Performance_Compras_2026-10",
+        "height": 1123,
+        "fit_level": 3,
+        "headline": "Savings acima do plano, mas a entrega segue piorando e a qualidade voltou a passar da meta",
+        "savings_ytd_pct": 104.4,
+        "otd": 86.92,
+        "ppm": 7970
+      },
+      {
+        "name": "Brief_Cadeia_Veiculos_Eletricos_2026-11-01",
+        "height": 1123,
+        "fit_level": 0,
+        "headline": "Importação de carros eletrificados sobe 160% para 425 mil unidades, 93% da China, com picos antes de cada aumento de imposto em julho. A partir de 2027, nacionalizar é a alavanca de custo que resta",
+        "units": 424853,
+        "growth": 160.3,
+        "china": 93.0
+      }
+    ]
+  }
+}
