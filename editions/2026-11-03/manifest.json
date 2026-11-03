@@ -8,11 +8,11 @@
         "name": "Aerospace_Supply_Market_Brief_2026-11-03",
         "height": 1123,
         "fit_level": 0,
-        "headline": "Aircraft parts demand up 11.1% and avionics prices up 17.2%, while the late-October BRL selloff erased most of the currency cushion",
+        "headline": "Aircraft parts demand up 11.1% and avionics prices up 17.2%, while a sharp BRL selloff raises import costs",
         "g": 11.07,
         "avionics_ppi": 17.18,
-        "usd": 5.342,
-        "ptax_to": "2026-10-28"
+        "usd": 5.4935,
+        "ptax_to": "2026-11-03"
       },
       {
         "name": "Monthly_Procurement_Performance_Report_2026-10",
@@ -65,12 +65,12 @@
       {
         "name": "Brief_Mercado_Aeroespacial_2026-11-03",
         "height": 1123,
-        "fit_level": 2,
-        "headline": "Demanda por peças aeronáuticas sobe 11,1% e preço de aviônica sobe 17,2%, enquanto a alta do dólar no fim de outubro apagou quase toda a folga do câmbio",
+        "fit_level": 1,
+        "headline": "Demanda por peças aeronáuticas sobe 11,1% e preço de aviônica sobe 17,2%, enquanto uma alta forte do dólar encarece as importações",
         "g": 11.07,
         "avionics_ppi": 17.18,
-        "usd": 5.342,
-        "ptax_to": "2026-10-28"
+        "usd": 5.4935,
+        "ptax_to": "2026-11-03"
       },
       {
         "name": "Relatorio_Mensal_Performance_Compras_2026-10",
