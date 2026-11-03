@@ -2,13 +2,31 @@
 
 One-page decision briefs for procurement, rebuilt every month from public data, in English and Brazilian Portuguese.
 
-Each page answers one sourcing question with numbers that come straight from official sources (or from a documented synthetic dataset), and ends with actions. A GitHub Actions workflow downloads the data, regenerates the six PDFs and commits the new edition on the 16th of every month.
+Each page answers one sourcing question with numbers that come straight from official sources (or from a documented synthetic dataset), and ends with actions. A GitHub Actions workflow downloads the data, regenerates the twelve PDFs (six briefs in two languages) and commits the new edition on the 16th of every month.
 
-| Aerospace Supply Market Brief | Monthly Procurement Performance Report | Brazil EV Supply Chain Brief |
-|---|---|---|
-| ![Aerospace brief](docs/images/latest-aerospace-en.png) | ![Procurement report](docs/images/latest-procurement-en.png) | ![EV brief](docs/images/latest-ev-en.png) |
-| Is the aircraft parts market pushing price, FX or capacity, and what should buyers do? | Is procurement delivering savings, delivery and quality on target, and which actions fix the gaps? | How do Brazil's import duty steps and localization change EV sourcing? |
-| Public data: Comex Stat, BLS PPI, BCB PTAX | Synthetic data, indexed to public prices and FX | Public data: Comex Stat, Gecex duty schedule |
+| Aerospace Supply Market Brief | Monthly Procurement Performance Report |
+|---|---|
+| ![Aerospace brief](docs/images/latest-aerospace-en.png) | ![Procurement report](docs/images/latest-procurement-en.png) |
+| Is the aircraft parts market pushing price, FX or capacity, and what should buyers do? | Is procurement delivering savings, delivery and quality on target, and which actions fix the gaps? |
+| Public data: Comex Stat, BLS PPI, BCB PTAX | Synthetic data, indexed to public prices and FX |
+
+| Brazil EV Supply Chain Brief | Monthly Supplier Quality Report |
+|---|---|
+| ![EV brief](docs/images/latest-ev-en.png) | ![Supplier quality report](docs/images/latest-sqe-en.png) |
+| How do Brazil's import duty steps and localization change EV sourcing? | At an EV plant localizing parts in Brazil, are suppliers meeting PPM, containment, 8D and PPAP targets, and where to act first? |
+| Public data: Comex Stat, Gecex duty schedule | Synthetic data for a fictitious plant with a Chinese parent company; public context from Comex Stat |
+
+| Six Sigma Supplier Quality Report |
+|---|
+| ![Six Sigma report](docs/images/latest-sixsigma-en.png) |
+| Is the incoming defect rate a stable process or a special cause, how capable is a critical characteristic, and are the DMAIC projects delivering? Laney p′ chart, DPMO and sigma level, Cp/Cpk/Ppk, Pareto, two-proportion z test, DMAIC portfolio. |
+| Same synthetic EV plant, plus invented measurements and projects (`pipeline/sixsigma_synthetic.py`) |
+
+| Supplier Non-Conformance Report |
+|---|
+| ![Non-conformance report](docs/images/latest-nc-en.png) |
+| A simpler read of the same plant: how many non-conformances, where they were found, which defects repeat (Pareto), the root cause by 6M (Ishikawa), a Five Whys example and corrective and preventive actions. |
+| Same synthetic EV plant; root causes assigned to closed cases only (`root_cause()` in `pipeline/sqe_synthetic.py`) |
 
 All editions, in both languages: [editions/](editions/README.md). Versão em português das páginas: mesma pasta, subpasta `pt`.
 
@@ -51,10 +69,12 @@ Set `BLS_API_KEY` (free registration at bls.gov) to avoid the low daily limit of
 | `run_edition.py` | Orchestrates fetch, synthetic extension and the six builds |
 | `briefs/` | One module per brief, shared helpers (`common.py`) and the design system (`style.py`) |
 | `pipeline/fetch_public.py` | BCB, BLS and Comex Stat downloads |
-| `pipeline/synthetic.py` | Extends and views the synthetic dataset |
+| `pipeline/synthetic.py` | Extends and views the synthetic procurement dataset |
+| `pipeline/sixsigma_synthetic.py` | Measurements of a critical characteristic (subgroups of 5) and the DMAIC project portfolio for the Six Sigma report |
+| `pipeline/sqe_synthetic.py` | Generates the supplier quality dataset (receipts, quality issues and 8D, PPAP by localization wave, process audits) and exports the view as of the report cutoff |
 | `pipeline/init_truth.py`, `pipeline/legacy/` | One-time reconstruction of the synthetic truth from the original generator (seed 42) |
 | `data/public/` | Public data used by the briefs |
-| `data/synthetic/` | Fictitious buyer: suppliers, materials, POs, RFQs, quality notifications, targets |
+| `data/synthetic/` | Fictitious aerospace buyer (POs, RFQs, quality notifications, targets) and, in `sqe/`, the fictitious EV plant's supplier quality data |
 | `config/context.json` | Optional human-written context for one edition (for example, the event behind an FX move) |
 | `editions/` | Every edition, in `en/` and `pt/` |
 | `docs/pt-BR/` | Step-by-step guide (Portuguese) |
@@ -65,7 +85,8 @@ Set `BLS_API_KEY` (free registration at bls.gov) to avoid the low daily limit of
 - **The 2026 kit duty rates** in the EV brief come from trade press coverage of Gecex decisions. Check the official resolution before relying on them.
 - **BLS revises the PPI** for four months after release. Each run takes the revisions, so a past month can move slightly between editions.
 - **One-session FX moves** are detected automatically (2% or more in the last 30 days). The reason behind a move is only stated when it is written in `config/context.json`, and the wording stays factual.
-- **Synthetic data** is labeled on the page and in the footer. No record comes from any real company.
+- **Synthetic data** is labeled on the page and in the footer. No record comes from any real company. The supplier quality report describes a fictitious EV assembler; supplier names are invented, and any resemblance to real companies is unintended.
+- **Supplier quality methods** follow common automotive practice (AIAG PPAP, 8D, controlled shipping CS1/CS2, a VDA 6.3 style audit scale) at a portfolio level of detail; real programs set their own targets and rules.
 
 ## About
 

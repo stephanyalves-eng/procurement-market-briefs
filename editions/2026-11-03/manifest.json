@@ -1,0 +1,67 @@
+{
+  "edition": "2026-11-03",
+  "report_cutoff": "2026-10-31",
+  "warnings": [],
+  "briefs": {
+    "en": [
+      {
+        "name": "Monthly_Supplier_Quality_Report_2026-10",
+        "height": 1123,
+        "fit_level": 0,
+        "headline": "Local launch suppliers pushed incoming PPM back above target, and wave 3 localization has only 44% of parts approved with 6 weeks to go",
+        "ppm": 353,
+        "wave": 3,
+        "ppap_approved_pct": 44.4
+      },
+      {
+        "name": "Six_Sigma_Supplier_Quality_Report_2026-10",
+        "height": 1123,
+        "fit_level": 4,
+        "headline": "October's PPM rise is common-cause variation, so the gain has to come from the 4 active DMAIC projects, 3 of them behind plan",
+        "sigma": 4.89,
+        "cpk": 1.48,
+        "p_value": 0.0121
+      },
+      {
+        "name": "Supplier_Non_Conformance_Report_2026-10",
+        "height": 1123,
+        "fit_level": 0,
+        "headline": "37 supplier non-conformances in October, up from 19; dimensional out of tolerance leads, and the Method category explains 29% of the root causes found",
+        "ncs": 37,
+        "top_defect": "Dimensional out of tolerance",
+        "top_cause": "Packaging specification not adapted to the route",
+        "top_6m": "Method"
+      }
+    ],
+    "pt": [
+      {
+        "name": "Relatorio_Mensal_Qualidade_Fornecedores_2026-10",
+        "height": 1123,
+        "fit_level": 0,
+        "headline": "Fornecedores locais em lançamento levaram o PPM de volta para cima da meta, e a onda 3 tem só 44% das peças aprovadas a 6 semanas do prazo",
+        "ppm": 353,
+        "wave": 3,
+        "ppap_approved_pct": 44.4
+      },
+      {
+        "name": "Relatorio_Six_Sigma_Qualidade_Fornecedores_2026-10",
+        "height": 1123,
+        "fit_level": 3,
+        "headline": "A alta do PPM em outubro é variação de causa comum, então o ganho tem de vir dos 4 projetos DMAIC ativos, 3 deles atrasados",
+        "sigma": 4.89,
+        "cpk": 1.48,
+        "p_value": 0.0121
+      },
+      {
+        "name": "Relatorio_Nao_Conformidades_Fornecedores_2026-10",
+        "height": 1123,
+        "fit_level": 0,
+        "headline": "37 não conformidades em outubro (19 em setembro); dimensional fora de tolerância lidera e Método explica 29% das causas raiz",
+        "ncs": 37,
+        "top_defect": "Dimensional out of tolerance",
+        "top_cause": "Packaging specification not adapted to the route",
+        "top_6m": "Method"
+      }
+    ]
+  }
+}

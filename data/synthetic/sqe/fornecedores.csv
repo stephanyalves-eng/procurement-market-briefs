@@ -1,0 +1,27 @@
+id_fornecedor,fornecedor,origem,commodity,iatf_16949,onda_nacionalizacao
+S01,Jiangtai Battery Systems Co.,CN,Battery cells and modules,Sim,0
+S02,Shenglan E-Drive Co.,CN,Electric drive unit,Sim,0
+S03,Qianhe Vehicle Electronics Co.,CN,Control units and BMS,Sim,0
+S04,Tianrui Body Kit Co.,CN,Body-in-white kits (SKD/CKD),Sim,0
+S05,Yuhang Interior Systems Co.,CN,Interior trim kits,Sim,0
+S06,Lianfeng Chassis Co.,CN,Suspension and chassis,Sim,0
+S07,Haode Wiring Co.,CN,Wiring harness,Sim,0
+S08,Mingrui Thermal Co.,CN,Thermal management,Sim,0
+S09,Kaiyuan Lighting Co.,CN,Lighting,Sim,0
+S10,Ruixing Fasteners Co.,CN,Fasteners,Não,0
+S11,Bocheng Charging Co.,CN,On-board charger,Sim,0
+S12,Xinda Display Co.,CN,Displays and infotainment,Sim,0
+B01,Serra Azul Plásticos,BR,Bumpers and exterior plastics,Sim,1
+B02,Rodovale Pneus,BR,Tires,Sim,1
+B03,Ipê Assentos Automotivos,BR,Seats,Sim,1
+B04,Vidraria Atlântica,BR,Glass,Sim,2
+B05,Chicotes Paraguaçu,BR,Wiring harness,Em certificação,2
+B06,Estamparia Recôncavo,BR,Stamped body parts,Sim,2
+B07,Baterias Camassari Montagem,BR,Battery pack assembly,Em certificação,3
+B08,Forjados Planalto,BR,Forged and machined chassis parts,Sim,3
+B09,Tapetes e Acústica Sertão,BR,Carpets and acoustics,Não,3
+B10,Fixadores Baiano,BR,Fasteners,Sim,3
+B11,Luzes do Litoral,BR,Lighting,Em certificação,3
+B12,Térmica Nordeste,BR,Thermal management,Sim,3
+O01,Bavaria Sensorik GmbH,OT,Sensors and ADAS,Sim,0
+O02,Toluca Frenos S.A.,OT,Brake systems,Sim,0

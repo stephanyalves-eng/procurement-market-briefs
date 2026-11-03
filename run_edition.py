@@ -1,7 +1,8 @@
-"""Builds one edition of the three briefs, in English and Brazilian Portuguese.
+"""Builds one edition of the six briefs, in English and Brazilian Portuguese.
 
     python run_edition.py                                  # today's edition, fetching fresh data
     python run_edition.py --date 2026-10-29 --report-cutoff 2026-10-28 --skip-fetch
+    python run_edition.py --date 2026-11-03 --skip-fetch --briefs sqe sixsigma nc     # only the supplier quality reports
 
 Steps
 1. Fetch public data (BCB, BLS, Comex Stat) unless --skip-fetch. A failing source keeps its last file.
@@ -22,6 +23,7 @@ def main():
     ap.add_argument("--report-cutoff", default=None, help="last day covered by the monthly procurement report")
     ap.add_argument("--lang", nargs="+", default=["en", "pt"], choices=["en", "pt"])
     ap.add_argument("--skip-fetch", action="store_true")
+    ap.add_argument("--briefs", nargs="+", default=["aerospace", "procurement", "ev", "sqe", "sixsigma", "nc"], choices=["aerospace", "procurement", "ev", "sqe", "sixsigma", "nc"])
     a = ap.parse_args()
     edition = date.fromisoformat(a.date)
     cutoff = date.fromisoformat(a.report_cutoff) if a.report_cutoff else edition.replace(day=1) - timedelta(days=1)
@@ -34,14 +36,24 @@ def main():
         if os.path.exists(wf):
             warnings += [f"fetch failed: {s}" for s in open(wf).read().split(",") if s]; os.remove(wf)
 
-    import synthetic
-    synthetic.extend(cutoff); synthetic.export(cutoff)
+    import synthetic, sqe_synthetic
+    if "procurement" in a.briefs: synthetic.extend(cutoff); synthetic.export(cutoff)
+    if {"sqe", "sixsigma", "nc"} & set(a.briefs):
+        sqe_synthetic.export(cutoff)
+        sqe_synthetic.root_cause(sqe_synthetic.view(cutoff)[2]).to_csv(os.path.join(ROOT, "data", "synthetic", "sqe", "problemas_qualidade.csv"), index=False, date_format="%Y-%m-%d %H:%M")
+    if "sixsigma" in a.briefs:
+        import sixsigma_synthetic
+        sixsigma_synthetic.measurements(cutoff).to_csv(os.path.join(ROOT, "data", "synthetic", "sqe", "medicoes_ponto_fixacao.csv"), index=False)
+        sixsigma_synthetic.project_status(cutoff).to_csv(os.path.join(ROOT, "data", "synthetic", "sqe", "projetos_dmaic.csv"), index=False)
 
-    from briefs import aerospace, procurement, ev
+    from briefs import aerospace, procurement, ev, sqe, sixsigma, nc
+    run = {"aerospace": lambda l, d: aerospace.build(edition, l, d), "procurement": lambda l, d: procurement.build(edition, cutoff, l, d),
+           "ev": lambda l, d: ev.build(edition, l, d), "sqe": lambda l, d: sqe.build(edition, cutoff, l, d),
+           "sixsigma": lambda l, d: sixsigma.build(edition, cutoff, l, d), "nc": lambda l, d: nc.build(edition, cutoff, l, d)}
     out = {}
     for lang in a.lang:
         d = os.path.join(ROOT, "editions", edition.isoformat(), lang); os.makedirs(d, exist_ok=True)
-        out[lang] = [aerospace.build(edition, lang, d), procurement.build(edition, cutoff, lang, d), ev.build(edition, lang, d)]
+        out[lang] = [run[b](lang, d) for b in a.briefs]
         for r in out[lang]:
             if r["height"] > 1123: warnings.append(f"{lang}/{r['name']} overflows A4 ({r['height']} px): shorten the text")
     clean = lambda o: {k: (v if isinstance(v, (str, int, list, dict)) or v is None else float(v)) for k, v in o.items()}
@@ -53,7 +65,7 @@ def main():
     from PIL import Image
     img = os.path.join(ROOT, "docs", "images"); os.makedirs(img, exist_ok=True)
     for lang, rs in out.items():
-        for r, short in zip(rs, ("aerospace", "procurement", "ev")):
+        for r, short in zip(rs, a.briefs):
             src = os.path.join(ROOT, "editions", edition.isoformat(), lang, r["name"] + ".png")
             im = Image.open(src).convert("RGB"); im = im.resize((900, round(im.height * 900 / im.width)), Image.LANCZOS)
             im.quantize(colors=128, method=Image.Quantize.MEDIANCUT).save(src, optimize=True)

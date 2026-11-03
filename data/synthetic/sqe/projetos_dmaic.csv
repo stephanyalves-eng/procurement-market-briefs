@@ -1,0 +1,6 @@
+id,en,pt,metric,belt,start,phase,phase_plan,late_weeks,gate_improve,end_plan,end_act
+SS-01,Corrosion on sea-freight parts from China,Corrosão em peças importadas por via marítima,ppm_corrosion_cn,Green Belt,2026-03-02,5,5,3,2026-06-29,2026-08-31,2026-09-21
+SS-02,Mounting point variation at Serra Azul Plásticos,Variação do ponto de fixação na Serra Azul Plásticos,cpk,Black Belt,2026-05-04,4,5,5,2026-08-17,2026-10-19,2026-11-23
+SS-03,24-hour containment with China-based suppliers,Contenção em 24 h com fornecedores chineses,c24_cn,Green Belt,2026-07-06,3,4,3,2026-10-05,2026-11-23,2026-12-14
+SS-04,Dimensional defects at local suppliers,Defeitos dimensionais em fornecedores locais,ppm_dim_br,Green Belt,2026-09-07,2,2,0,2026-11-23,2027-02-01,2027-02-01
+SS-05,Wave 3 PPAP first-time approval,Aprovação de primeira do PPAP da onda 3,ppap_fp_w3,Green Belt,2026-08-03,3,3,2,2026-10-19,2026-12-14,2026-12-28
