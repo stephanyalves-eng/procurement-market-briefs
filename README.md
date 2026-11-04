@@ -90,7 +90,7 @@ Set `BLS_API_KEY` (free registration at bls.gov) to avoid the low daily limit of
 
 ## About
 
-Built by Stephany Alves, production engineer with four years in aerospace procurement and supplier management, to practice the decision pages she would want on a sourcing manager's desk. Developed with AI pair programming (Claude); the business questions, metrics, data logic and review are mine.
+Built by Stephany Alves, industrial engineer with four years in aerospace procurement and supplier management, to practice the decision pages she would want on a sourcing manager's desk. Developed with AI pair programming (Claude); the business questions, metrics, data logic and review are mine.
 
 Design: Stephany Alves Design System (SIGNAL & STRUCTURE). Code under the MIT License; data keeps the terms of its sources; fonts under the SIL Open Font License.
 
