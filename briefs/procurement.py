@@ -197,20 +197,20 @@ def build(edition, cutoff, lang, outdir, png=True):
 
     EXTRA = """
 table.t.sc2 td, table.t.sc2 th { padding: .55mm 1.2mm; }
-table.t tr.grp td { font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#1E5246; background:#E4ECE7; padding:.7mm 1.2mm; }
-table.t td.tg { color:#5E6561; }
-.dot { width:2.2mm; height:2.2mm; border-radius:50%; display:inline-block; } .dot.good{background:#1F7A4F} .dot.warn{background:#9A6412} .dot.bad{background:#A63A2A}
-.hb { background:#E8E9E5; height:2mm; border-radius:.4mm; overflow:hidden; } .hb span { display:block; height:100%; background:#1E5246; }
+table.t tr.grp td { font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#06402B; background:#E7E2D9; padding:.7mm 1.2mm; }
+table.t td.tg { color:#4F615A; }
+.dot { width:2.2mm; height:2.2mm; border-radius:50%; display:inline-block; } .dot.good{background:#235F46} .dot.warn{background:#795300} .dot.bad{background:#9B3434}
+.hb { background:#E7E2D9; height:2mm; border-radius:.4mm; overflow:hidden; } .hb span { display:block; height:100%; background:#06402B; }
 td .hb { width:22mm; } td.sc { letter-spacing:.06em; font-size:7pt; }
 .stk { display:flex; height:3.4mm; border-radius:.5mm; overflow:hidden; margin:1mm 0 1.6mm; } .stk span { display:block; height:100%; }
-.lgs { display:grid; grid-template-columns:1fr 1fr; gap:.8mm 3mm; font-size:6.8pt; color:#454C48; }
-.lg { display:flex; align-items:center; gap:1.4mm; } .lg i { width:2mm; height:2mm; display:inline-block; flex:none; } .lg b { margin-left:auto; font-weight:500; color:#101714; }
+.lgs { display:grid; grid-template-columns:1fr 1fr; gap:.8mm 3mm; font-size:6.8pt; color:#4F615A; }
+.lg { display:flex; align-items:center; gap:1.4mm; } .lg i { width:2mm; height:2mm; display:inline-block; flex:none; } .lg b { margin-left:auto; font-weight:500; color:#2B2F2E; }
 .pb { margin-bottom:.9mm; } .pl { display:flex; justify-content:space-between; font-size:7.2pt; margin-bottom:.5mm; } .pl b { font-weight:500; }
 ul.pc { list-style:none; margin:0; padding:0; font-size:7.6pt; line-height:1.42; } ul.pc li { display:flex; gap:2mm; margin-bottom:1.3mm; }
-ul.pc i { flex:none; width:1.6mm; height:1.6mm; margin-top:1.3mm; } ul.pc i.good{background:#1F7A4F} ul.pc i.bad{background:#A63A2A} ul.pc i.warn{background:#9A6412}
-ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#0B302B; color:#F5F4EC; font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:6.5pt; display:flex; align-items:center; justify-content:center; border-radius:.5mm; }
-table.rt { width:100%; border-collapse:collapse; font-size:7.4pt; } table.rt td { padding:.8mm 0; border-bottom:1px solid #E8E9E5; } table.rt td:last-child { text-align:right; font-weight:500; }
-.syn { display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; color:#0B302B; background:#35D58A; padding:.5mm 1.5mm; border-radius:.5mm; margin-top:2.5mm; }
+ul.pc i { flex:none; width:1.6mm; height:1.6mm; margin-top:1.3mm; } ul.pc i.good{background:#235F46} ul.pc i.bad{background:#9B3434} ul.pc i.warn{background:#795300}
+ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#06402B; color:#FBF9F4; font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:6.5pt; display:flex; align-items:center; justify-content:center; border-radius:.5mm; }
+table.rt { width:100%; border-collapse:collapse; font-size:7.4pt; } table.rt td { padding:.8mm 0; border-bottom:1px solid #E7E2D9; } table.rt td:last-child { text-align:right; font-weight:500; }
+.syn { display:inline-block; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#795300; background:transparent; border:1px solid #795300; padding:.4mm 1.4mm; border-radius:1mm; margin-top:2.5mm; }
 .page { gap: 2.3mm; padding-top: 7.5mm; padding-bottom: 6mm; } .kpi { padding: 2.4mm 3mm; } .kpi .v { font-size: 15pt; } .card { padding: 2.3mm 3mm; } .sec { margin-bottom: 1.3mm; } .hdr { padding: 4mm 6mm 4.5mm; }
 """
     month_title = T(lang, f"{MONTHS['en'][cutoff.month-1]} {cutoff.year}", f"{MONTHS['pt'][cutoff.month-1].capitalize()} de {cutoff.year}")

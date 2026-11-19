@@ -175,7 +175,7 @@ def build(edition, lang, outdir, png=True):
     else:
         w_d = T(lang, f"Comex {MONTHS['en'][nxt_c-1]} data showing 8807 imports still falling YTD would confirm softer demand. <b>Action:</b> renegotiate lead times and minimum order quantities.",
                 f"Dados de {MONTHS['pt'][nxt_c-1]} do Comex com a 8807 ainda em queda no ano confirmariam demanda mais fraca. <b>Ação:</b> renegociar lead times e lotes mínimos.")
-    watch = "".join(f'<div class="card"><div class="eyebrow" style="color:#5E6561">{t}</div><p style="margin:1.2mm 0 0;font-size:8pt;line-height:1.45">{x}</p></div>'
+    watch = "".join(f'<div class="card"><div class="eyebrow" style="color:#4F615A">{t}</div><p style="margin:1.2mm 0 0;font-size:8pt;line-height:1.45">{x}</p></div>'
                     for t, x in ((T(lang, "FX", "Câmbio"), w_fx), (T(lang, "Prices", "Preços"), w_p), (T(lang, "Demand", "Demanda"), w_d)))
 
     MON_EN = MON['en']

@@ -239,20 +239,20 @@ def build(edition, cutoff, lang, outdir, png=True):
     next_m = MONTHS[lang][cutoff.month % 12]
 
     EXTRA = """
-table.t td .sub { font-size:6.1pt; color:#5E6561; margin-top:.2mm; }
-table.t td.tg { color:#5E6561; }
-.hb { background:#E8E9E5; height:2.4mm; border-radius:.4mm; overflow:hidden; } .hb span { display:block; height:100%; background:#1E5246; }
+table.t td .sub { font-size:6.1pt; color:#4F615A; margin-top:.2mm; }
+table.t td.tg { color:#4F615A; }
+.hb { background:#E7E2D9; height:2.4mm; border-radius:.4mm; overflow:hidden; } .hb span { display:block; height:100%; background:#06402B; }
 .pr { display:grid; grid-template-columns: 46% 1fr 7mm 9mm; align-items:center; gap:1.6mm; font-size:7pt; margin-bottom:1mm; }
-.pr b { font-weight:500; text-align:right; } .pr em { font-style:normal; text-align:right; color:#5E6561; font-family:'IBM Plex Mono',monospace; font-size:6.4pt; } .pr em.in { color:#1E5246; font-weight:500; }
-.ph { display:inline-block; width:3.6mm; height:3.6mm; line-height:3.6mm; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:5.8pt; border:1px solid #D6D8D2; color:#5E6561; margin-right:.5mm; border-radius:.4mm; }
-.ph.done { background:#1E5246; border-color:#1E5246; color:#F5F4EC; } .ph.cur { background:#E4ECE7; border-color:#1E5246; color:#0B302B; font-weight:500; } .ph.cur.late { background:#F4DFD9; border-color:#A63A2A; color:#A63A2A; }
+.pr b { font-weight:500; text-align:right; } .pr em { font-style:normal; text-align:right; color:#4F615A; font-family:'IBM Plex Mono',monospace; font-size:6.4pt; } .pr em.in { color:#06402B; font-weight:500; }
+.ph { display:inline-block; width:3.6mm; height:3.6mm; line-height:3.6mm; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:5.8pt; border:1px solid #E7E2D9; color:#4F615A; margin-right:.5mm; border-radius:.4mm; }
+.ph.done { background:#06402B; border-color:#06402B; color:#FBF9F4; } .ph.cur { background:#E7E2D9; border-color:#06402B; color:#06402B; font-weight:500; } .ph.cur.late { background:#F3DEDC; border-color:#9B3434; color:#9B3434; }
 td.phs { white-space:nowrap; text-align:left !important; }
 ul.pc { list-style:none; margin:0; padding:0; font-size:7.5pt; line-height:1.4; } ul.pc li { display:flex; gap:2mm; margin-bottom:1.2mm; }
-ul.pc i { flex:none; width:1.6mm; height:1.6mm; margin-top:1.3mm; } ul.pc i.good{background:#1F7A4F} ul.pc i.bad{background:#A63A2A} ul.pc i.warn{background:#9A6412}
-ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#0B302B; color:#F5F4EC; font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:6.5pt; display:flex; align-items:center; justify-content:center; border-radius:.5mm; }
-.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5mm; margin-top:1.2mm; } .stats div { font-family:'IBM Plex Mono',monospace; font-size:5.9pt; letter-spacing:.06em; text-transform:uppercase; color:#5E6561; }
-.stats b { display:block; font-family:'IBM Plex Sans'; font-size:9.5pt; letter-spacing:0; text-transform:none; color:#101714; font-weight:500; margin-top:.3mm; }
-.syn { display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; color:#0B302B; background:#35D58A; padding:.5mm 1.5mm; border-radius:.5mm; margin-top:2.5mm; }
+ul.pc i { flex:none; width:1.6mm; height:1.6mm; margin-top:1.3mm; } ul.pc i.good{background:#235F46} ul.pc i.bad{background:#9B3434} ul.pc i.warn{background:#795300}
+ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#06402B; color:#FBF9F4; font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:6.5pt; display:flex; align-items:center; justify-content:center; border-radius:.5mm; }
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5mm; margin-top:1.2mm; } .stats div { font-family:'IBM Plex Mono',monospace; font-size:5.9pt; letter-spacing:.06em; text-transform:uppercase; color:#4F615A; }
+.stats b { display:block; font-family:'IBM Plex Sans'; font-size:9.5pt; letter-spacing:0; text-transform:none; color:#2B2F2E; font-weight:500; margin-top:.3mm; }
+.syn { display:inline-block; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#795300; background:transparent; border:1px solid #795300; padding:.4mm 1.4mm; border-radius:1mm; margin-top:2.5mm; }
 .page { gap: 2.2mm; padding-top: 7.5mm; padding-bottom: 6mm; } .kpi { padding: 2.3mm 3mm; } .kpi .v { font-size: 15pt; } .card { padding: 2.2mm 3mm; } .sec { margin-bottom: 1.2mm; } .hdr { padding: 4mm 6mm 4.5mm; } .hdr h1 { font-size: 14.5pt; }
 """
     month_title = T(lang, f"{MONTHS['en'][cutoff.month-1]} {cutoff.year}", f"{MONTHS['pt'][cutoff.month-1].capitalize()} de {cutoff.year}")

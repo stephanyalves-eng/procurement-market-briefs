@@ -17,7 +17,7 @@
       {
         "name": "Monthly_Procurement_Performance_Report_2026-10",
         "height": 1123,
-        "fit_level": 3,
+        "fit_level": 4,
         "headline": "Savings are ahead of plan, but delivery keeps slipping and quality is back above target",
         "savings_ytd_pct": 104.4,
         "otd": 86.92,
@@ -65,7 +65,7 @@
       {
         "name": "Brief_Mercado_Aeroespacial_2026-11-16",
         "height": 1123,
-        "fit_level": 1,
+        "fit_level": 2,
         "headline": "Demanda por peças aeronáuticas sobe 11,5% e preço de aviônica sobe 22,6%, enquanto uma alta forte do dólar encarece as importações",
         "g": 11.55,
         "avionics_ppi": 22.62,
@@ -84,7 +84,7 @@
       {
         "name": "Brief_Cadeia_Veiculos_Eletricos_2026-11-16",
         "height": 1123,
-        "fit_level": 0,
+        "fit_level": 1,
         "headline": "Importação de carros eletrificados sobe 165% para 476 mil unidades, 93% da China, com picos antes de cada aumento de imposto em julho. A partir de 2027, nacionalizar é a alavanca de custo que resta",
         "units": 476285,
         "growth": 164.9,
@@ -93,7 +93,7 @@
       {
         "name": "Relatorio_Mensal_Qualidade_Fornecedores_2026-10",
         "height": 1123,
-        "fit_level": 0,
+        "fit_level": 3,
         "headline": "Fornecedores locais em lançamento levaram o PPM de volta para cima da meta, e a onda 3 tem só 44% das peças aprovadas a 6 semanas do prazo",
         "ppm": 353,
         "wave": 3,

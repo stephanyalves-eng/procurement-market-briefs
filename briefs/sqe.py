@@ -126,7 +126,7 @@ def build(edition, cutoff, lang, outdir, png=True):
     leg = "".join(f'<span class="lk"><i style="background:{oc[o]}"></i>{O(ORG_S, o, lang)}</span>' for o in ("CN", "BR", "OT") if o in par.columns and par[o].sum())
 
     # PPAP wave bar
-    SC = [("approved", C["good"], T(lang, "Approved", "Aprovado")), ("interim", C["warn"], T(lang, "Interim", "Provisório")),
+    SC = [("approved", C["good"], T(lang, "Approved", "Aprovado")), ("interim", C["signal"], T(lang, "Interim", "Provisório")),
           ("rejected", C["bad"], T(lang, "Rejected, resubmitting", "Reprovado, em revisão")), ("pending", C["sage500"], T(lang, "Under review", "Em análise")),
           ("overdue", "#5E2A20", T(lang, "Overdue, not submitted", "Atrasado, não submetido")), ("notdue", C["context"], T(lang, "Not yet due", "Ainda no prazo"))]
     ppap_bar = "".join(f'<span style="width:{st[kk] / wn * 100:.2f}%;background:{cc}"></span>' for kk, cc, _ in SC if st[kk])
@@ -233,22 +233,22 @@ def build(edition, cutoff, lang, outdir, png=True):
 
     EXTRA = """
 table.t.sc2 td, table.t.sc2 th { padding: .5mm 1.2mm; }
-table.t tr.grp td { font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#1E5246; background:#E4ECE7; padding:.6mm 1.2mm; }
-table.t td.tg { color:#5E6561; }
-table.t td .sub { font-size:6.2pt; color:#5E6561; margin-top:.2mm; }
-.dot { width:2.2mm; height:2.2mm; border-radius:50%; display:inline-block; } .dot.good{background:#1F7A4F} .dot.warn{background:#9A6412} .dot.bad{background:#A63A2A}
-.hb2 { background:#E8E9E5; height:2mm; border-radius:.4mm; overflow:hidden; display:flex; } .hb2 span { display:block; height:100%; }
+table.t tr.grp td { font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#06402B; background:#E7E2D9; padding:.6mm 1.2mm; }
+table.t td.tg { color:#4F615A; }
+table.t td .sub { font-size:6.2pt; color:#4F615A; margin-top:.2mm; }
+.dot { width:2.2mm; height:2.2mm; border-radius:50%; display:inline-block; } .dot.good{background:#235F46} .dot.warn{background:#795300} .dot.bad{background:#9B3434}
+.hb2 { background:#E7E2D9; height:2mm; border-radius:.4mm; overflow:hidden; display:flex; } .hb2 span { display:block; height:100%; }
 .stk { display:flex; height:4mm; border-radius:.5mm; overflow:hidden; margin:1.2mm 0 1.8mm; } .stk span { display:block; height:100%; }
-.lgs { display:grid; grid-template-columns:1fr 1fr; gap:.8mm 3mm; font-size:6.8pt; color:#454C48; }
-.lg { display:flex; align-items:center; gap:1.4mm; } .lg i { width:2mm; height:2mm; display:inline-block; flex:none; } .lg b { margin-left:auto; font-weight:500; color:#101714; }
-.lk { display:inline-flex; align-items:center; gap:1.2mm; margin-right:3mm; font-size:6.6pt; color:#454C48; } .lk i { width:2mm; height:2mm; display:inline-block; }
+.lgs { display:grid; grid-template-columns:1fr 1fr; gap:.8mm 3mm; font-size:6.8pt; color:#4F615A; }
+.lg { display:flex; align-items:center; gap:1.4mm; } .lg i { width:2mm; height:2mm; display:inline-block; flex:none; } .lg b { margin-left:auto; font-weight:500; color:#2B2F2E; }
+.lk { display:inline-flex; align-items:center; gap:1.2mm; margin-right:3mm; font-size:6.6pt; color:#4F615A; } .lk i { width:2mm; height:2mm; display:inline-block; }
 .pb { margin-bottom:.9mm; } .pr { display:grid; grid-template-columns: 44% 1fr 13mm; align-items:center; gap:2mm; font-size:7pt; margin-bottom:1.1mm; } .pr b { font-weight:500; text-align:right; } .pr .hb2 { height:2.4mm; } .pl { display:flex; justify-content:space-between; font-size:7.1pt; margin-bottom:.5mm; } .pl b { font-weight:500; }
 ul.pc { list-style:none; margin:0; padding:0; font-size:7.5pt; line-height:1.4; } ul.pc li { display:flex; gap:2mm; margin-bottom:1.2mm; }
-ul.pc i { flex:none; width:1.6mm; height:1.6mm; margin-top:1.3mm; } ul.pc i.good{background:#1F7A4F} ul.pc i.bad{background:#A63A2A} ul.pc i.warn{background:#9A6412}
-ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#0B302B; color:#F5F4EC; font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:6.5pt; display:flex; align-items:center; justify-content:center; border-radius:.5mm; }
-.ctx { font-size:6.8pt; color:#454C48; line-height:1.4; border-left:2px solid #35D58A; padding-left:2mm; margin-top:1.8mm; }
-.mini { width:100%; border-collapse:collapse; font-size:7.2pt; margin-top:1mm; } .mini td { padding:.6mm 0; border-bottom:1px solid #E8E9E5; } .mini td:last-child { text-align:right; font-weight:500; }
-.syn { display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:6pt; letter-spacing:.08em; color:#0B302B; background:#35D58A; padding:.5mm 1.5mm; border-radius:.5mm; margin-top:2.5mm; }
+ul.pc i { flex:none; width:1.6mm; height:1.6mm; margin-top:1.3mm; } ul.pc i.good{background:#235F46} ul.pc i.bad{background:#9B3434} ul.pc i.warn{background:#795300}
+ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#06402B; color:#FBF9F4; font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:6.5pt; display:flex; align-items:center; justify-content:center; border-radius:.5mm; }
+.ctx { font-size:6.8pt; color:#4F615A; line-height:1.4; border-left:2px solid #C97A3A; padding-left:2mm; margin-top:1.8mm; }
+.mini { width:100%; border-collapse:collapse; font-size:7.2pt; margin-top:1mm; } .mini td { padding:.6mm 0; border-bottom:1px solid #E7E2D9; } .mini td:last-child { text-align:right; font-weight:500; }
+.syn { display:inline-block; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:6pt; letter-spacing:.08em; text-transform:uppercase; color:#795300; background:transparent; border:1px solid #795300; padding:.4mm 1.4mm; border-radius:1mm; margin-top:2.5mm; }
 .page { gap: 2.2mm; padding-top: 7.5mm; padding-bottom: 6mm; } .kpi { padding: 2.3mm 3mm; } .kpi .v { font-size: 15pt; } .card { padding: 2.2mm 3mm; } .sec { margin-bottom: 1.2mm; } .hdr { padding: 4mm 6mm 4.5mm; } .hdr h1 { font-size: 14.5pt; }
 """
     month_title = T(lang, f"{MONTHS['en'][cutoff.month-1]} {cutoff.year}", f"{MONTHS['pt'][cutoff.month-1].capitalize()} de {cutoff.year}")
