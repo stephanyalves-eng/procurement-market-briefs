@@ -50,7 +50,8 @@ def measurements(end):
             k += 1
         d += timedelta(days=7)
     df = pd.DataFrame(rows); df["data"] = pd.to_datetime(df.data)
-    return df
+    # a week's subgroups run Monday to Friday; drop the days after `end` so a mid-week cutoff never shows them
+    return df[df.data <= pd.Timestamp(end)].reset_index(drop=True)
 
 
 def project_status(cutoff):

@@ -7,6 +7,10 @@ Every source fails soft: if an API is down or rate-limited, the previous file is
 printed and the run continues, so a monthly edition is never blocked by one source. The footer of each
 brief states the last date each source covers.
 
+Each successful download records its time in data/public/sources_status.json ("fetched_at", UTC) and, when the
+source reports one, its own release date ("published_at"). run_edition.py reads it to write the data vintage of
+each series into the edition manifest (see briefs/vintage.py).
+
 Sources
 - Banco Central do Brasil, SGS: series 1 (USD PTAX, selling), 21619 (EUR PTAX, selling), 433 (IPCA).
 - U.S. Bureau of Labor Statistics, PPI API v2. Set the BLS_API_KEY environment variable (free key)
@@ -14,7 +18,7 @@ Sources
 - MDIC Comex Stat: imports of 8807 and 8411 (aerospace) and 8703, 8708, 8507 by NCM (automotive).
 """
 import os, sys, time, json
-from datetime import date
+from datetime import date, datetime, timezone
 import requests, pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,6 +27,16 @@ COMEX = "https://api-comexstat.mdic.gov.br"
 
 
 def log(*a): print(*a, flush=True)
+
+
+STATUS = os.path.join(PUB, "sources_status.json")
+
+
+def record(source, published_at=None):
+    """Store when `source` was last downloaded successfully (and the source's own release date, if it gives one)."""
+    st = json.load(open(STATUS)) if os.path.exists(STATUS) else {}
+    st[source] = {"fetched_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "published_at": published_at}
+    with open(STATUS, "w") as f: f.write(json.dumps(st, indent=2) + "\n")
 
 
 # ---------------------------------------------------------------- BCB
@@ -55,6 +69,7 @@ def fetch_bcb(end):
         eur[["data", "valor"]].rename(columns={"valor": "eur_brl_ptax_venda"}), on="data", how="outer").sort_values("data")
     daily["data"] = daily.data.dt.strftime("%Y-%m-%d")
     daily.to_csv(os.path.join(PUB, "bcb_ptax_diaria.csv"), index=False)
+    record("bcb")
     log(f"BCB ok: PTAX to {daily.data.max()}")
 
 
@@ -78,8 +93,8 @@ def fetch_bls(end):
             if d["period"].startswith("M") and d["period"] != "M13" and d["value"] not in ("-", ""):
                 old.loc[f"{d['year']}-{d['period'][1:]}", col] = float(d["value"])   # also takes revisions
     old.sort_index().to_csv(path)
-    # BLS terms of use: the brief must state the retrieval date, so record the real download day (not the edition date)
-    json.dump({"bls_retrieved": date.today().isoformat()}, open(os.path.join(PUB, "bls_status.json"), "w"))
+    # BLS terms of use: the brief must state the retrieval date, so record the real download time (not the edition date)
+    record("bls")
     log(f"BLS ok: PPI to {old.dropna(subset=['ppi_avionica_navegacao_PCU334511']).index.max()}")
 
 
@@ -145,7 +160,7 @@ def fetch_comex(end):
     new = pd.DataFrame(new).rename(columns={"codigo": "ncm"})
     keep = old[~old.mes.str[:4].astype(int).isin(years)]
     pd.concat([keep, new], ignore_index=True).sort_values(["mes", "ncm", "pais_origem"]).to_csv(path, index=False)
-    json.dump({"comex_last_month": f"{y}-{m:02d}", "comex_updated": upd}, open(os.path.join(PUB, "comex_status.json"), "w"))
+    record("comex", published_at=upd)
 
 
 SOURCES = {"bcb": fetch_bcb, "bls": fetch_bls, "comex": fetch_comex}

@@ -4,7 +4,7 @@ every quality number comes from pipeline/sqe_synthetic.py. Headline, highlights 
 import os, sys, calendar
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 from .style import C, svg, rows_grid, footer, render_fit
-from .common import ROOT, PUB, MON, MONTHS, T, num, pct, pp, usd, edition_label
+from .common import ROOT, PUB, MON, MONTHS, T, num, pct, pp, usd, edition_label, coverage_note, with_note
 
 sys.path.insert(0, os.path.join(ROOT, "pipeline"))
 import sqe_synthetic as sq  # noqa: E402
@@ -287,8 +287,8 @@ ul.pc i.n { width:4mm; height:4mm; margin-top:.2mm; background:#06402B; color:#F
 <div><div class="sec"><span class="no">06</span><h2>{T(lang, 'Actions for ', 'Ações para ')}{next_m}</h2></div>
 <div class="card"><ul class="pc">{ac}</ul></div></div>
 </div>
-{footer(T(lang, "Synthetic data for a fictitious EV assembler in Brazil with a Chinese parent company; plant, suppliers and records are invented and describe no real company. Public context: MDIC Comex Stat and the Gecex import duty schedule. PPAP per AIAG; audit score on a VDA 6.3 style scale (A ≥ 90%, B 80 to 89%, C below 80%). Controlled shipping: CS1 = supplier sorts, CS2 = third-party sort. Status: green on target, amber within 5%, red beyond 5%.",
-          "Dados sintéticos de uma montadora fictícia de veículos elétricos no Brasil com controle chinês; planta, fornecedores e registros são inventados. Contexto público: MDIC Comex Stat e cronograma de imposto de importação do Gecex. PPAP conforme AIAG; auditoria em escala estilo VDA 6.3 (A ≥ 90%, B 80 a 89%, C < 80%). Controlled shipping: CS1 = seleção pelo fornecedor, CS2 = seleção por terceiro. Status: verde na meta, âmbar até 5% fora, vermelho acima de 5%."))}
+{footer(with_note(T(lang, "Synthetic data for a fictitious EV assembler in Brazil with a Chinese parent company; plant, suppliers and records are invented and describe no real company. Public context: MDIC Comex Stat and the Gecex import duty schedule. PPAP per AIAG; audit score on a VDA 6.3 style scale (A ≥ 90%, B 80 to 89%, C below 80%). Controlled shipping: CS1 = supplier sorts, CS2 = third-party sort. Status: green on target, amber within 5%, red beyond 5%.",
+          "Dados sintéticos de uma montadora fictícia de veículos elétricos no Brasil com controle chinês; planta, fornecedores e registros são inventados. Contexto público: MDIC Comex Stat e cronograma de imposto de importação do Gecex. PPAP conforme AIAG; auditoria em escala estilo VDA 6.3 (A ≥ 90%, B 80 a 89%, C < 80%). Controlled shipping: CS1 = seleção pelo fornecedor, CS2 = seleção por terceiro. Status: verde na meta, âmbar até 5% fora, vermelho acima de 5%."), coverage_note("sqe", edition, lang)))}
 """
     name = T(lang, "Monthly_Supplier_Quality_Report", "Relatorio_Mensal_Qualidade_Fornecedores") + f"_{CUR}"
     html = os.path.join(outdir, name + ".html")
