@@ -2,7 +2,7 @@
 import os
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 from .style import C, svg, rows_grid, footer, render_fit
-from .common import PUB, MON, MONTHS, T, num, pct, pp, usd, country, edition_label, period_label, ptax, fx_event, day_month
+from .common import PUB, MON, MONTHS, T, num, pct, pp, usd, country, edition_label, period_label, ptax, fx_event, day_month, coverage_note, with_note
 
 TIPO = {"870380": "BEV", "870360": "PHEV", "870370": "PHEV", "870340": "HEV", "870350": "HEV", "850760": "Li-ion"}
 STEPS = [("2024-07", "BEV 18%", "BEV 18%"), ("2025-07", "BEV 25%", "BEV 25%"), ("2026-07", "All 35%", "Todos 35%"), ("2027-01", "Kits 35%", "Kits 35%")]
@@ -109,11 +109,12 @@ def build(edition, lang, outdir, png=True):
 <div class="sec" style="margin-top:3mm"><span class="no">03</span><h2>{T(lang, 'Origin of auto parts', 'Origem das autopeças')}</h2><span class="r">8708 · {T(lang, 'FOB share', 'FOB')}</span></div>
 <table class="t"><tr><th>{T(lang, 'Origin', 'Origem')}</th><th>{Y-1}</th><th>{Y}</th><th>{T(lang, 'Change', 'Variação')}</th></tr>{rows}</table></div>
 </div>
-{footer(T(lang, f"Sources: MDIC Comex Stat, imports by NCM and country, headings 8703, 8708 and 8507.60, {per} {y0} to {Y}, FOB USD and statistical units; kits for local assembly may be reported under the same vehicle codes. Duty schedule: Gecex/MDIC resolutions on electrified vehicles (Nov 2023) and 2026 kit rates as reported by the trade press. FX: Banco Central do Brasil PTAX. Public data only; prepared for portfolio purposes, with no company confidential information.",
-          f"Fontes: MDIC Comex Stat, importações por NCM e país, posições 8703, 8708 e 8507.60, {per} de {y0} a {Y}, FOB em US$ e unidades estatísticas; kits para montagem local podem ser registrados nos mesmos códigos de veículo. Imposto: resoluções Gecex/MDIC sobre veículos eletrificados (nov/2023) e alíquotas de kits de 2026 conforme a imprensa especializada. Câmbio: PTAX do Banco Central do Brasil. Somente dados públicos; material de portfólio, sem informação confidencial de empresa."))}
+{footer(with_note(T(lang, f"Sources: MDIC Comex Stat, imports by NCM and country, headings 8703, 8708 and 8507.60, {per} {y0} to {Y}, FOB USD and statistical units; kits for local assembly may be reported under the same vehicle codes. Duty schedule: Gecex/MDIC resolutions on electrified vehicles (Nov 2023) and 2026 kit rates as reported by the trade press. FX: Banco Central do Brasil PTAX. Public data only; prepared for portfolio purposes, with no company confidential information.",
+          f"Fontes: MDIC Comex Stat, importações por NCM e país, posições 8703, 8708 e 8507.60, {per} de {y0} a {Y}, FOB em US$ e unidades estatísticas; kits para montagem local podem ser registrados nos mesmos códigos de veículo. Imposto: resoluções Gecex/MDIC sobre veículos eletrificados (nov/2023) e alíquotas de kits de 2026 conforme a imprensa especializada. Câmbio: PTAX do Banco Central do Brasil. Somente dados públicos; material de portfólio, sem informação confidencial de empresa."), coverage_note("ev", edition, lang)))}
 """
     name = T(lang, "Brazil_EV_Supply_Chain_Brief", "Brief_Cadeia_Veiculos_Eletricos") + f"_{edition.isoformat()}"
     html = os.path.join(outdir, name + ".html")
     h, lvl = render_fit(body, T(lang, "Brazil EV Supply Chain Brief", "Brief da Cadeia de Veículos Elétricos") + f" · {edition_label(edition, lang)}", lang,
                         html, os.path.join(outdir, name + ".pdf"), os.path.join(outdir, name + ".png") if png else None)
-    return dict(name=name, height=h, fit_level=lvl, headline=headline, units=int(k["u"]), growth=round(k["g"], 1), china=round(k["ch"], 1))
+    return dict(name=name, height=h, fit_level=lvl, headline=headline, units=int(k["u"]), growth=round(k["g"], 1), china=round(k["ch"], 1),
+                periods=dict(comex=f"{Y}-{Lm:02d}"))

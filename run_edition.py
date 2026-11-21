@@ -8,7 +8,9 @@ Steps
 1. Fetch public data (BCB, BLS, Comex Stat) unless --skip-fetch. A failing source keeps its last file.
 2. Extend the synthetic dataset to the report cutoff (default: last day of the previous month).
 3. Build each brief in each language: HTML, PDF (A4) and PNG preview in editions/<date>/<lang>/.
-4. Write editions/<date>/manifest.json and refresh the editions index and README previews.
+4. Write editions/<date>/manifest.json and refresh the editions index and README previews. The manifest records the
+   vintage of every public series ("sources", see briefs/vintage.py) and warns when one is skipped, failed, carried
+   forward or behind the period it should cover.
 """
 import argparse, json, os, subprocess, sys
 from datetime import date, timedelta
@@ -28,13 +30,16 @@ def main():
     edition = date.fromisoformat(a.date)
     cutoff = date.fromisoformat(a.report_cutoff) if a.report_cutoff else edition.replace(day=1) - timedelta(days=1)
 
-    warnings = []
+    warnings, failed = [], []
     if not a.skip_fetch:
         env = dict(os.environ, EDITION_DATE=edition.isoformat())
         subprocess.run([sys.executable, os.path.join(ROOT, "pipeline", "fetch_public.py")], check=True, env=env)
         wf = os.path.join(ROOT, "fetch_warnings.txt")
         if os.path.exists(wf):
-            warnings += [f"fetch failed: {s}" for s in open(wf).read().split(",") if s]; os.remove(wf)
+            failed = [s for s in open(wf).read().split(",") if s]; os.remove(wf)     # reported per series below
+    from briefs import vintage
+    sources = vintage.collect(edition, fetched=not a.skip_fetch, failed=failed)
+    warnings += vintage.warnings({k: v for k, v in sources.items() if set(v["used_by"]) & set(a.briefs)})
 
     import synthetic, sqe_synthetic
     if "procurement" in a.briefs: synthetic.extend(cutoff); synthetic.export(cutoff)
@@ -54,11 +59,12 @@ def main():
     for lang in a.lang:
         d = os.path.join(ROOT, "editions", edition.isoformat(), lang); os.makedirs(d, exist_ok=True)
         out[lang] = [run[b](lang, d) for b in a.briefs]
+        for r in out[lang]: r.setdefault("periods", {"report_through": cutoff.isoformat()})   # period behind the headline numbers
         for r in out[lang]:
             if r["height"] > 1123: warnings.append(f"{lang}/{r['name']} overflows A4 ({r['height']} px): shorten the text")
     clean = lambda o: {k: (v if isinstance(v, (str, int, list, dict)) or v is None else float(v)) for k, v in o.items()}
-    manifest = dict(edition=edition.isoformat(), report_cutoff=cutoff.isoformat(), warnings=warnings,
-                    briefs={l: [clean(r) for r in rs] for l, rs in out.items()})
+    manifest = dict(edition=edition.isoformat(), report_cutoff=cutoff.isoformat(), fetch="skipped" if a.skip_fetch else "run",
+                    warnings=warnings, sources=sources, briefs={l: [clean(r) for r in rs] for l, rs in out.items()})
     json.dump(manifest, open(os.path.join(ROOT, "editions", edition.isoformat(), "manifest.json"), "w"), indent=2, ensure_ascii=False)
 
     # light PNG previews (the PDF is the deliverable) and README previews of the latest edition

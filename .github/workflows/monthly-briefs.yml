@@ -44,6 +44,9 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
+      - name: Test the cutoff view and data vintage
+        run: python -m pytest -q
+
       - name: Install the design system fonts
         run: |
           mkdir -p ~/.local/share/fonts
@@ -71,7 +74,14 @@ jobs:
               print(f"**{lang.upper()}**\n")
               for b in briefs: print(f"- `{b['name']}`: {b['headline']} (height {b['height']} px)")
               print()
-          print("**Warnings:** " + ("; ".join(m["warnings"]) if m["warnings"] else "none"))
+          print("**Data vintage** (fetch: " + m.get("fetch", "run") + ")\n")
+          print("| Series | Covers | Expected | Status | Downloaded | Published |")
+          print("|---|---|---|---|---|---|")
+          for k, v in m.get("sources", {}).items():
+              print(f"| `{k}` | {v['source_period']} | {v['expected_period']} | {v['status']}{' (behind)' if v['behind'] else ''} | {v['fetched_at'] or '-'} | {v['published_at'] or '-'} |")
+          print()
+          print("**Warnings:**\n")
+          print("\n".join(f"- {w}" for w in m["warnings"]) if m["warnings"] else "none")
           PY
 
       - uses: actions/upload-artifact@v4

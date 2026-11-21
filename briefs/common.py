@@ -30,12 +30,24 @@ ARTICLE_PT = {"Estados Unidos": "os", "Reino Unido": "o", "Canadá": "o", "Méxi
 
 def bls_notice():
     """Attribution required by the BLS API terms of use, in English word for word in both languages.
-    The retrieval date comes from data/public/bls_status.json, written by pipeline/fetch_public.py."""
-    p = os.path.join(PUB, "bls_status.json")
-    ret = pd.Timestamp(json.load(open(p))["bls_retrieved"]).date() if os.path.exists(p) else None
+    The retrieval date comes from data/public/sources_status.json, written by pipeline/fetch_public.py."""
+    p = os.path.join(PUB, "sources_status.json")
+    got = json.load(open(p)).get("bls", {}).get("fetched_at") if os.path.exists(p) else None
+    ret = pd.Timestamp(got[:10]).date() if got else None
     when = f" Data retrieved on {MONTHS['en'][ret.month-1]} {ret.day}, {ret.year}." if ret else ""
     return (f"Data source: U.S. Bureau of Labor Statistics (BLS).{when}"
             " BLS.gov cannot vouch for the data or analyses derived from these data after the data have been retrieved from BLS.gov.")
+
+
+def coverage_note(brief, edition, lang):
+    """Partial-coverage sentence for a brief's source line (empty when every series it uses is in)."""
+    from .vintage import coverage_note as note
+    return note(brief, edition, lang)
+
+
+def with_note(text, note):
+    """Append a coverage note to a source line."""
+    return f"{text} {note}" if note else text
 
 
 def country(name, lang): return COUNTRY.get(name, (name, name))[0 if lang == "en" else 1]

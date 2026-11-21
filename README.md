@@ -43,10 +43,33 @@ flowchart LR
   R --> P[editions/date/en and pt<br>HTML, PDF, PNG]
 ```
 
-1. **Fetch** (`pipeline/fetch_public.py`). Downloads PTAX and IPCA from the Banco Central do Brasil, producer price indexes from the U.S. Bureau of Labor Statistics and import statistics by NCM from MDIC Comex Stat. Each source fails soft: if an API is down, the last file is kept and the edition states how far each source goes.
+1. **Fetch** (`pipeline/fetch_public.py`). Downloads PTAX and IPCA from the Banco Central do Brasil, producer price indexes from the U.S. Bureau of Labor Statistics and import statistics by NCM from MDIC Comex Stat. Each source fails soft: if an API is down, the last file is kept and the edition states how far each source goes. Every successful download is logged in `data/public/sources_status.json`.
 2. **Synthetic data** (`pipeline/synthetic.py`). The monthly report uses a fictitious aerospace buyer. The dataset keeps a hidden "truth" with real future dates (when a purchase order will actually arrive, when a quality notification will close) and exports only what a buyer would see on the cutoff date. Each month is appended with its own seed; past records are never rewritten.
 3. **Build** (`briefs/`). Every number, chart and sentence is computed from the data, including the headline, highlights and actions, which change wording when the data changes direction. Pages render to A4 with Playwright and tighten spacing automatically if the text runs long.
-4. **Publish** (`.github/workflows/monthly-briefs.yml`). Runs on the 16th, after Comex Stat (early month) and the BLS PPI (mid-month) are out, commits the edition and attaches it as a workflow artifact.
+4. **Publish** (`.github/workflows/monthly-briefs.yml`). Runs on the 16th, after Comex Stat (early month) and the BLS PPI (mid-month) are out. It runs the tests first, then commits the edition and attaches it as a workflow artifact.
+
+### Data vintage in the manifest
+
+Each `editions/<date>/manifest.json` says how fresh the data behind the edition is, so a fail-soft run cannot look newer than it is:
+
+- `fetch`: `run`, or `skipped` when the edition was built with `--skip-fetch`.
+- `sources`: one entry per public series, with `source_period` (last period in the file), `expected_period` (what should be out on the edition date), `fetched_at` (last successful download, UTC), `published_at` (release date reported by the source, when it gives one) and `status`:
+  - `current`: downloaded in this run and covering the expected period.
+  - `carried_forward`: downloaded in this run, but the source has not released the expected period yet.
+  - `fetch_failed`: the download failed and the file from an earlier run was used.
+  - `skipped`: the run used `--skip-fetch`.
+- `briefs[].periods`: the period behind each brief's headline numbers (for example `ppi: 2026-10`, or `report_through` for the synthetic reports).
+- `warnings`: every skipped or failed source, every series behind its expected period (`partial coverage`), and, when an old edition is rebuilt from newer files, every series that goes past what was public on the edition date (`possible hindsight`).
+
+When a series is behind, the brief's source line also says so, for example "Partial coverage: BLS PPI through Sep 2026 (Oct 2026 not yet available)." The expected periods use typical release days (Comex Stat by the 10th, IPCA by the 12th, BLS PPI by the 16th), set in `briefs/vintage.py`.
+
+### Tests
+
+`python -m pytest` runs in a few seconds and checks:
+
+- **Cutoff view** (`tests/test_cutoff_view.py`): with fixed mid-month cutoffs, no receipt, closure, decision, audit or measurement dated after the cutoff reaches the exported data, and items closed later still show as open.
+- **Stability** (`tests/test_stability.py`): extending the procurement truth from October to November, in a temporary copy of `data/`, leaves October's tables and headline numbers identical and only appends records; the supplier quality and Six Sigma history up to October is the same whatever the cutoff.
+- **Vintage** (`tests/test_vintage.py`): skipped, failed, late or carried-forward series always produce a warning.
 
 ## Run it locally
 
@@ -58,6 +81,7 @@ python -m playwright install chromium
 python run_edition.py --skip-fetch                                   # rebuild with the data in the repository
 python run_edition.py                                                # fetch fresh data and build today's edition
 python run_edition.py --date 2026-10-29 --report-cutoff 2026-10-28 --skip-fetch   # reproduce the first edition
+python -m pytest -q                                                  # cutoff, stability and vintage tests
 ```
 
 Set `BLS_API_KEY` (free registration at bls.gov) to avoid the low daily limit of anonymous BLS requests. In GitHub, add it as a repository secret with the same name.
@@ -68,7 +92,9 @@ Set `BLS_API_KEY` (free registration at bls.gov) to avoid the low daily limit of
 |---|---|
 | `run_edition.py` | Orchestrates fetch, synthetic extension and the six builds |
 | `briefs/` | One module per brief, shared helpers (`common.py`) and the design system (`style.py`) |
-| `pipeline/fetch_public.py` | BCB, BLS and Comex Stat downloads |
+| `pipeline/fetch_public.py` | BCB, BLS and Comex Stat downloads; logs each download in `data/public/sources_status.json` |
+| `briefs/vintage.py` | Data vintage of each public series: period covered, period expected, status and partial-coverage note |
+| `tests/` | Cutoff, stability and vintage tests (pytest) |
 | `pipeline/synthetic.py` | Extends and views the synthetic procurement dataset |
 | `pipeline/sixsigma_synthetic.py` | Measurements of a critical characteristic (subgroups of 5) and the DMAIC project portfolio for the Six Sigma report |
 | `pipeline/sqe_synthetic.py` | Generates the supplier quality dataset (receipts, quality issues and 8D, PPAP by localization wave, process audits) and exports the view as of the report cutoff |
